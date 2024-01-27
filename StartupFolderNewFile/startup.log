@@ -1,0 +1,49 @@
+[INFO]: Strating test : StartupFolderNewFile AT 11 Jan 24 10:23 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 11 Jan 24 10:23 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 11 Jan 24 17:46 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 11 Jan 24 17:46 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 11 Jan 24 17:56 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 11 Jan 24 17:56 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 11 Jan 24 18:05 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 11 Jan 24 18:05 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 11 Jan 24 18:09 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 11 Jan 24 18:09 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 11 Jan 24 18:21 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 11 Jan 24 18:21 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 11 Jan 24 18:23 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 11 Jan 24 18:23 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 11 Jan 24 18:30 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 11 Jan 24 18:30 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 11 Jan 24 18:35 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 11 Jan 24 18:35 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 12 Jan 24 11:36 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 12 Jan 24 11:36 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 12 Jan 24 11:42 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 12 Jan 24 11:42 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 12 Jan 24 13:25 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 12 Jan 24 13:25 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 12 Jan 24 13:29 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 12 Jan 24 13:29 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 12 Jan 24 13:30 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 12 Jan 24 13:30 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 12 Jan 24 13:34 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 12 Jan 24 13:34 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 12 Jan 24 13:37 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 12 Jan 24 13:37 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 12 Jan 24 13:49 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 12 Jan 24 13:49 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 12 Jan 24 13:55 GMT
+[INFO]: Ending test: StartupFolderNewFile AT 12 Jan 24 13:55 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Jan 24 13:19 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Jan 24 13:20 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Jan 24 13:23 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Jan 24 13:24 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Jan 24 13:25 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Jan 24 13:29 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 14 Jan 24 13:29 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Jan 24 13:31 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 14 Jan 24 13:31 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 27 Jan 24 17:27 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 27 Jan 24 17:27 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 27 Jan 24 17:29 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 27 Jan 24 17:29 GMT

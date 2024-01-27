@@ -1,0 +1,4 @@
+github.com/fourcorelabs/wintoken v1.0.0 h1:dskUYLAFHNy1cbS5MXsNFXauQzxieTrZlffQZ0Yu19I=
+github.com/fourcorelabs/wintoken v1.0.0/go.mod h1:jKyXHt079W09KwEMbUC9g+R2KDs5kVvSKPUiF5p0ejs=
+golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10 h1:WIoqL4EROvwiPdUtaip4VcDdpZ4kha7wBWZrbVKCIZg=
+golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=

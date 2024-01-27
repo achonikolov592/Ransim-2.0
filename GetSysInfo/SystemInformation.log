@@ -1,0 +1,589 @@
+----------------------------------------------------SYSTEMINFO------------------------------------------------
+
+
+Host Name:                 DESKTOP-CR6T5VO
+OS Name:                   Microsoft Windows 10 Home
+OS Version:                10.0.19045 N/A Build 19045
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          achonikolov2005@gmail.com
+Registered Organization:   
+Product ID:                00326-10000-00000-AA910
+Original Install Date:     15/12/2023, 13:37:09
+System Boot Time:          25/01/2024, 16:21:15
+System Manufacturer:       innotek GmbH
+System Model:              VirtualBox
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: AMD64 Family 23 Model 24 Stepping 1 AuthenticAMD ~2096 Mhz
+BIOS Version:              innotek GmbH VirtualBox, 01/12/2006
+Windows Directory:         C:\Windows
+System Directory:          C:\Windows\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-gb;English (United Kingdom)
+Input Locale:              en-gb;English (United Kingdom)
+Time Zone:                 (UTC+00:00) Dublin, Edinburgh, Lisbon, London
+Total Physical Memory:     4,196 MB
+Available Physical Memory: 1,733 MB
+Virtual Memory: Max Size:  4,900 MB
+Virtual Memory: Available: 2,406 MB
+Virtual Memory: In Use:    2,494 MB
+Page File Location(s):     C:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-CR6T5VO
+Hotfix(s):                 9 Hotfix(s) Installed.
+                           [01]: KB5033918
+                           [02]: KB5022502
+                           [03]: KB5011048
+                           [04]: KB5015684
+                           [05]: KB5020683
+                           [06]: KB5034122
+                           [07]: KB5014032
+                           [08]: KB5025315
+                           [09]: KB5032907
+Network Card(s):           1 NIC(s) Installed.
+                           [01]: Intel(R) PRO/1000 MT Desktop Adapter
+                                 Connection Name: Ethernet
+                                 DHCP Enabled:    Yes
+                                 DHCP Server:     10.0.2.2
+                                 IP address(es)
+                                 [01]: 10.0.2.15
+                                 [02]: fe80::28f2:4ecf:83d8:21c3
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
+----------------------------------------------------SYSTEMINFOFROMPOWERSHELL------------------------------------------------
+
+
+
+WindowsBuildLabEx                                       : 19041.1.amd64fre.vb_release.191206-1406
+WindowsCurrentVersion                                   : 6.3
+WindowsEditionId                                        : Core
+WindowsInstallationType                                 : Client
+WindowsInstallDateFromRegistry                          : 15/12/2023 13:37:09
+WindowsProductId                                        : 00326-10000-00000-AA910
+WindowsProductName                                      : Windows 10 Home
+WindowsRegisteredOrganization                           : 
+WindowsRegisteredOwner                                  : achonikolov2005@gmail.com
+WindowsSystemRoot                                       : C:\Windows
+WindowsVersion                                          : 2009
+BiosCharacteristics                                     : {4, 7, 15, 16...}
+BiosBIOSVersion                                         : {VBOX   - 1}
+BiosBuildNumber                                         : 
+BiosCaption                                             : Default System BIOS
+BiosCodeSet                                             : 
+BiosCurrentLanguage                                     : 
+BiosDescription                                         : Default System BIOS
+BiosEmbeddedControllerMajorVersion                      : 110
+BiosEmbeddedControllerMinorVersion                      : 111
+BiosFirmwareType                                        : Bios
+BiosIdentificationCode                                  : 
+BiosInstallableLanguages                                : 
+BiosInstallDate                                         : 
+BiosLanguageEdition                                     : 
+BiosListOfLanguages                                     : 
+BiosManufacturer                                        : innotek GmbH
+BiosName                                                : Default System BIOS
+BiosOtherTargetOS                                       : 
+BiosPrimaryBIOS                                         : True
+BiosReleaseDate                                         : 01/12/2006 00:00:00
+BiosSeralNumber                                         : 0
+BiosSMBIOSBIOSVersion                                   : VirtualBox
+BiosSMBIOSMajorVersion                                  : 2
+BiosSMBIOSMinorVersion                                  : 5
+BiosSMBIOSPresent                                       : True
+BiosSoftwareElementState                                : Running
+BiosStatus                                              : OK
+BiosSystemBiosMajorVersion                              : 105
+BiosSystemBiosMinorVersion                              : 110
+BiosTargetOperatingSystem                               : 0
+BiosVersion                                             : VBOX   - 1
+CsAdminPasswordStatus                                   : Unknown
+CsAutomaticManagedPagefile                              : True
+CsAutomaticResetBootOption                              : True
+CsAutomaticResetCapability                              : True
+CsBootOptionOnLimit                                     : 
+CsBootOptionOnWatchDog                                  : 
+CsBootROMSupported                                      : True
+CsBootStatus                                            : 
+CsBootupState                                           : Normal boot
+CsCaption                                               : DESKTOP-CR6T5VO
+CsChassisBootupState                                    : Safe
+CsChassisSKUNumber                                      : 
+CsCurrentTimeZone                                       : 0
+CsDaylightInEffect                                      : False
+CsDescription                                           : AT/AT COMPATIBLE
+CsDNSHostName                                           : DESKTOP-CR6T5VO
+CsDomain                                                : WORKGROUP
+CsDomainRole                                            : StandaloneWorkstation
+CsEnableDaylightSavingsTime                             : True
+CsFrontPanelResetStatus                                 : Unknown
+CsHypervisorPresent                                     : True
+CsInfraredSupported                                     : False
+CsInitialLoadInfo                                       : 
+CsInstallDate                                           : 
+CsKeyboardPasswordStatus                                : Unknown
+CsLastLoadInfo                                          : 
+CsManufacturer                                          : innotek GmbH
+CsModel                                                 : VirtualBox
+CsName                                                  : DESKTOP-CR6T5VO
+CsNetworkAdapters                                       : {Ethernet}
+CsNetworkServerModeEnabled                              : True
+CsNumberOfLogicalProcessors                             : 3
+CsNumberOfProcessors                                    : 1
+CsProcessors                                            : {AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  }
+CsOEMStringArray                                        : {vboxVer_7.0.12, vboxRev_159484}
+CsPartOfDomain                                          : False
+CsPauseAfterReset                                       : -1
+CsPCSystemType                                          : Mobile
+CsPCSystemTypeEx                                        : Mobile
+CsPowerManagementCapabilities                           : 
+CsPowerManagementSupported                              : 
+CsPowerOnPasswordStatus                                 : Unknown
+CsPowerState                                            : Unknown
+CsPowerSupplyState                                      : Safe
+CsPrimaryOwnerContact                                   : 
+CsPrimaryOwnerName                                      : achonikolov2005@gmail.com
+CsResetCapability                                       : Other
+CsResetCount                                            : -1
+CsResetLimit                                            : -1
+CsRoles                                                 : {LM_Workstation, LM_Server, NT}
+CsStatus                                                : OK
+CsSupportContactDescription                             : 
+CsSystemFamily                                          : Virtual Machine
+CsSystemSKUNumber                                       : 
+CsSystemType                                            : x64-based PC
+CsThermalState                                          : Safe
+CsTotalPhysicalMemory                                   : 4399353856
+CsPhyicallyInstalledMemory                              : 
+CsUserName                                              : DESKTOP-CR6T5VO\achon
+CsWakeUpType                                            : PowerSwitch
+CsWorkgroup                                             : WORKGROUP
+OsName                                                  : Microsoft Windows 10 Home
+OsType                                                  : WINNT
+OsOperatingSystemSKU                                    : WindowsHome
+OsVersion                                               : 10.0.19045
+OsCSDVersion                                            : 
+OsBuildNumber                                           : 19045
+OsHotFixes                                              : {KB5033918, KB5022502, KB5011048, KB5015684...}
+OsBootDevice                                            : \Device\HarddiskVolume1
+OsSystemDevice                                          : \Device\HarddiskVolume2
+OsSystemDirectory                                       : C:\Windows\system32
+OsSystemDrive                                           : C:
+OsWindowsDirectory                                      : C:\Windows
+OsCountryCode                                           : 44
+OsCurrentTimeZone                                       : 0
+OsLocaleID                                              : 0809
+OsLocale                                                : en-GB
+OsLocalDateTime                                         : 25/01/2024 18:18:06
+OsLastBootUpTime                                        : 25/01/2024 16:21:15
+OsUptime                                                : 01:56:51.5976949
+OsBuildType                                             : Multiprocessor Free
+OsCodeSet                                               : 1252
+OsDataExecutionPreventionAvailable                      : True
+OsDataExecutionPrevention32BitApplications              : True
+OsDataExecutionPreventionDrivers                        : True
+OsDataExecutionPreventionSupportPolicy                  : OptIn
+OsDebug                                                 : False
+OsDistributed                                           : False
+OsEncryptionLevel                                       : 256
+OsForegroundApplicationBoost                            : Maximum
+OsTotalVisibleMemorySize                                : 4296244
+OsFreePhysicalMemory                                    : 1706196
+OsTotalVirtualMemorySize                                : 5017140
+OsFreeVirtualMemory                                     : 2401480
+OsInUseVirtualMemory                                    : 2615660
+OsTotalSwapSpaceSize                                    : 
+OsSizeStoredInPagingFiles                               : 720896
+OsFreeSpaceInPagingFiles                                : 671228
+OsPagingFiles                                           : {C:\pagefile.sys}
+OsHardwareAbstractionLayer                              : 10.0.19041.3636
+OsInstallDate                                           : 15/12/2023 13:37:09
+OsManufacturer                                          : Microsoft Corporation
+OsMaxNumberOfProcesses                                  : 4294967295
+OsMaxProcessMemorySize                                  : 137438953344
+OsMuiLanguages                                          : {en-GB}
+OsNumberOfLicensedUsers                                 : 
+OsNumberOfProcesses                                     : 140
+OsNumberOfUsers                                         : 2
+OsOrganization                                          : 
+OsArchitecture                                          : 64-bit
+OsLanguage                                              : en-GB
+OsProductSuites                                         : {TerminalServicesSingleSession, HomeEdition}
+OsOtherTypeDescription                                  : 
+OsPAEEnabled                                            : 
+OsPortableOperatingSystem                               : False
+OsPrimary                                               : True
+OsProductType                                           : WorkStation
+OsRegisteredUser                                        : achonikolov2005@gmail.com
+OsSerialNumber                                          : 00326-10000-00000-AA910
+OsServicePackMajorVersion                               : 0
+OsServicePackMinorVersion                               : 0
+OsStatus                                                : OK
+OsSuites                                                : {TerminalServices, TerminalServicesSingleSession, 
+                                                          HomeEdition}
+OsServerLevel                                           : 
+KeyboardLayout                                          : en-GB
+TimeZone                                                : (UTC+00:00) Dublin, Edinburgh, Lisbon, London
+LogonServer                                             : \\DESKTOP-CR6T5VO
+PowerPlatformRole                                       : Mobile
+HyperVisorPresent                                       : True
+HyperVRequirementDataExecutionPreventionAvailable       : 
+HyperVRequirementSecondLevelAddressTranslation          : 
+HyperVRequirementVirtualizationFirmwareEnabled          : 
+HyperVRequirementVMMonitorModeExtensions                : 
+DeviceGuardSmartStatus                                  : Off
+DeviceGuardRequiredSecurityProperties                   : 
+DeviceGuardAvailableSecurityProperties                  : 
+DeviceGuardSecurityServicesConfigured                   : 
+DeviceGuardSecurityServicesRunning                      : 
+DeviceGuardCodeIntegrityPolicyEnforcementStatus         : 
+DeviceGuardUserModeCodeIntegrityPolicyEnforcementStatus : 
+
+
+
+----------------------------------------------------TASKLIST------------------------------------------------
+
+
+Image Name                     PID Session Name        Session#    Mem Usage
+========================= ======== ================ =========== ============
+System Idle Process              0 Services                   0          8 K
+System                           4 Services                   0        148 K
+Registry                       100 Services                   0     72,160 K
+smss.exe                       344 Services                   0      1,244 K
+csrss.exe                      444 Services                   0      5,488 K
+wininit.exe                    520 Services                   0      7,208 K
+csrss.exe                      536 Console                    1      5,812 K
+winlogon.exe                   616 Console                    1     12,208 K
+services.exe                   664 Services                   0      9,980 K
+lsass.exe                      688 Services                   0     21,756 K
+svchost.exe                    792 Services                   0     33,140 K
+fontdrvhost.exe                808 Console                    1      4,112 K
+fontdrvhost.exe                816 Services                   0      3,376 K
+svchost.exe                    912 Services                   0     14,580 K
+svchost.exe                    960 Services                   0      8,428 K
+dwm.exe                        376 Console                    1     63,544 K
+svchost.exe                    660 Services                   0     13,708 K
+svchost.exe                   1036 Services                   0      6,376 K
+svchost.exe                   1044 Services                   0      5,684 K
+svchost.exe                   1116 Services                   0     10,148 K
+svchost.exe                   1148 Services                   0     15,800 K
+svchost.exe                   1176 Services                   0     17,312 K
+svchost.exe                   1192 Services                   0     12,192 K
+svchost.exe                   1256 Services                   0     14,052 K
+svchost.exe                   1332 Services                   0      7,492 K
+svchost.exe                   1344 Services                   0      8,460 K
+svchost.exe                   1404 Services                   0     11,288 K
+svchost.exe                   1460 Services                   0      7,724 K
+svchost.exe                   1476 Services                   0     11,812 K
+svchost.exe                   1592 Services                   0     11,660 K
+svchost.exe                   1752 Services                   0      9,936 K
+svchost.exe                   1784 Services                   0      7,980 K
+svchost.exe                   1796 Services                   0      6,152 K
+svchost.exe                   1808 Services                   0     81,028 K
+Memory Compression            1884 Services                   0     59,792 K
+svchost.exe                   1896 Services                   0      8,408 K
+svchost.exe                   1944 Services                   0      8,268 K
+svchost.exe                   1952 Services                   0      7,520 K
+svchost.exe                   1416 Services                   0     13,520 K
+svchost.exe                   2072 Services                   0      8,048 K
+svchost.exe                   2152 Services                   0      9,692 K
+svchost.exe                   2160 Services                   0     10,928 K
+svchost.exe                   2232 Services                   0     16,832 K
+svchost.exe                   2256 Services                   0     12,844 K
+spoolsv.exe                   2400 Services                   0     15,800 K
+svchost.exe                   2440 Services                   0     18,116 K
+svchost.exe                   2480 Services                   0      8,428 K
+svchost.exe                   2584 Services                   0      8,240 K
+svchost.exe                   2760 Services                   0     40,044 K
+svchost.exe                   2768 Services                   0     14,096 K
+svchost.exe                   2784 Services                   0     22,392 K
+svchost.exe                   2792 Services                   0     20,384 K
+IpOverUsbSvc.exe              2816 Services                   0     14,924 K
+svchost.exe                   2892 Services                   0      7,076 K
+svchost.exe                   2900 Services                   0      9,436 K
+MsMpEng.exe                   2920 Services                   0    279,212 K
+svchost.exe                   2928 Services                   0      5,988 K
+svchost.exe                   2948 Services                   0     20,120 K
+svchost.exe                   3016 Services                   0      5,780 K
+svchost.exe                   3060 Services                   0     10,872 K
+svchost.exe                   3252 Services                   0     13,152 K
+SearchIndexer.exe             3692 Services                   0     37,708 K
+sihost.exe                    3928 Console                    1     25,924 K
+svchost.exe                   3952 Console                    1     22,520 K
+svchost.exe                   3980 Console                    1     38,524 K
+taskhostw.exe                 4056 Console                    1     10,952 K
+taskhostw.exe                 4076 Console                    1     15,536 K
+svchost.exe                    424 Services                   0     19,848 K
+svchost.exe                   3432 Services                   0      8,340 K
+ctfmon.exe                    3636 Console                    1     20,588 K
+svchost.exe                   4272 Services                   0      8,740 K
+explorer.exe                  4280 Console                    1    128,176 K
+svchost.exe                   4512 Services                   0      8,280 K
+svchost.exe                   4552 Services                   0     16,340 K
+svchost.exe                   4652 Services                   0     10,160 K
+svchost.exe                   4720 Console                    1     18,076 K
+StartMenuExperienceHost.e     4764 Console                    1     64,800 K
+RuntimeBroker.exe             5128 Console                    1     25,928 K
+svchost.exe                   5136 Services                   0      9,144 K
+SearchApp.exe                 5384 Console                    1     97,808 K
+RuntimeBroker.exe             5660 Console                    1     40,428 K
+svchost.exe                   4120 Services                   0      9,256 K
+svchost.exe                   6176 Services                   0     14,784 K
+RuntimeBroker.exe             6600 Console                    1     24,076 K
+NisSrv.exe                    6688 Services                   0     11,768 K
+TextInputHost.exe             6944 Console                    1     38,972 K
+dllhost.exe                   7048 Console                    1     12,972 K
+svchost.exe                   6892 Services                   0     12,476 K
+PhoneExperienceHost.exe       3376 Console                    1    117,600 K
+RuntimeBroker.exe             4228 Console                    1     14,240 K
+SecurityHealthSystray.exe     6196 Console                    1      9,360 K
+SecurityHealthService.exe     6980 Services                   0     15,584 K
+msedge.exe                    7172 Console                    1    131,712 K
+msedge.exe                    7200 Console                    1      7,624 K
+msedge.exe                    7388 Console                    1     25,644 K
+msedge.exe                    7400 Console                    1     37,948 K
+msedge.exe                    7420 Console                    1     17,852 K
+svchost.exe                   7820 Services                   0      8,584 K
+msedge.exe                    7776 Console                    1     97,468 K
+msedge.exe                    7848 Console                    1     26,560 K
+svchost.exe                    392 Console                    1     21,476 K
+svchost.exe                   5992 Services                   0      7,676 K
+SystemSettings.exe            3760 Console                    1      2,148 K
+ApplicationFrameHost.exe      4916 Console                    1     26,828 K
+UserOOBEBroker.exe            5148 Console                    1      9,556 K
+svchost.exe                   4740 Services                   0     17,444 K
+svchost.exe                   6324 Services                   0     11,816 K
+SgrmBroker.exe                6452 Services                   0      7,284 K
+svchost.exe                   4296 Services                   0     11,040 K
+SearchApp.exe                 1720 Console                    1    160,296 K
+svchost.exe                   5412 Services                   0      9,880 K
+cmd.exe                       4392 Console                    1      4,368 K
+conhost.exe                   2280 Console                    1     21,056 K
+svchost.exe                   7156 Services                   0      6,284 K
+svchost.exe                   4128 Services                   0     14,020 K
+svchost.exe                   2120 Services                   0      7,968 K
+svchost.exe                   6484 Services                   0     10,248 K
+svchost.exe                   6364 Services                   0      7,564 K
+svchost.exe                   3308 Services                   0     16,772 K
+smartscreen.exe               7120 Console                    1     22,832 K
+Code.exe                      1448 Console                    1     98,032 K
+Code.exe                       464 Console                    1     27,956 K
+Code.exe                      5920 Console                    1     55,352 K
+Code.exe                      3644 Console                    1     39,188 K
+Code.exe                      4208 Console                    1    182,812 K
+Code.exe                      1316 Console                    1     79,264 K
+Code.exe                      4160 Console                    1     72,904 K
+Code.exe                      3536 Console                    1    105,900 K
+Code.exe                      4116 Console                    1     80,096 K
+main.exe                      5972 Console                    1     10,544 K
+ShellExperienceHost.exe       2912 Console                    1     49,208 K
+RuntimeBroker.exe             7784 Console                    1     19,012 K
+audiodg.exe                   2704 Services                   0     13,188 K
+GetSysInfo.exe                7692 Console                    1      7,232 K
+WmiPrvSE.exe                  7772 Services                   0     16,548 K
+WmiPrvSE.exe                  3476 Services                   0     10,508 K
+TrustedInstaller.exe          3604 Services                   0      7,784 K
+TiWorker.exe                  7452 Services                   0     11,112 K
+svchost.exe                   6920 Services                   0      6,920 K
+tasklist.exe                  7976 Console                    1      9,256 K
+----------------------------------------------------NETSTAT------------------------------------------------
+
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    0.0.0.0:135            DESKTOP-CR6T5VO:0      LISTENING
+  TCP    0.0.0.0:445            DESKTOP-CR6T5VO:0      LISTENING
+  TCP    0.0.0.0:5040           DESKTOP-CR6T5VO:0      LISTENING
+  TCP    0.0.0.0:7680           DESKTOP-CR6T5VO:0      LISTENING
+  TCP    0.0.0.0:49664          DESKTOP-CR6T5VO:0      LISTENING
+  TCP    0.0.0.0:49665          DESKTOP-CR6T5VO:0      LISTENING
+  TCP    0.0.0.0:49666          DESKTOP-CR6T5VO:0      LISTENING
+  TCP    0.0.0.0:49667          DESKTOP-CR6T5VO:0      LISTENING
+  TCP    0.0.0.0:49668          DESKTOP-CR6T5VO:0      LISTENING
+  TCP    0.0.0.0:49669          DESKTOP-CR6T5VO:0      LISTENING
+  TCP    10.0.2.15:139          DESKTOP-CR6T5VO:0      LISTENING
+  TCP    10.0.2.15:49672        20.199.120.85:https    ESTABLISHED
+  TCP    10.0.2.15:49796        a95-101-23-48:https    CLOSE_WAIT
+  TCP    10.0.2.15:49797        a95-101-23-48:https    CLOSE_WAIT
+  TCP    10.0.2.15:49879        a104-85-47-173:http    TIME_WAIT
+  TCP    10.0.2.15:49880        25:https               TIME_WAIT
+  TCP    10.0.2.15:49883        a92-123-103-58:https   CLOSE_WAIT
+  TCP    10.0.2.15:49890        152.199.19.160:https   ESTABLISHED
+  TCP    10.0.2.15:49893        152.199.19.160:https   CLOSE_WAIT
+  TCP    10.0.2.15:49897        13.89.179.8:https      ESTABLISHED
+  TCP    10.0.2.15:49902        212.95.165.40:http     TIME_WAIT
+  TCP    10.0.2.15:49903        a23-38-98-43:https     ESTABLISHED
+  TCP    [::]:135               DESKTOP-CR6T5VO:0      LISTENING
+  TCP    [::]:445               DESKTOP-CR6T5VO:0      LISTENING
+  TCP    [::]:7680              DESKTOP-CR6T5VO:0      LISTENING
+  TCP    [::]:49664             DESKTOP-CR6T5VO:0      LISTENING
+  TCP    [::]:49665             DESKTOP-CR6T5VO:0      LISTENING
+  TCP    [::]:49666             DESKTOP-CR6T5VO:0      LISTENING
+  TCP    [::]:49667             DESKTOP-CR6T5VO:0      LISTENING
+  TCP    [::]:49668             DESKTOP-CR6T5VO:0      LISTENING
+  TCP    [::]:49669             DESKTOP-CR6T5VO:0      LISTENING
+  UDP    0.0.0.0:5050           *:*                    
+  UDP    0.0.0.0:5353           *:*                    
+  UDP    0.0.0.0:5355           *:*                    
+  UDP    10.0.2.15:137          *:*                    
+  UDP    10.0.2.15:138          *:*                    
+  UDP    10.0.2.15:1900         *:*                    
+  UDP    10.0.2.15:63755        *:*                    
+  UDP    127.0.0.1:1900         *:*                    
+  UDP    127.0.0.1:53022        *:*                    
+  UDP    127.0.0.1:63756        *:*                    
+  UDP    [::]:5353              *:*                    
+  UDP    [::]:5355              *:*                    
+  UDP    [::1]:1900             *:*                    
+  UDP    [::1]:63754            *:*                    
+  UDP    [fe80::28f2:4ecf:83d8:21c3%7]:1900  *:*                    
+  UDP    [fe80::28f2:4ecf:83d8:21c3%7]:63753  *:*                    
+----------------------------------------------------PORTOCOLSTATISTICS------------------------------------------------
+
+
+IPv4 Statistics
+
+  Packets Received                   = 67247
+  Received Header Errors             = 0
+  Received Address Errors            = 0
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 24
+  Received Packets Discarded         = 24
+  Received Packets Delivered         = 67469
+  Output Requests                    = 64035
+  Routing Discards                   = 0
+  Discarded Output Packets           = 0
+  Output Packet No Route             = 0
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+IPv6 Statistics
+
+  Packets Received                   = 0
+  Received Header Errors             = 0
+  Received Address Errors            = 0
+  Datagrams Forwarded                = 0
+  Unknown Protocols Received         = 0
+  Received Packets Discarded         = 0
+  Received Packets Delivered         = 9
+  Output Requests                    = 34
+  Routing Discards                   = 0
+  Discarded Output Packets           = 0
+  Output Packet No Route             = 0
+  Reassembly Required                = 0
+  Reassembly Successful              = 0
+  Reassembly Failures                = 0
+  Datagrams Successfully Fragmented  = 0
+  Datagrams Failing Fragmentation    = 0
+  Fragments Created                  = 0
+
+ICMPv4 Statistics
+
+                            Received    Sent
+  Messages                  24          16        
+  Errors                    0           0         
+  Destination Unreachable   24          16        
+  Time Exceeded             0           0         
+  Parameter Problems        0           0         
+  Source Quenches           0           0         
+  Redirects                 0           0         
+  Echo Replies              0           0         
+  Echos                     0           0         
+  Timestamps                0           0         
+  Timestamp Replies         0           0         
+  Address Masks             0           0         
+  Address Mask Replies      0           0         
+  Router Solicitations      0           0         
+  Router Advertisements     0           0         
+
+ICMPv6 Statistics
+
+                            Received    Sent
+  Messages                  0           5         
+  Errors                    0           0         
+  Destination Unreachable   0           0         
+  Packet Too Big            0           0         
+  Time Exceeded             0           0         
+  Parameter Problems        0           0         
+  Echos                     0           0         
+  Echo Replies              0           0         
+  MLD Queries               0           0         
+  MLD Reports               0           0         
+  MLD Dones                 0           0         
+  Router Solicitations      0           3         
+  Router Advertisements     0           0         
+  Neighbor Solicitations    0           1         
+  Neighbor Advertisements   0           1         
+  Redirects                 0           0         
+  Router Renumberings       0           0         
+
+TCP Statistics for IPv4
+
+  Active Opens                        = 233
+  Passive Opens                       = 1
+  Failed Connection Attempts          = 35
+  Reset Connections                   = 45
+  Current Connections                 = 8
+  Segments Received                   = 66982
+  Segments Sent                       = 63224
+  Segments Retransmitted              = 153
+
+TCP Statistics for IPv6
+
+  Active Opens                        = 2
+  Passive Opens                       = 0
+  Failed Connection Attempts          = 2
+  Reset Connections                   = 0
+  Current Connections                 = 0
+  Segments Received                   = 12
+  Segments Sent                       = 8
+  Segments Retransmitted              = 4
+
+UDP Statistics for IPv4
+
+  Datagrams Received    = 262
+  No Ports              = 25
+  Receive Errors        = 0
+  Datagrams Sent        = 519
+
+UDP Statistics for IPv6
+
+  Datagrams Received    = 2
+  No Ports              = 0
+  Receive Errors        = 0
+  Datagrams Sent        = 10
+----------------------------------------------------IPCONFIG------------------------------------------------
+
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-CR6T5VO
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : .
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : .
+   Description . . . . . . . . . . . : Intel(R) PRO/1000 MT Desktop Adapter
+   Physical Address. . . . . . . . . : 08-00-27-3D-86-25
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::28f2:4ecf:83d8:21c3%7(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 10.0.2.15(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : 19 December 1887 11:53:07
+   Lease Expires . . . . . . . . . . : 26 January 2024 16:21:25
+   Default Gateway . . . . . . . . . : 10.0.2.2
+   DHCP Server . . . . . . . . . . . : 10.0.2.2
+   DHCPv6 IAID . . . . . . . . . . . : 101187623
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-2D-0E-2A-81-08-00-27-3D-86-25
+   DNS Servers . . . . . . . . . . . : 10.0.2.3
+   NetBIOS over Tcpip. . . . . . . . : Enabled

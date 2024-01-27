@@ -1,0 +1,1762 @@
+[INFO]: Strating test: EncryptDecryptDir AT 11 Jan 24 17:46 GMT
+[INFO]: Start creating test files AT 11 Jan 24 17:46 GMT
+[INFO]: Starting encryption AT 11 Jan 24 17:46 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 11 Jan 24 17:46 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 11 Jan 24 17:46 GMT
+[INFO]: Ending encryption AT 11 Jan 24 17:46 GMT
+[INFO]: Endinging test: EncryptDecryptDir AT 11 Jan 24 17:46 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 11 Jan 24 17:56 GMT
+[INFO]: Start creating test files AT 11 Jan 24 17:56 GMT
+[INFO]: Starting encryption AT 11 Jan 24 17:56 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 11 Jan 24 17:56 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 11 Jan 24 17:56 GMT
+[INFO]: Ending encryption AT 11 Jan 24 17:56 GMT
+[INFO]: Endinging test: EncryptDecryptDir AT 11 Jan 24 17:56 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 11 Jan 24 18:05 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:05 GMT
+[INFO]: Starting encryption AT 11 Jan 24 18:05 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 11 Jan 24 18:05 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 11 Jan 24 18:05 GMT
+[INFO]: Ending encryption AT 11 Jan 24 18:05 GMT
+[INFO]: Endinging test: EncryptDecryptDir AT 11 Jan 24 18:05 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 11 Jan 24 18:08 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:08 GMT
+[INFO]: Starting encryption AT 11 Jan 24 18:08 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 11 Jan 24 18:08 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 11 Jan 24 18:08 GMT
+[INFO]: Ending encryption AT 11 Jan 24 18:08 GMT
+[INFO]: Endinging test: EncryptDecryptDir AT 11 Jan 24 18:08 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 11 Jan 24 18:21 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:21 GMT
+[INFO]: Starting encryption AT 11 Jan 24 18:21 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 11 Jan 24 18:21 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 11 Jan 24 18:21 GMT
+[INFO]: Ending encryption AT 11 Jan 24 18:21 GMT
+[INFO]: Endinging test: EncryptDecryptDir AT 11 Jan 24 18:21 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 11 Jan 24 18:23 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:23 GMT
+[INFO]: Starting encryption AT 11 Jan 24 18:23 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 11 Jan 24 18:23 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 11 Jan 24 18:23 GMT
+[INFO]: Ending encryption AT 11 Jan 24 18:23 GMT
+[INFO]: Endinging test: EncryptDecryptDir AT 11 Jan 24 18:23 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 11 Jan 24 18:30 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:30 GMT
+[INFO]: Starting encryption AT 11 Jan 24 18:30 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 11 Jan 24 18:30 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 11 Jan 24 18:30 GMT
+[INFO]: Ending encryption AT 11 Jan 24 18:30 GMT
+[INFO]: Endinging test: EncryptDecryptDir AT 11 Jan 24 18:30 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 11 Jan 24 18:35 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:35 GMT
+[INFO]: Starting encryption AT 11 Jan 24 18:35 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 11 Jan 24 18:35 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 11 Jan 24 18:35 GMT
+[INFO]: Ending encryption AT 11 Jan 24 18:35 GMT
+[INFO]: Endinging test: EncryptDecryptDir AT 11 Jan 24 18:35 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 15:38 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:38 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:38 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:38 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:38 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:38 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:38 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:38 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:39 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:39 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 15:39 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 15:39 GMT
+[INFO]: Ending encryption AT 22 Jan 24 15:39 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:39 GMT
+[ERROR]: crypto/aes: invalid key size 0 AT 22 Jan 24 15:39 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Ending encryption AT 22 Jan 24 15:46 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:46 GMT
+[ERROR]: crypto/aes: invalid key size 0 AT 22 Jan 24 15:46 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:46 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:46 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 15:46 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 15:46 GMT
+[INFO]: Ending encryption AT 22 Jan 24 15:46 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:46 GMT
+[ERROR]: crypto/aes: invalid key size 0 AT 22 Jan 24 15:46 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:48 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:48 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 15:48 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 15:48 GMT
+[INFO]: Ending encryption AT 22 Jan 24 15:48 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:48 GMT
+[ERROR]: crypto/aes: invalid key size 0 AT 22 Jan 24 15:48 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:51 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:51 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 15:51 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 15:51 GMT
+[INFO]: Ending encryption AT 22 Jan 24 15:51 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:51 GMT
+[ERROR]: crypto/aes: invalid key size 0 AT 22 Jan 24 15:51 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Ending encryption AT 22 Jan 24 15:53 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:53 GMT
+[ERROR]: crypto/aes: invalid key size 0 AT 22 Jan 24 15:53 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:53 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:53 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 15:53 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 15:53 GMT
+[INFO]: Ending encryption AT 22 Jan 24 15:53 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:53 GMT
+[ERROR]: cipher: message authentication failed AT 22 Jan 24 15:53 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:54 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:54 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 15:54 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 15:54 GMT
+[INFO]: Ending encryption AT 22 Jan 24 15:54 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:54 GMT
+[INFO]: Ending encryption AT 22 Jan 24 15:54 GMT
+[INFO]: Endinging test: EncryptDecryptDir AT 22 Jan 24 15:54 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:57 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:57 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 15:57 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 15:57 GMT
+[INFO]: Ending encryption AT 22 Jan 24 15:57 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:57 GMT
+[ERROR]: crypto/aes: invalid key size 31 AT 22 Jan 24 15:57 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 15:58 GMT
+[ERROR]: invalid argument AT 22 Jan 24 15:58 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 15:58 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 15:58 GMT
+[INFO]: Ending encryption AT 22 Jan 24 15:58 GMT
+[INFO]: Starting encryption AT 22 Jan 24 15:58 GMT
+[ERROR]: crypto/aes: invalid key size 31 AT 22 Jan 24 15:58 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 16:00 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:00 GMT
+[INFO]: Starting encryption AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 16:00 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 16:00 GMT
+[INFO]: Ending encryption AT 22 Jan 24 16:00 GMT
+[INFO]: Starting encryption AT 22 Jan 24 16:00 GMT
+[INFO]: Ending encryption AT 22 Jan 24 16:00 GMT
+[INFO]: Endinging test: EncryptDecryptDir AT 22 Jan 24 16:00 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 16:07 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:07 GMT
+[INFO]: Starting encryption AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 16:07 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 16:07 GMT
+[INFO]: Ending encryption AT 22 Jan 24 16:07 GMT
+[INFO]: Starting encryption AT 22 Jan 24 16:07 GMT
+[ERROR]: crypto/aes: invalid key size 31 AT 22 Jan 24 16:07 GMT
+[INFO]: Strating test: EncryptDecryptDir AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 22 Jan 24 16:10 GMT
+[ERROR]: invalid argument AT 22 Jan 24 16:10 GMT
+[INFO]: Starting encryption AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0a.txt AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.doc AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0b.docx AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0d.xls AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0g.jpeg AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0h.png AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\0i.bmp AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1a.txt AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.doc AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1b.docx AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1d.xls AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1g.jpeg AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1h.png AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\1i.bmp AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2a.txt AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.doc AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2b.docx AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2d.xls AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2g.jpeg AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2h.png AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles0\2i.bmp AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0a.txt AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.doc AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0b.docx AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0d.xls AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0g.jpeg AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0h.png AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\0i.bmp AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1a.txt AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.doc AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1b.docx AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1d.xls AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1g.jpeg AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1h.png AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\1i.bmp AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2a.txt AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.doc AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2b.docx AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2d.xls AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2g.jpeg AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2h.png AT 22 Jan 24 16:10 GMT
+[INFO]: Encrypted: testFilesParent\testfiles1\2i.bmp AT 22 Jan 24 16:10 GMT
+[INFO]: Ending encryption AT 22 Jan 24 16:10 GMT
+[INFO]: Starting encryption AT 22 Jan 24 16:10 GMT
+[INFO]: Ending encryption AT 22 Jan 24 16:10 GMT
+[INFO]: Endinging test: EncryptDecryptDir AT 22 Jan 24 16:10 GMT

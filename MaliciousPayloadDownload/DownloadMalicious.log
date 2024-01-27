@@ -1,0 +1,36 @@
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 11 Jan 24 10:23 GMT
+[ERROR]: open C:/Users/achon/OneDrive/Desktop/diplomna1/RRA/MaliciousPayloadDownload/out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 11 Jan 24 10:23 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 11 Jan 24 17:46 GMT
+[ERROR]: Ending test: DownloadingMaliciousPayload AT 11 Jan 24 17:46 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 11 Jan 24 17:56 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 11 Jan 24 17:56 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 11 Jan 24 18:05 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 11 Jan 24 18:05 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 11 Jan 24 18:09 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 11 Jan 24 18:09 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 11 Jan 24 18:21 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 11 Jan 24 18:21 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 11 Jan 24 18:23 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 11 Jan 24 18:23 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 11 Jan 24 18:30 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 11 Jan 24 18:30 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 11 Jan 24 18:35 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 11 Jan 24 18:35 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Jan 24 11:36 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 12 Jan 24 11:36 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Jan 24 11:42 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 12 Jan 24 11:42 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Jan 24 13:25 GMT
+[ERROR]: Ending test: DownloadingMaliciousPayload AT 12 Jan 24 13:25 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Jan 24 13:30 GMT
+[ERROR]: Ending test: DownloadingMaliciousPayload AT 12 Jan 24 13:30 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Jan 24 13:34 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 12 Jan 24 13:34 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Jan 24 13:37 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 12 Jan 24 13:37 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Jan 24 13:49 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 12 Jan 24 13:49 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Jan 24 13:55 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 12 Jan 24 13:55 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 25 Jan 24 18:18 GMT
+[ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 25 Jan 24 18:18 GMT

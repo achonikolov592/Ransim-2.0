@@ -1,0 +1,15 @@
+[
+	{"Name":"GenArchiveFiles", "IsEnabled": false},
+	{"Name":"GenEicar", "IsEnabled": true},
+	{"Name":"GenEncryptDecryptDirRecursive", "IsEnabled": false},
+	{"Name":"GenEncryptDecryptDirRecursivePartially", "IsEnabled": true},
+	{"Name":"GenGetSystemInformation", "IsEnabled": true},
+	{"Name":"GenSecureDeleteFiles", "IsEnabled": false},
+	{"Name":"WinStartupFolderNewFile", "IsEnabled": false},
+	{"Name":"GenDownloadMaliciousPayload", "IsEnabled": true},
+	{"Name":"WinServiceCreation", "IsEnabled": true},
+	{"Name":"WinPrivilegeEscalation", "IsEnabled": false},
+	{"Name":"GenRansomwareNoteDeploy", "IsEnabled": false},
+	{"Name":"GenExfiltrationOfFIles", "IsEnabled": false},
+	{"Name":"WinProcessHollowing", "IsEnabled":true}
+]

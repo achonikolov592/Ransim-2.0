@@ -1,0 +1,152 @@
+[INFO]: Start creating test files AT 11 Jan 24 10:23 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 11 Jan 24 10:23 GMT
+[ERROR]: remove C:\Users\achon\OneDrive\Desktop\diplomna1\RRA\SecureDeleteFiles\testfiles\c.txt: The process cannot access the file because it is being used by another process. AT 11 Jan 24 10:23 GMT
+[INFO]: Start creating test files AT 11 Jan 24 17:46 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 11 Jan 24 17:46 GMT
+[ERROR]: remove testfiles\c.txt: The process cannot access the file because it is being used by another process. AT 11 Jan 24 17:46 GMT
+[INFO]: Start creating test files AT 11 Jan 24 17:56 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 11 Jan 24 17:56 GMT
+[ERROR]: remove testfiles\c.txt: The process cannot access the file because it is being used by another process. AT 11 Jan 24 17:56 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:05 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 11 Jan 24 18:05 GMT
+[ERROR]: remove testfiles\c.txt: The process cannot access the file because it is being used by another process. AT 11 Jan 24 18:05 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:08 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 11 Jan 24 18:08 GMT
+[ERROR]: remove testfiles\c.txt: The process cannot access the file because it is being used by another process. AT 11 Jan 24 18:08 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:21 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 11 Jan 24 18:21 GMT
+[ERROR]: remove testfiles\c.txt: The process cannot access the file because it is being used by another process. AT 11 Jan 24 18:21 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:23 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 11 Jan 24 18:23 GMT
+[ERROR]: remove testfiles\c.txt: The process cannot access the file because it is being used by another process. AT 11 Jan 24 18:23 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:30 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 11 Jan 24 18:30 GMT
+[ERROR]: remove testfiles\c.txt: The process cannot access the file because it is being used by another process. AT 11 Jan 24 18:30 GMT
+[INFO]: Start creating test files AT 11 Jan 24 18:35 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 11 Jan 24 18:35 GMT
+[ERROR]: remove testfiles\c.txt: The process cannot access the file because it is being used by another process. AT 11 Jan 24 18:35 GMT
+[INFO]: Start creating test files AT 11 Jan 24 20:55 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 11 Jan 24 20:55 GMT
+[ERROR]: remove testfiles\c.txt: The process cannot access the file because it is being used by another process. AT 11 Jan 24 20:55 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\c.pdf0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\c.pdf1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\c.pdf2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\e.ppt0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\e.ppt1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\e.ppt2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\f.jpg0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\f.jpg1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\f.jpg2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles0//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\a.txt2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.doc2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\b.docx2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\c.pdf0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\c.pdf1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\c.pdf2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\d.xls2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\e.ppt0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\e.ppt1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\e.ppt2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\f.jpg0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\f.jpg1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\f.jpg2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\g.jpeg2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\h.png2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp0: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp1: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[ERROR]: open ./testFilesParent/testfiles1//sub/..\TestFiles\i.bmp2: The system cannot find the path specified. AT 25 Jan 24 12:44 GMT
+[ERROR]: invalid argument AT 25 Jan 24 12:44 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 25 Jan 24 12:44 GMT
+[ERROR]: remove testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 25 Jan 24 12:44 GMT

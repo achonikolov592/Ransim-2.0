@@ -1,0 +1,9 @@
+{
+        "DirNumber": 2,
+        "DirNumberFiles": 3,
+        "DocumentFiles": ".txt .doc .docx .xls .ppt .pdf",
+        "PictureFiles": ".png .jpeg .jpg .bmp",
+        "TimeToDelayOnSecureDelete":5,
+        "ToEncrypt":"true",
+        "ToDecrypt":"true"
+}
