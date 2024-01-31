@@ -2526,3 +2526,15 @@
 [ERROR]: mkdir ../EncryptDecryptDirRecursivePartially/testFilesParent: Cannot create a file when that file already exists. AT 27 Jan 24 14:45 GMT
 [ERROR]: mkdir ../SecureDeleteFiles/testFilesParent: Cannot create a file when that file already exists. AT 27 Jan 24 14:45 GMT
 [ERROR]: mkdir ../UploadFiles/testFilesParent: Cannot create a file when that file already exists. AT 27 Jan 24 14:45 GMT
+[ERROR]: exec: "..\\RegKeysRegKeys.exe": file does not exist from RegistryKeysTest AT 31 Jan 24 17:19 GMT
+[ERROR]: remove ../ArchiveFiles/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 31 Jan 24 17:19 GMT
+[ERROR]: remove ../EncryptDecryptDirRecursive/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 31 Jan 24 17:19 GMT
+[ERROR]: remove ../EncryptDecryptDirRecursivePartially/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 31 Jan 24 17:19 GMT
+[ERROR]: remove ../SecureDeleteFiles/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 31 Jan 24 17:19 GMT
+[ERROR]: remove ../StartupFolderNewFile/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 31 Jan 24 17:19 GMT
+[ERROR]: remove ../UploadFiles/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 31 Jan 24 17:19 GMT
+[ERROR]: exec: "..\\RegKeysRegKeys.exe": file does not exist from RegistryKeysTest AT 31 Jan 24 17:20 GMT
+[ERROR]: exit status 2 from RegistryKeysTest AT 31 Jan 24 17:21 GMT
+[ERROR]: exit status 2 from RegistryKeysTest AT 31 Jan 24 17:22 GMT
+[ERROR]: exit status 2 from RegistryKeysTest AT 31 Jan 24 17:30 GMT
+[ERROR]: exit status 2 from RegistryKeysTest AT 31 Jan 24 17:31 GMT

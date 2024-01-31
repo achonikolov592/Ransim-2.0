@@ -2,6 +2,9 @@ go 1.21.5
 
 use (
 	./ArchiveFiles
+	./DLLInjection
+	./DLLInjection/dll
+	./DLLInjector
 	./DefEnv
 	./Eicar
 	./EncryptDecryptDirRecursive
@@ -16,6 +19,8 @@ use (
 	./PrivEsc
 	./ProHoll
 	./RanNote
+	./RegKeys
+	./RegKeys/showMessage
 	./SecureDeleteFiles
 	./SecureDeleteFiles/SecureDeleteFile
 	./ServiceCreation

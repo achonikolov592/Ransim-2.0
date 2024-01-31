@@ -6,4 +6,24 @@
         "TimeToDelayOnSecureDelete":5,
         "ToEncrypt":"true",
         "ToDecrypt":"true"
-}
+}[ERROR]: mkdir ../ArchiveFiles/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:19 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursive/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:19 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursivePartially/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:19 GMT
+[ERROR]: mkdir ../SecureDeleteFiles/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:19 GMT
+[ERROR]: mkdir ../UploadFiles/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:19 GMT
+[ERROR]: mkdir ../ArchiveFiles/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:20 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursive/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:20 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursivePartially/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:20 GMT
+[ERROR]: mkdir ../SecureDeleteFiles/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:20 GMT
+[ERROR]: mkdir ../StartupFolderNewFile/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:20 GMT
+[ERROR]: mkdir ../UploadFiles/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:20 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursive/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:21 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursivePartially/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:21 GMT
+[ERROR]: mkdir ../SecureDeleteFiles/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:21 GMT
+[ERROR]: mkdir ../StartupFolderNewFile/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:21 GMT
+[ERROR]: mkdir ../UploadFiles/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:21 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursive/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:22 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursivePartially/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:22 GMT
+[ERROR]: mkdir ../SecureDeleteFiles/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:22 GMT
+[ERROR]: mkdir ../StartupFolderNewFile/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:22 GMT
+[ERROR]: mkdir ../UploadFiles/testFilesParent: Cannot create a file when that file already exists. AT 31 Jan 24 17:22 GMT

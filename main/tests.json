@@ -1,15 +1,16 @@
 [
 	{"Name":"GenArchiveFiles", "IsEnabled": false},
-	{"Name":"GenEicar", "IsEnabled": true},
+	{"Name":"GenEicar", "IsEnabled": false},
 	{"Name":"GenEncryptDecryptDirRecursive", "IsEnabled": false},
-	{"Name":"GenEncryptDecryptDirRecursivePartially", "IsEnabled": true},
-	{"Name":"GenGetSystemInformation", "IsEnabled": true},
+	{"Name":"GenEncryptDecryptDirRecursivePartially", "IsEnabled": false},
+	{"Name":"GenGetSystemInformation", "IsEnabled": false},
 	{"Name":"GenSecureDeleteFiles", "IsEnabled": false},
 	{"Name":"WinStartupFolderNewFile", "IsEnabled": false},
-	{"Name":"GenDownloadMaliciousPayload", "IsEnabled": true},
-	{"Name":"WinServiceCreation", "IsEnabled": true},
-	{"Name":"WinPrivilegeEscalation", "IsEnabled": false},
+	{"Name":"GenDownloadMaliciousPayload", "IsEnabled": false},
+	{"Name":"WinServiceCreation", "IsEnabled": false},
+	{"Name":"WinPrivilegeEscalation", "IsEnabled": true},
 	{"Name":"GenRansomwareNoteDeploy", "IsEnabled": false},
 	{"Name":"GenExfiltrationOfFIles", "IsEnabled": false},
-	{"Name":"WinProcessHollowing", "IsEnabled":true}
+	{"Name":"WinProcessHollowing", "IsEnabled":false},
+	{"Name":"WinRegistryKeysTest", "IsEnabled":true}
 ]

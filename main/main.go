@@ -1,7 +1,6 @@
 package main
 
 import (
-	obfuscate "RRA/Obfuscation"
 	"encoding/json"
 	"fmt"
 	"helpers"
@@ -57,7 +56,8 @@ var testLocation = []location{location{"ArchiveFiles", "../ArchiveFiles/", "Arch
 	location{"PrivilegeEscalation", "../PrivEsc/", "AccsTok.exe", "exit status 1"},
 	location{"RansomwareNoteDeploy", "../RanNote/", "RanNote.exe", "nil"},
 	location{"ExfiltrationOfFIles", "../UploadFiles/", "Exfilt.exe", "nil"},
-	location{"ProcessHollowing", "../ProHoll/", "ProHoll.exe", "exit status 1"}}
+	location{"ProcessHollowing", "../ProHoll/", "ProHoll.exe", "exit status 1"},
+	location{"RegistryKeysTest", "../RegKeys/", "RegKeys.exe", "exit status 1"}}
 
 var locationForTestFolder = []string{"../ArchiveFiles", "../EncryptDecryptDirRecursive", "../EncryptDecryptDirRecursivePartially", "../SecureDeleteFiles", "../StartupFolderNewFile", "../UploadFiles"}
 
@@ -184,11 +184,9 @@ func getWhichTestToExecute(nameOfLogFile string) []location {
 func main() {
 	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "main")
 
-	whichTests := getWhichTestToExecute(nameOfLogFile)
-
-	settings := SettingsAndPrepareTestFiles(nameOfLogFile)
-
-	obfuscate.PrepareEveryTestObfuscated(nameOfLogFile)
+	whichTests := getWhichTestToExecute("tests.json")
+	settings := SettingsAndPrepareTestFiles("./settings.json")
+	//obfuscate.PrepareEveryTestObfuscated(nameOfLogFile)
 
 	var correctTests, incorrectTests []string
 	for i := 0; i < len(whichTests); i++ {
@@ -245,20 +243,6 @@ func main() {
 					incorrectTests = append(incorrectTests, whichTests[i].name)
 				}
 			}
-		} else if whichTests[i].name == "PrivilegeEscalation" {
-			var pid string
-			fmt.Println("Choose which pid to duplicate:")
-			fmt.Scanln(&pid)
-			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, pid)
-			cmd.Dir = whichTests[i].path
-			err := cmd.Run()
-
-			if err.Error() == whichTests[i].expectedResult {
-				correctTests = append(correctTests, whichTests[i].name)
-			} else {
-				helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
-				incorrectTests = append(incorrectTests, whichTests[i].name)
-			}
 		} else if whichTests[i].name == "ProcessHollowing" {
 			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, "C:\\windows\\syswow64\\notepad.exe")
 			cmd.Dir = whichTests[i].path
@@ -304,7 +288,9 @@ func main() {
 
 	for i := 0; i < len(locationForTestFolder); i++ {
 		err := os.RemoveAll(locationForTestFolder[i] + "/testFilesParent")
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		}
 	}
 
 }
