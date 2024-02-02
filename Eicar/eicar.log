@@ -66,3 +66,21 @@
 [ERROR]: open ./out1.txt: The system cannot find the file specified. AT 25 Jan 24 14:44 GMT
 [INFO]: Starting test: EicarTest AT 25 Jan 24 18:17 GMT
 [ERROR]: open ./out1.txt: The system cannot find the file specified. AT 25 Jan 24 18:17 GMT
+[INFO]: Starting test: EicarTest AT 01 Feb 24 09:29 GMT
+[ERROR]: open ./out1.txt: The system cannot find the file specified. AT 01 Feb 24 09:29 GMT
+[INFO]: Starting test: EicarTest AT 01 Feb 24 10:53 GMT
+[ERROR]: open ./out1.txt: The system cannot find the file specified. AT 01 Feb 24 10:54 GMT
+[INFO]: Starting test: EicarTest AT 01 Feb 24 10:55 GMT
+[ERROR]: open ./out1.txt: The system cannot find the file specified. AT 01 Feb 24 10:55 GMT
+[INFO]: Starting test: EicarTest AT 02 Feb 24 11:15 GMT
+[ERROR]: open ./out1.txt: The system cannot find the file specified. AT 02 Feb 24 11:15 GMT
+[INFO]: Starting test: EicarTest AT 02 Feb 24 11:16 GMT
+[ERROR]: open ./out1.txt: The system cannot find the file specified. AT 02 Feb 24 11:17 GMT
+[INFO]: Starting test: EicarTest AT 02 Feb 24 11:29 GMT
+[ERROR]: open ./out1.txt: The system cannot find the file specified. AT 02 Feb 24 11:29 GMT
+[INFO]: Starting test: EicarTest AT 02 Feb 24 11:31 GMT
+[ERROR]: open ./out1.txt: The system cannot find the file specified. AT 02 Feb 24 11:31 GMT
+[INFO]: Starting test: EicarTest AT 02 Feb 24 11:32 GMT
+[ERROR]: open ./out1.txt: The system cannot find the file specified. AT 02 Feb 24 11:32 GMT
+[INFO]: Starting test: EicarTest AT 02 Feb 24 11:37 GMT
+[ERROR]: open ./out1.txt: The system cannot find the file specified. AT 02 Feb 24 11:37 GMT

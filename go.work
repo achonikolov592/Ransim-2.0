@@ -2,9 +2,8 @@ go 1.21.5
 
 use (
 	./ArchiveFiles
-	./DLLInjection
-	./DLLInjection/dll
-	./DLLInjector
+	./DLLSideLoading
+	./DLLs
 	./DefEnv
 	./Eicar
 	./EncryptDecryptDirRecursive
@@ -16,11 +15,16 @@ use (
 	./FileObfuscation
 	./GetSysInfo
 	./MaliciousPayloadDownload
+	./OSCredDump
 	./PrivEsc
-	./ProHoll
+	./ProHoll32
+	./ProHoll64
+	./ProHoll64/mem
+	./ProHoll64/processToHollow
 	./RanNote
 	./RegKeys
 	./RegKeys/showMessage
+	./RevSh
 	./SecureDeleteFiles
 	./SecureDeleteFiles/SecureDeleteFile
 	./ServiceCreation

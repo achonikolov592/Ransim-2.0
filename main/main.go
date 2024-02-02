@@ -42,6 +42,7 @@ type DirSettings struct {
 	TimeToDelayOnSecureDelete int
 	ToEncrypt                 string
 	ToDecrypt                 string
+	IPAddrForReverseShell     string
 }
 
 var testLocation = []location{location{"ArchiveFiles", "../ArchiveFiles/", "ArchiveFiles.exe", "nil"},
@@ -56,8 +57,10 @@ var testLocation = []location{location{"ArchiveFiles", "../ArchiveFiles/", "Arch
 	location{"PrivilegeEscalation", "../PrivEsc/", "AccsTok.exe", "exit status 1"},
 	location{"RansomwareNoteDeploy", "../RanNote/", "RanNote.exe", "nil"},
 	location{"ExfiltrationOfFIles", "../UploadFiles/", "Exfilt.exe", "nil"},
-	location{"ProcessHollowing", "../ProHoll/", "ProHoll.exe", "exit status 1"},
-	location{"RegistryKeysTest", "../RegKeys/", "RegKeys.exe", "exit status 1"}}
+	location{"ProcessHollowing", "../ProHoll32/", "ProHol32.exe", "exit status 1"},
+	location{"RegistryKeysTest", "../RegKeys/", "RegKeys.exe", "exit status 1"},
+	location{"DLLSideLoading", "../DLLSideLoading/", "DllLoad.exe", "exit status 1"},
+	location{"ReverseShell", "../RevSh/", "RevSh.exe", "exit status 1"}}
 
 var locationForTestFolder = []string{"../ArchiveFiles", "../EncryptDecryptDirRecursive", "../EncryptDecryptDirRecursivePartially", "../SecureDeleteFiles", "../StartupFolderNewFile", "../UploadFiles"}
 
@@ -181,11 +184,53 @@ func getWhichTestToExecute(nameOfLogFile string) []location {
 	return whichTests
 }
 
+func isTestCorrect(name string, correctTests []string) bool {
+	for i := 0; i < len(correctTests); i++ {
+		if name == correctTests[i] {
+			return true
+		}
+	}
+
+	return false
+}
+
+func getResults(nameOfLogFile string, whichTest []location, correctTests []string) {
+	os.Remove("./results.html")
+	f, err := os.Create("./results.html")
+	if err != nil {
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+	}
+
+	var content = "<html lang='en'>" +
+		"<style>" +
+		"table, th, td{border:1px solid black}" +
+		"</style>" +
+		"<head>" +
+		"<meta charset='UTF-8'>" +
+		"<meta name='viewport' content='width=device-width, initial-scale=1.0'>" +
+		"<title>Results</title>" +
+		"</head>" +
+		"<body>" +
+		"<h1> Table of results <h1>" +
+		"<table>" +
+		"<tr>" + "<th>Name Of Test</th>" + "<th>Is correct</th>" + "</tr>"
+	for i := 0; i < len(whichTest); i++ {
+		if isTestCorrect(whichTest[i].name, correctTests) {
+			content += "<tr>" + "<td style='background-color: lightgreen'>" + whichTest[i].name + "</td>" + "<td style='background-color: lightgreen' >Yes</td>" + "<tr>"
+		} else {
+			content += "<tr>" + "<td style='background-color: LightCoral'>" + whichTest[i].name + "</td>" + "<td style='background-color: LightCoral' >No</td>" + "<tr>"
+		}
+	}
+
+	content += "</table>" + "</body>" + "</html>"
+	f.WriteString(content)
+}
+
 func main() {
 	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "main")
 
 	whichTests := getWhichTestToExecute("tests.json")
-	settings := SettingsAndPrepareTestFiles("./settings.json")
+	settings := SettingsAndPrepareTestFiles(nameOfLogFile)
 	//obfuscate.PrepareEveryTestObfuscated(nameOfLogFile)
 
 	var correctTests, incorrectTests []string
@@ -257,6 +302,23 @@ func main() {
 					incorrectTests = append(incorrectTests, whichTests[i].name)
 				}
 			}
+		} else if whichTests[i].name == "ReverseShell" {
+			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, settings.IPAddrForReverseShell)
+			cmd.Dir = whichTests[i].path
+			err := cmd.Run()
+
+			_, errOfOpeningFile := os.OpenFile(whichTests[i].path+whichTests[i].nameOfFile, os.O_RDONLY, 0666)
+			if err != nil {
+				helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
+				incorrectTests = append(incorrectTests, whichTests[i].name)
+			} else {
+				if errOfOpeningFile == nil {
+					incorrectTests = append(incorrectTests, whichTests[i].name)
+				} else {
+					correctTests = append(correctTests, whichTests[i].name)
+				}
+
+			}
 		} else {
 			cmd := exec.Command(whichTests[i].path + whichTests[i].nameOfFile)
 			cmd.Dir = whichTests[i].path
@@ -278,13 +340,8 @@ func main() {
 			}
 		}
 	}
-	fmt.Printf("Out of %d tests, %d are/is correct, %d are/is incorrect", len(whichTests), len(correctTests), len(incorrectTests))
-	for j := 0; j < len(correctTests); j++ {
-		fmt.Printf("\nTest %s is correct!", correctTests[j])
-	}
-	for j := 0; j < len(incorrectTests); j++ {
-		fmt.Printf("\nTest %s is incorrect!", incorrectTests[j])
-	}
+	getResults(nameOfLogFile, whichTests, correctTests)
+	fmt.Println("You can check the results!")
 
 	for i := 0; i < len(locationForTestFolder); i++ {
 		err := os.RemoveAll(locationForTestFolder[i] + "/testFilesParent")

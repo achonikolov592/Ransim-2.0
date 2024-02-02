@@ -116,7 +116,7 @@ func main() {
 	if numberOfStoppedRegistryModifications == 3 {
 		os.Exit(1)
 	} else {
-		os.Exit(2)
+		os.Exit(0)
 	}
 
 }

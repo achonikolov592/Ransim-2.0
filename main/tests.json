@@ -1,6 +1,6 @@
 [
 	{"Name":"GenArchiveFiles", "IsEnabled": false},
-	{"Name":"GenEicar", "IsEnabled": false},
+	{"Name":"GenEicar", "IsEnabled": true},
 	{"Name":"GenEncryptDecryptDirRecursive", "IsEnabled": false},
 	{"Name":"GenEncryptDecryptDirRecursivePartially", "IsEnabled": false},
 	{"Name":"GenGetSystemInformation", "IsEnabled": false},
@@ -9,8 +9,10 @@
 	{"Name":"GenDownloadMaliciousPayload", "IsEnabled": false},
 	{"Name":"WinServiceCreation", "IsEnabled": false},
 	{"Name":"WinPrivilegeEscalation", "IsEnabled": true},
-	{"Name":"GenRansomwareNoteDeploy", "IsEnabled": false},
+	{"Name":"GenRansomwareNoteDeploy", "IsEnabled": true},
 	{"Name":"GenExfiltrationOfFIles", "IsEnabled": false},
-	{"Name":"WinProcessHollowing", "IsEnabled":false},
-	{"Name":"WinRegistryKeysTest", "IsEnabled":true}
+	{"Name":"WinProcessHollowing", "IsEnabled":true},
+	{"Name":"WinRegistryKeysTest", "IsEnabled":true},
+	{"Name":"WinDLLSideLoading", "IsEnabled":true},
+	{"Name":"GenReverseShell", "IsEnabled":true}
 ]
