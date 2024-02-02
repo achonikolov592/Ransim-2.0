@@ -57,7 +57,8 @@ var testLocation = []location{location{"ArchiveFiles", "../ArchiveFiles/", "Arch
 	location{"PrivilegeEscalation", "../PrivEsc/", "AccsTok.exe", "exit status 1"},
 	location{"RansomwareNoteDeploy", "../RanNote/", "RanNote.exe", "nil"},
 	location{"ExfiltrationOfFIles", "../UploadFiles/", "Exfilt.exe", "nil"},
-	location{"ProcessHollowing", "../ProHoll32/", "ProHol32.exe", "exit status 1"},
+	location{"ProcessHollowing32", "../ProHoll32/", "ProHoll32.exe", "exit status 1"},
+	location{"ProcessHollowing64", "../ProHoll64/", "ProHoll64.exe", "exit status 1"},
 	location{"RegistryKeysTest", "../RegKeys/", "RegKeys.exe", "exit status 1"},
 	location{"DLLSideLoading", "../DLLSideLoading/", "DllLoad.exe", "exit status 1"},
 	location{"ReverseShell", "../RevSh/", "RevSh.exe", "exit status 1"}}
@@ -288,8 +289,22 @@ func main() {
 					incorrectTests = append(incorrectTests, whichTests[i].name)
 				}
 			}
-		} else if whichTests[i].name == "ProcessHollowing" {
+		} else if whichTests[i].name == "ProcessHollowing32" {
 			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, "C:\\windows\\syswow64\\notepad.exe")
+			cmd.Dir = whichTests[i].path
+			err := cmd.Run()
+			if err == nil {
+				incorrectTests = append(incorrectTests, whichTests[i].name)
+			} else {
+				if err.Error() == whichTests[i].expectedResult {
+					correctTests = append(correctTests, whichTests[i].name)
+				} else {
+					helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
+					incorrectTests = append(incorrectTests, whichTests[i].name)
+				}
+			}
+		} else if whichTests[i].name == "ProcessHollowing64" {
+			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, "C:\\windows\\System32\\notepad.exe")
 			cmd.Dir = whichTests[i].path
 			err := cmd.Run()
 			if err == nil {

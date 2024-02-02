@@ -11,7 +11,8 @@
 	{"Name":"WinPrivilegeEscalation", "IsEnabled": true},
 	{"Name":"GenRansomwareNoteDeploy", "IsEnabled": true},
 	{"Name":"GenExfiltrationOfFIles", "IsEnabled": false},
-	{"Name":"WinProcessHollowing", "IsEnabled":true},
+	{"Name":"WinProcessHollowing32", "IsEnabled":true},
+	{"Name":"WinProcessHollowing64", "IsEnabled":true},
 	{"Name":"WinRegistryKeysTest", "IsEnabled":true},
 	{"Name":"WinDLLSideLoading", "IsEnabled":true},
 	{"Name":"GenReverseShell", "IsEnabled":true}
