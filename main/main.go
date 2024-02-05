@@ -61,7 +61,8 @@ var testLocation = []location{location{"ArchiveFiles", "../ArchiveFiles/", "Arch
 	location{"ProcessHollowing64", "../ProHoll64/", "ProHoll64.exe", "exit status 1"},
 	location{"RegistryKeysTest", "../RegKeys/", "RegKeys.exe", "exit status 1"},
 	location{"DLLSideLoading", "../DLLSideLoading/", "DllLoad.exe", "exit status 1"},
-	location{"ReverseShell", "../RevSh/", "RevSh.exe", "exit status 1"}}
+	location{"ReverseShell", "../RevSh/", "RevSh.exe", "exit status 1"},
+	location{"OSCredentialDump", "../OSCredDump/", "CredDump.exe", "exit status 1"}}
 
 var locationForTestFolder = []string{"../ArchiveFiles", "../EncryptDecryptDirRecursive", "../EncryptDecryptDirRecursivePartially", "../SecureDeleteFiles", "../StartupFolderNewFile", "../UploadFiles"}
 
@@ -351,6 +352,29 @@ func main() {
 				} else {
 					helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
 					incorrectTests = append(incorrectTests, whichTests[i].name)
+				}
+			}
+		}
+	}
+	for i := 0; i < len(whichTests); i++ {
+		_, err := os.OpenFile(whichTests[i].path+whichTests[i].nameOfFile, os.O_RDWR, 0666)
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			if whichTests[i].expectedResult == "exit status 1" {
+				for j := 0; j < len(incorrectTests); j++ {
+					if incorrectTests[j] == whichTests[i].name {
+						incorrectTests = append(incorrectTests[:j], incorrectTests[j+1:]...)
+						correctTests = append(correctTests, whichTests[i].name)
+						break
+					}
+				}
+			} else {
+				for j := 0; j < len(correctTests); j++ {
+					if correctTests[j] == whichTests[i].name {
+						incorrectTests = append(correctTests[:j], correctTests[j+1:]...)
+						correctTests = append(incorrectTests, whichTests[i].name)
+						break
+					}
 				}
 			}
 		}

@@ -333,3 +333,24 @@
 [ERROR]: A required privilege is not held by the client. from pid 5216  AT 02 Feb 24 10:27 GMT
 [ERROR]: A required privilege is not held by the client. from pid 4148  AT 02 Feb 24 10:27 GMT
 [INFO]: Ending Test: ManipulateAccessToken AT 02 Feb 24 10:27 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 05 Feb 24 09:09 GMT
+[ERROR]: A required privilege is not held by the client. from pid 5552  AT 05 Feb 24 09:09 GMT
+[ERROR]: A required privilege is not held by the client. from pid 6064  AT 05 Feb 24 09:09 GMT
+[ERROR]: A required privilege is not held by the client. from pid 3508  AT 05 Feb 24 09:09 GMT
+[ERROR]: A required privilege is not held by the client. from pid 5424  AT 05 Feb 24 09:09 GMT
+[ERROR]: A required privilege is not held by the client. from pid 1028  AT 05 Feb 24 09:09 GMT
+[ERROR]: A required privilege is not held by the client. from pid 1780  AT 05 Feb 24 09:09 GMT
+[ERROR]: A required privilege is not held by the client. from pid 4608  AT 05 Feb 24 09:09 GMT
+[ERROR]: A required privilege is not held by the client. from pid 9000  AT 05 Feb 24 09:09 GMT
+[INFO]: Ending Test: ManipulateAccessToken AT 05 Feb 24 09:09 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 05 Feb 24 09:13 GMT
+[ERROR]: A required privilege is not held by the client. from pid 5552  AT 05 Feb 24 09:13 GMT
+[ERROR]: A required privilege is not held by the client. from pid 6064  AT 05 Feb 24 09:13 GMT
+[ERROR]: A required privilege is not held by the client. from pid 3508  AT 05 Feb 24 09:13 GMT
+[ERROR]: A required privilege is not held by the client. from pid 1028  AT 05 Feb 24 09:13 GMT
+[ERROR]: A required privilege is not held by the client. from pid 1780  AT 05 Feb 24 09:13 GMT
+[ERROR]: A required privilege is not held by the client. from pid 4608  AT 05 Feb 24 09:13 GMT
+[ERROR]: A required privilege is not held by the client. from pid 9000  AT 05 Feb 24 09:13 GMT
+[ERROR]: A required privilege is not held by the client. from pid 4100  AT 05 Feb 24 09:13 GMT
+[ERROR]: A required privilege is not held by the client. from pid 3528  AT 05 Feb 24 09:13 GMT
+[INFO]: Ending Test: ManipulateAccessToken AT 05 Feb 24 09:13 GMT

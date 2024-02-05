@@ -671,3 +671,6 @@
 [ERROR]: invalid argument AT 25 Jan 24 12:28 GMT
 [INFO]: Starting test: ArchiveFiles AT 25 Jan 24 12:28 GMT
 [ERROR]: remove testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 25 Jan 24 12:28 GMT
+[INFO]: Starting test: ArchiveFiles AT 02 Feb 24 10:31 GMT
+[INFO]: Starting test: ArchiveFiles AT 02 Feb 24 10:32 GMT
+[INFO]: Ending test: ArchiveFiles AT 02 Feb 24 10:32 GMT

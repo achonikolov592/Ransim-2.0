@@ -15,5 +15,6 @@
 	{"Name":"WinProcessHollowing64", "IsEnabled":true},
 	{"Name":"WinRegistryKeysTest", "IsEnabled":true},
 	{"Name":"WinDLLSideLoading", "IsEnabled":true},
-	{"Name":"GenReverseShell", "IsEnabled":true}
+	{"Name":"WinReverseShell", "IsEnabled":true},
+	{"Name":"WinOSCredentialDump", "IsEnabled":true}
 ]

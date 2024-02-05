@@ -1,2 +1,4 @@
 [ERROR]: open C:\Windows\System32\config\SAM: The system cannot find the file specified. AT 01 Feb 24 08:52 GMT
 [ERROR]: open C:\Windows\System32\config\SAM: The system cannot find the file specified. AT 01 Feb 24 09:01 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: Access is denied. AT 05 Feb 24 10:32 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: Access is denied. AT 05 Feb 24 09:14 GMT
