@@ -90,3 +90,5 @@
 [ERROR]: open ./out1.txt: The system cannot find the file specified. AT 05 Feb 24 09:09 GMT
 [INFO]: Starting test: EicarTest AT 05 Feb 24 09:13 GMT
 [ERROR]: open ./out1.txt: The system cannot find the file specified. AT 05 Feb 24 09:13 GMT
+[INFO]: Starting test: EicarTest AT 05 Feb 24 13:20 GMT
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 05 Feb 24 13:20 GMT

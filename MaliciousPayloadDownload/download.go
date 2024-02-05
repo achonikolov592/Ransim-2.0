@@ -19,7 +19,7 @@ func main() {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 		os.Exit(2)
 	}
-	defer out.Close()
+	defer os.Remove("./out1.zip")
 
 	resp, err := http.Get("https://github.com/kh4sh3i/Ransomware-Samples/raw/main/Petya/Ransomware.Petya.zip")
 	if err != nil {

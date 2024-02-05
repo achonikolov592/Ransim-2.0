@@ -34,7 +34,7 @@ func main() {
 		os.Exit(4)
 	}
 
-	_, err = os.Open("./out1.txt")
+	_, err = os.Open("./out.txt")
 	if err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 		os.Exit(1)

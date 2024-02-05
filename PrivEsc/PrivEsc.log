@@ -354,3 +354,14 @@
 [ERROR]: A required privilege is not held by the client. from pid 4100  AT 05 Feb 24 09:13 GMT
 [ERROR]: A required privilege is not held by the client. from pid 3528  AT 05 Feb 24 09:13 GMT
 [INFO]: Ending Test: ManipulateAccessToken AT 05 Feb 24 09:13 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 05 Feb 24 13:20 GMT
+[ERROR]: A required privilege is not held by the client. from pid 5552  AT 05 Feb 24 13:20 GMT
+[ERROR]: A required privilege is not held by the client. from pid 6064  AT 05 Feb 24 13:20 GMT
+[ERROR]: A required privilege is not held by the client. from pid 3508  AT 05 Feb 24 13:20 GMT
+[ERROR]: A required privilege is not held by the client. from pid 1780  AT 05 Feb 24 13:20 GMT
+[ERROR]: A required privilege is not held by the client. from pid 9000  AT 05 Feb 24 13:20 GMT
+[ERROR]: A required privilege is not held by the client. from pid 1868  AT 05 Feb 24 13:20 GMT
+[ERROR]: A required privilege is not held by the client. from pid 5856  AT 05 Feb 24 13:20 GMT
+[ERROR]: A required privilege is not held by the client. from pid 3284  AT 05 Feb 24 13:20 GMT
+[ERROR]: A required privilege is not held by the client. from pid 2524  AT 05 Feb 24 13:20 GMT
+[INFO]: Ending Test: ManipulateAccessToken AT 05 Feb 24 13:20 GMT

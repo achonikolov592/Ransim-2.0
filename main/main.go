@@ -382,6 +382,28 @@ func main() {
 	getResults(nameOfLogFile, whichTests, correctTests)
 	fmt.Println("You can check the results!")
 
+	for i := 0; i < len(whichTests); i++ {
+		if _, err := os.Open(whichTests[i].path + whichTests[i].name); err != nil {
+			if whichTests[i].expectedResult == "exit status 1" {
+				for j := 0; j < len(incorrectTests); j++ {
+					if incorrectTests[j] == whichTests[i].name {
+						incorrectTests = append(incorrectTests[:j], incorrectTests[j+1:]...)
+						correctTests = append(correctTests, whichTests[i].name)
+						break
+					}
+				}
+			} else {
+				for j := 0; j < len(correctTests); j++ {
+					if correctTests[j] == whichTests[i].name {
+						correctTests = append(correctTests[:j], correctTests[j+1:]...)
+						incorrectTests = append(incorrectTests, whichTests[i].name)
+						break
+					}
+				}
+			}
+		}
+	}
+
 	for i := 0; i < len(locationForTestFolder); i++ {
 		err := os.RemoveAll(locationForTestFolder[i] + "/testFilesParent")
 		if err != nil {

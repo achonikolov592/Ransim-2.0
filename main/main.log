@@ -2675,3 +2675,13 @@
 [ERROR]: remove ../EncryptDecryptDirRecursivePartially/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 05 Feb 24 09:14 GMT
 [ERROR]: remove ../SecureDeleteFiles/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 05 Feb 24 09:14 GMT
 [ERROR]: remove ../StartupFolderNewFile/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 05 Feb 24 09:14 GMT
+[ERROR]: mkdir ../ArchiveFiles/testFilesParent: Cannot create a file when that file already exists. AT 05 Feb 24 13:20 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursive/testFilesParent: Cannot create a file when that file already exists. AT 05 Feb 24 13:20 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursivePartially/testFilesParent: Cannot create a file when that file already exists. AT 05 Feb 24 13:20 GMT
+[ERROR]: mkdir ../SecureDeleteFiles/testFilesParent: Cannot create a file when that file already exists. AT 05 Feb 24 13:20 GMT
+[ERROR]: mkdir ../StartupFolderNewFile/testFilesParent: Cannot create a file when that file already exists. AT 05 Feb 24 13:20 GMT
+[ERROR]: exit status 2 from ReverseShell AT 05 Feb 24 13:22 GMT
+[ERROR]: remove ../ArchiveFiles/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 05 Feb 24 13:22 GMT
+[ERROR]: remove ../EncryptDecryptDirRecursive/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 05 Feb 24 13:22 GMT
+[ERROR]: remove ../EncryptDecryptDirRecursivePartially/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 05 Feb 24 13:22 GMT
+[ERROR]: remove ../SecureDeleteFiles/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 05 Feb 24 13:22 GMT
