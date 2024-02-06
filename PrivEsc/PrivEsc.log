@@ -365,3 +365,39 @@
 [ERROR]: A required privilege is not held by the client. from pid 3284  AT 05 Feb 24 13:20 GMT
 [ERROR]: A required privilege is not held by the client. from pid 2524  AT 05 Feb 24 13:20 GMT
 [INFO]: Ending Test: ManipulateAccessToken AT 05 Feb 24 13:20 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 06 Feb 24 11:56 GMT
+[ERROR]: A required privilege is not held by the client. from pid 5396  AT 06 Feb 24 11:56 GMT
+[ERROR]: A required privilege is not held by the client. from pid 5944  AT 06 Feb 24 11:56 GMT
+[ERROR]: A required privilege is not held by the client. from pid 7180  AT 06 Feb 24 11:56 GMT
+[ERROR]: A required privilege is not held by the client. from pid 8972  AT 06 Feb 24 11:56 GMT
+[ERROR]: A required privilege is not held by the client. from pid 6784  AT 06 Feb 24 11:56 GMT
+[ERROR]: A required privilege is not held by the client. from pid 7952  AT 06 Feb 24 11:56 GMT
+[ERROR]: A required privilege is not held by the client. from pid 1816  AT 06 Feb 24 11:56 GMT
+[ERROR]: A required privilege is not held by the client. from pid 6856  AT 06 Feb 24 11:56 GMT
+[ERROR]: A required privilege is not held by the client. from pid 10236  AT 06 Feb 24 11:56 GMT
+[INFO]: Ending Test: ManipulateAccessToken AT 06 Feb 24 11:56 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 06 Feb 24 12:15 GMT
+[ERROR]: Access is denied. from pid 100  AT 06 Feb 24 12:15 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 06 Feb 24 12:21 GMT
+[ERROR]: Access is denied. from pid 100  AT 06 Feb 24 12:21 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 06 Feb 24 12:25 GMT
+[ERROR]: Access is denied. from pid 100  AT 06 Feb 24 12:25 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 06 Feb 24 12:27 GMT
+[ERROR]: Access is denied. from pid 100  AT 06 Feb 24 12:27 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 06 Feb 24 12:30 GMT
+[ERROR]: Access is denied. from pid 100  AT 06 Feb 24 12:30 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 06 Feb 24 12:33 GMT
+[ERROR]: Access is denied. from pid 100  AT 06 Feb 24 12:33 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 06 Feb 24 12:35 GMT
+[ERROR]: Access is denied. from pid 100  AT 06 Feb 24 12:35 GMT
+[INFO]: Starting Test: ManipulateAccessToken AT 06 Feb 24 12:36 GMT
+[ERROR]: A required privilege is not held by the client. from pid 5396  AT 06 Feb 24 12:36 GMT
+[ERROR]: A required privilege is not held by the client. from pid 5944  AT 06 Feb 24 12:36 GMT
+[ERROR]: A required privilege is not held by the client. from pid 7180  AT 06 Feb 24 12:36 GMT
+[ERROR]: A required privilege is not held by the client. from pid 8972  AT 06 Feb 24 12:36 GMT
+[ERROR]: A required privilege is not held by the client. from pid 6784  AT 06 Feb 24 12:36 GMT
+[ERROR]: A required privilege is not held by the client. from pid 7952  AT 06 Feb 24 12:36 GMT
+[ERROR]: A required privilege is not held by the client. from pid 1816  AT 06 Feb 24 12:36 GMT
+[ERROR]: A required privilege is not held by the client. from pid 6856  AT 06 Feb 24 12:36 GMT
+[ERROR]: A required privilege is not held by the client. from pid 10236  AT 06 Feb 24 12:36 GMT
+[INFO]: Ending Test: ManipulateAccessToken AT 06 Feb 24 12:36 GMT

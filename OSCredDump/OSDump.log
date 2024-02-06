@@ -3,3 +3,9 @@
 [ERROR]: open C:\Windows\System32\config\SAM: Access is denied. AT 05 Feb 24 10:32 GMT
 [ERROR]: open C:\Windows\System32\config\SAM: Access is denied. AT 05 Feb 24 09:14 GMT
 [ERROR]: open C:\Windows\System32\config\SAM: Access is denied. AT 05 Feb 24 13:22 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 06 Feb 24 12:16 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 06 Feb 24 12:22 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 06 Feb 24 12:26 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 06 Feb 24 12:28 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 06 Feb 24 12:31 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 06 Feb 24 12:34 GMT

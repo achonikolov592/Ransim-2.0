@@ -19,3 +19,52 @@
 [INFO]: Starting test: ServiceCreation AT 25 Jan 24 18:18 GMT
 [INFO]: Installing and Running service AT 25 Jan 24 18:18 GMT
 [ERROR]: Access is denied. AT 25 Jan 24 18:18 GMT
+[INFO]: Starting test: ServiceCreation AT 06 Feb 24 11:56 GMT
+[INFO]: Installing and Running service AT 06 Feb 24 11:56 GMT
+[ERROR]: Access is denied. AT 06 Feb 24 11:56 GMT
+[INFO]: Starting test: ServiceCreation AT 06 Feb 24 11:57 GMT
+[INFO]: Installing and Running service AT 06 Feb 24 11:57 GMT
+[INFO]: Starting Encryption AT 06 Feb 24 11:57 GMT
+[INFO]: Start creating test files AT 06 Feb 24 11:57 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 06 Feb 24 11:57 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 06 Feb 24 11:57 GMT
+[INFO]: Ending Encryption AT 06 Feb 24 11:57 GMT
+[INFO]: Starting Encryption AT 06 Feb 24 11:57 GMT
+[INFO]: Start creating test files AT 06 Feb 24 11:57 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 06 Feb 24 11:57 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 06 Feb 24 11:57 GMT
+[INFO]: Ending Encryption AT 06 Feb 24 11:57 GMT
+[INFO]: Starting Encryption AT 06 Feb 24 11:57 GMT
+[INFO]: Start creating test files AT 06 Feb 24 11:57 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 06 Feb 24 11:57 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 06 Feb 24 11:57 GMT
+[INFO]: Ending Encryption AT 06 Feb 24 11:57 GMT
+[INFO]: Starting Encryption AT 06 Feb 24 11:57 GMT
+[INFO]: Start creating test files AT 06 Feb 24 11:57 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 06 Feb 24 11:57 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 06 Feb 24 11:57 GMT
+[INFO]: Ending Encryption AT 06 Feb 24 11:57 GMT
+[INFO]: Starting Encryption AT 06 Feb 24 11:58 GMT
+[INFO]: Start creating test files AT 06 Feb 24 11:58 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 06 Feb 24 11:58 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 06 Feb 24 11:58 GMT
+[INFO]: Ending Encryption AT 06 Feb 24 11:58 GMT
+[INFO]: Starting Encryption AT 06 Feb 24 11:58 GMT
+[INFO]: Start creating test files AT 06 Feb 24 11:58 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 06 Feb 24 11:58 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 06 Feb 24 11:58 GMT
+[INFO]: Ending Encryption AT 06 Feb 24 11:58 GMT
+[INFO]: Starting Encryption AT 06 Feb 24 11:58 GMT
+[INFO]: Start creating test files AT 06 Feb 24 11:58 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 06 Feb 24 11:58 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 06 Feb 24 11:58 GMT
+[INFO]: Ending Encryption AT 06 Feb 24 11:58 GMT
+[INFO]: Starting Encryption AT 06 Feb 24 11:58 GMT
+[INFO]: Start creating test files AT 06 Feb 24 11:58 GMT
+[INFO]: Encrypted: testfiles\c.txt AT 06 Feb 24 11:58 GMT
+[INFO]: Encrypted: testfiles\sub\b.txt AT 06 Feb 24 11:58 GMT
+[INFO]: Ending Encryption AT 06 Feb 24 11:58 GMT
+[ERROR]: The service has not been started. AT 06 Feb 24 11:58 GMT
+[INFO]: Starting test: ServiceCreation AT 06 Feb 24 12:36 GMT
+[INFO]: Installing and Running service AT 06 Feb 24 12:36 GMT
+[ERROR]: Access is denied. AT 06 Feb 24 12:36 GMT

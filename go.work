@@ -29,8 +29,9 @@ use (
 	./SecureDeleteFiles/SecureDeleteFile
 	./ServiceCreation
 	./StartupFolderNewFile
-	./StartupFolderNewFile/encr
+	./StartupFolderNewFile/ShowBox
 	./UploadFiles
 	./helpers
 	./main
+	./mainAdmin
 )

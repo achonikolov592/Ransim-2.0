@@ -2685,3 +2685,12 @@
 [ERROR]: remove ../EncryptDecryptDirRecursive/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 05 Feb 24 13:22 GMT
 [ERROR]: remove ../EncryptDecryptDirRecursivePartially/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 05 Feb 24 13:22 GMT
 [ERROR]: remove ../SecureDeleteFiles/testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 05 Feb 24 13:22 GMT
+[ERROR]: mkdir ../ArchiveFiles/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 11:56 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursive/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 11:56 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursivePartially/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 11:56 GMT
+[ERROR]: mkdir ../SecureDeleteFiles/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 11:56 GMT
+[ERROR]: mkdir ../ArchiveFiles/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 12:36 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursive/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 12:36 GMT
+[ERROR]: mkdir ../EncryptDecryptDirRecursivePartially/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 12:36 GMT
+[ERROR]: mkdir ../SecureDeleteFiles/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 12:36 GMT
+[ERROR]: mkdir ../UploadFiles/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 12:36 GMT

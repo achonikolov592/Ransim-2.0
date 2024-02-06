@@ -92,3 +92,23 @@
 [ERROR]: open ./out1.txt: The system cannot find the file specified. AT 05 Feb 24 09:13 GMT
 [INFO]: Starting test: EicarTest AT 05 Feb 24 13:20 GMT
 [ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 05 Feb 24 13:20 GMT
+[INFO]: Starting test: EicarTest AT 06 Feb 24 11:56 GMT
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 11:56 GMT
+[INFO]: Starting test: EicarTest AT 06 Feb 24 11:57 GMT
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 11:57 GMT
+[INFO]: Starting test: EicarTest AT 06 Feb 24 12:15 GMT
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 12:15 GMT
+[INFO]: Starting test: EicarTest AT 06 Feb 24 12:20 GMT
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 12:20 GMT
+[INFO]: Starting test: EicarTest AT 06 Feb 24 12:25 GMT
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 12:25 GMT
+[INFO]: Starting test: EicarTest AT 06 Feb 24 12:27 GMT
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 12:27 GMT
+[INFO]: Starting test: EicarTest AT 06 Feb 24 12:30 GMT
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 12:30 GMT
+[INFO]: Starting test: EicarTest AT 06 Feb 24 12:33 GMT
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 12:33 GMT
+[INFO]: Starting test: EicarTest AT 06 Feb 24 12:35 GMT
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 12:35 GMT
+[INFO]: Starting test: EicarTest AT 06 Feb 24 12:36 GMT
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 12:36 GMT

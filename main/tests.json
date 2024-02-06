@@ -7,7 +7,7 @@
 	{"Name":"GenSecureDeleteFiles", "IsEnabled": false},
 	{"Name":"WinStartupFolderNewFile", "IsEnabled": false},
 	{"Name":"GenDownloadMaliciousPayload", "IsEnabled": false},
-	{"Name":"WinServiceCreation", "IsEnabled": false},
+	{"Name":"WinServiceCreation", "IsEnabled": true},
 	{"Name":"WinPrivilegeEscalation", "IsEnabled": true},
 	{"Name":"GenRansomwareNoteDeploy", "IsEnabled": true},
 	{"Name":"GenExfiltrationOfFIles", "IsEnabled": false},

@@ -23,7 +23,7 @@ func (p *program) run() {
 	for {
 		helpers.WriteLog(nameOfLogFile, "Starting Encryption", 2)
 		helpers.CreateTestFiles("./", nameOfLogFile)
-		encrypt.EncryptDir("./testfiles/", nameOfLogFile, nameOfEncryptionInfoFile)
+		encrypt.EncryptDir("./testFilesParent", nameOfLogFile, nameOfEncryptionInfoFile)
 		helpers.WriteLog(nameOfLogFile, "Ending Encryption", 2)
 		time.Sleep(10 * time.Second)
 	}
