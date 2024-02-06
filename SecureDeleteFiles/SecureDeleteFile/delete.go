@@ -37,7 +37,7 @@ func SecureDelete(filename string, nameOfLogFile string, timeToDelay int) {
 
 		zeros := make([]byte, howMuchToChange)
 
-		_, err = file.WriteAt([]byte(zeros), position)
+		_, err = file.WriteAt(zeros, position)
 		if err != nil {
 			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 			os.Exit(7)

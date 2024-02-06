@@ -17,9 +17,6 @@ func main() {
 	helpers.WriteLog(nameOfLogFile, "Strating test: EncryptDecryptDir", 2)
 
 	if strings.ToLower(os.Args[1]) == "true" {
-		helpers.RemoveTestFilesIfExists("./")
-		//helpers.CreateMultipleTestFiles("./", nameOfLogFile)
-
 		err := os.Remove("./EncryptionInfo.log")
 		if err != nil {
 			fmt.Println(err.Error())
@@ -35,11 +32,11 @@ func main() {
 
 	if strings.ToLower(os.Args[2]) == "true" {
 
-		helpers.WriteLog(nameOfLogFile, "Starting encryption", 2)
+		helpers.WriteLog(nameOfLogFile, "Starting decryption", 2)
 
 		decrypt.DecryptDir("./testFilesParent", "./EncryptionInfo.log", nameOfLogFile)
 
-		helpers.WriteLog(nameOfLogFile, "Ending encryption", 2)
+		helpers.WriteLog(nameOfLogFile, "Ending decryption", 2)
 	}
 
 	helpers.WriteLog(nameOfLogFile, "Endinging test: EncryptDecryptDir", 2)

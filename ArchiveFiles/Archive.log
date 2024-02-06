@@ -674,3 +674,7 @@
 [INFO]: Starting test: ArchiveFiles AT 02 Feb 24 10:31 GMT
 [INFO]: Starting test: ArchiveFiles AT 02 Feb 24 10:32 GMT
 [INFO]: Ending test: ArchiveFiles AT 02 Feb 24 10:32 GMT
+[INFO]: Starting test: ArchiveFiles AT 06 Feb 24 18:38 GMT
+[ERROR]: remove testFilesParent\testfiles0\0a.txt: The process cannot access the file because it is being used by another process. AT 06 Feb 24 18:38 GMT
+[INFO]: Starting test: ArchiveFiles AT 06 Feb 24 18:39 GMT
+[INFO]: Ending test: ArchiveFiles AT 06 Feb 24 18:39 GMT

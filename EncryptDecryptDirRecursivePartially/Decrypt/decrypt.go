@@ -64,8 +64,6 @@ func decrypt(dirToDecrypt string, c cipher.AEAD, wherePartsAreEncryptedInLexical
 			whichIteration++
 			helpers.WriteLog(nameOfLogFile, "Decrypted: "+file, 2)
 
-		} else {
-			decrypt(info.Name(), c, wherePartsAreEncryptedInLexicalOrder, whichIteration, nameOfLogFile)
 		}
 	}
 }

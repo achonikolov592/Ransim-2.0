@@ -17,17 +17,15 @@ func deleteFilesInDir(dir string, nameOfLogFile string, timeToDelay int) {
 		return nil
 	})
 
-	for _, file := range filesInDir {
-		info, err := os.Stat(file)
+	for i := 0; i < len(filesInDir); i++ {
+		info, err := os.Stat(filesInDir[i])
 		if err != nil {
 			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 			os.Exit(2)
 		}
 
 		if !(info.IsDir()) {
-			SecureDeleteFile.SecureDelete(file, nameOfLogFile, timeToDelay)
-		} else {
-			deleteFilesInDir(file, nameOfLogFile, timeToDelay)
+			SecureDeleteFile.SecureDelete(filesInDir[i], nameOfLogFile, timeToDelay)
 		}
 	}
 

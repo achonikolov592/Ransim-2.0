@@ -53,8 +53,6 @@ func decrypt(dirToDecrypt string, c cipher.AEAD, nameOfLogFile string) {
 				os.Exit(9)
 			}
 
-		} else {
-			go decrypt(info.Name(), c, nameOfLogFile)
 		}
 	}
 

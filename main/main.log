@@ -2694,3 +2694,4 @@
 [ERROR]: mkdir ../EncryptDecryptDirRecursivePartially/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 12:36 GMT
 [ERROR]: mkdir ../SecureDeleteFiles/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 12:36 GMT
 [ERROR]: mkdir ../UploadFiles/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 12:36 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 06 Feb 24 15:09 GMT

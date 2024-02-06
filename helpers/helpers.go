@@ -65,19 +65,28 @@ func CreateTestFiles(dir string, logfile string) {
 }
 
 func CreateMultipleTestFiles(dir string, logfile string, files []*os.File, numberOfDirs, numberOfFIles int) {
-	err := os.Mkdir(dir+"/testFilesParent", 0777)
-	if err != nil {
-		WriteLog(logfile, err.Error(), 1)
+	if _, err := os.Stat(dir + "/testFilesParent"); err != nil {
+		err := os.Mkdir(dir+"/testFilesParent", 0777)
+		if err != nil {
+			WriteLog(logfile, err.Error(), 1)
+		}
 	}
 
 	for i := 0; i < numberOfDirs; i++ {
 		testFileDir := dir + "/testFilesParent/testfiles" + strconv.Itoa(i) + "/"
-		os.Mkdir(testFileDir, 0777)
+		if _, err := os.Stat(testFileDir); err != nil {
+			err := os.Mkdir(testFileDir, 0777)
+			if err != nil {
+				WriteLog(logfile, err.Error(), 1)
+			}
+		}
+
 		for j := 0; j < len(files); j++ {
 			fileContent, err := io.ReadAll(files[j])
 			if err != nil {
 				WriteLog(logfile, err.Error(), 1)
 			}
+			files[j].Seek(0, io.SeekStart)
 			for iof := 0; iof < numberOfFIles; iof++ {
 				f, err := os.Create(testFileDir + strconv.Itoa(iof) + files[j].Name()[16:])
 				if err != nil {
@@ -89,13 +98,21 @@ func CreateMultipleTestFiles(dir string, logfile string, files []*os.File, numbe
 				}
 			}
 		}
+
 		testFileSubDir := testFileDir + "sub/"
-		os.Mkdir(testFileSubDir, 0777)
+		if _, err := os.Stat(testFileSubDir); err != nil {
+			err := os.Mkdir(testFileSubDir, 0777)
+			if err != nil {
+				WriteLog(logfile, err.Error(), 1)
+			}
+		}
+
 		for j := 0; j < len(files); j++ {
 			fileContent, err := io.ReadAll(files[j])
 			if err != nil {
 				WriteLog(logfile, err.Error(), 1)
 			}
+			files[j].Seek(0, io.SeekStart)
 			for iof := 0; iof < numberOfFIles; iof++ {
 				f, err := os.Create(testFileSubDir + strconv.Itoa(iof) + files[j].Name()[16:])
 				if err != nil {
@@ -129,9 +146,11 @@ func CreateLogFileIfItDoesNotExist(dir string, name string) string {
 
 }
 
-func RemoveTestFilesIfExists(dir string) {
-	os.RemoveAll(dir + "testfiles")
-	os.RemoveAll(dir + "testFilesParent")
+func RemoveTestFilesIfExists(dir string) error {
+	err := os.RemoveAll(dir + "testfiles")
+	err = os.RemoveAll(dir + "testFilesParent")
+
+	return err
 }
 
 func WriteLog(logfile string, line string, opt int) {

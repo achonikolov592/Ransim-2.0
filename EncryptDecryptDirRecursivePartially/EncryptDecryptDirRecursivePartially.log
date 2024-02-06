@@ -4673,3 +4673,24 @@
 [INFO]: Decrypted: testFilesParent\testfiles1\2i.bmp AT 25 Jan 24 18:18 GMT
 [INFO]: Ending test: DecryptDirRecursivePartially AT 25 Jan 24 18:18 GMT
 [INFO]: Endinging test: EncryptDecryptDirPartially AT 25 Jan 24 18:18 GMT
+[INFO]: Start creating test files AT 06 Feb 24 15:25 GMT
+[INFO]: Strating test: EncryptDirPartially AT 06 Feb 24 15:25 GMT
+[ERROR]: Encrypted: testfiles\c.txt AT 06 Feb 24 15:25 GMT
+[ERROR]: Encrypted: testfiles\sub\b.txt AT 06 Feb 24 15:25 GMT
+[INFO]: Ending test: EncryptDecryptDirRecursivePartially AT 06 Feb 24 15:25 GMT
+[INFO]: Endinging test: EncryptDecryptDirPartially AT 06 Feb 24 15:25 GMT
+[INFO]: Strating test: DecryptDirRecursivePartially AT 06 Feb 24 15:26 GMT
+[INFO]: Decrypted: testfiles\c.txt AT 06 Feb 24 15:26 GMT
+[INFO]: Decrypted: testfiles\sub\b.txt AT 06 Feb 24 15:26 GMT
+[INFO]: Ending test: DecryptDirRecursivePartially AT 06 Feb 24 15:26 GMT
+[INFO]: Endinging test: EncryptDecryptDirPartially AT 06 Feb 24 15:26 GMT
+[INFO]: Start creating test files AT 06 Feb 24 18:28 GMT
+[INFO]: Strating test: EncryptDirPartially AT 06 Feb 24 18:28 GMT
+[ERROR]: Encrypted: testfiles\c.txt AT 06 Feb 24 18:28 GMT
+[ERROR]: Encrypted: testfiles\sub\b.txt AT 06 Feb 24 18:28 GMT
+[INFO]: Ending test: EncryptDecryptDirRecursivePartially AT 06 Feb 24 18:28 GMT
+[INFO]: Strating test: DecryptDirRecursivePartially AT 06 Feb 24 18:28 GMT
+[INFO]: Decrypted: testfiles\c.txt AT 06 Feb 24 18:28 GMT
+[INFO]: Decrypted: testfiles\sub\b.txt AT 06 Feb 24 18:28 GMT
+[INFO]: Ending test: DecryptDirRecursivePartially AT 06 Feb 24 18:28 GMT
+[INFO]: Endinging test: EncryptDecryptDirPartially AT 06 Feb 24 18:28 GMT

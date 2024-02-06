@@ -404,11 +404,11 @@ func main() {
 		}
 	}
 
-	for i := 0; i < len(locationForTestFolder); i++ {
-		err := os.RemoveAll(locationForTestFolder[i] + "/testFilesParent")
+	/*for i := 0; i < len(locationForTestFolder); i++ {
+		err := helpers.RemoveTestFilesIfExists(locationForTestFolder[i])
 		if err != nil {
 			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 		}
-	}
+	}*/
 
 }

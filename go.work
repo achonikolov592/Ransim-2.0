@@ -2,6 +2,7 @@ go 1.21.5
 
 use (
 	./ArchiveFiles
+	./ArchiveFiles/ZipDir
 	./DLLSideLoading
 	./DLLs
 	./DefEnv
