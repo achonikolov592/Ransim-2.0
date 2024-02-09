@@ -101,6 +101,7 @@ func disableUAC(nameOfLogFile string) int {
 	err = keyUAC.SetDWordValue("EnableLUA", uint32(0))
 	if err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		return 1
 	}
 
 	return 0

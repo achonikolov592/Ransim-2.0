@@ -65,3 +65,9 @@
 [INFO]: Ending Test: GetSysInfo AT 25 Jan 24 14:45 GMT
 [INFO]: Starting Test: GetSysInfo AT 25 Jan 24 18:18 GMT
 [INFO]: Ending Test: GetSysInfo AT 25 Jan 24 18:18 GMT
+[INFO]: Starting Test: GetSysInfo AT 09 Feb 24 11:39 GMT
+[ERROR]: exec: already started AT 09 Feb 24 11:39 GMT
+[INFO]: Starting Test: GetSysInfo AT 09 Feb 24 11:40 GMT
+[ERROR]: exec: "ntbstat": executable file not found in %PATH% AT 09 Feb 24 11:40 GMT
+[INFO]: Starting Test: GetSysInfo AT 09 Feb 24 11:40 GMT
+[INFO]: Ending Test: GetSysInfo AT 09 Feb 24 11:40 GMT

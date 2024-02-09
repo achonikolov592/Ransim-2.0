@@ -11,12 +11,14 @@ func main() {
 	helpers.WriteLog(nameOfLogFile, "Starting Test: GetSysInfo", 2)
 	os.Remove("./SystemInformation.log")
 	nameOfContentFile := helpers.CreateLogFileIfItDoesNotExist("./", "SystemInformation")
+
 	getSystemInfo := exec.Command("systeminfo")
 	getPowershellSystemInfo := exec.Command("powershell.exe", "Get-ComputerInfo")
 	getTasklist := exec.Command("tasklist")
 	getNetstat := exec.Command("netstat", "-a")
 	getPortocolStatistics := exec.Command("netstat", "-s")
 	getIpconfig := exec.Command("ipconfig", "/all")
+	getNetBIOS := exec.Command("nbtstat", "-S")
 
 	f, err := os.OpenFile(nameOfContentFile, os.O_APPEND, 0666)
 	if err != nil {
@@ -30,6 +32,7 @@ func main() {
 	getNetstat.Stdout = f
 	getPortocolStatistics.Stdout = f
 	getIpconfig.Stdout = f
+	getNetBIOS.Stdout = f
 
 	helpers.WriteLog(nameOfContentFile, "----------------------------------------------------SYSTEMINFO------------------------------------------------\n", 0)
 	err = getSystemInfo.Run()
@@ -68,6 +71,13 @@ func main() {
 
 	helpers.WriteLog(nameOfContentFile, "----------------------------------------------------IPCONFIG------------------------------------------------\n", 0)
 	err = getIpconfig.Run()
+	if err != nil {
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		os.Exit(8)
+	}
+
+	helpers.WriteLog(nameOfContentFile, "----------------------------------------------------NetBIOS------------------------------------------------\n", 0)
+	err = getNetBIOS.Run()
 	if err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 		os.Exit(8)
