@@ -1,6 +1,7 @@
 package main
 
 import (
+	//obfuscate "RRA/Obfuscation"
 	"encoding/json"
 	"fmt"
 	"helpers"
@@ -29,12 +30,12 @@ type location struct {
 	expectedResult string
 }
 
-type tests struct {
+type Test struct {
 	Name      string
 	IsEnabled bool
 }
 
-type DirSettings struct {
+type Setts struct {
 	DirNumber                 int
 	DirNumberFiles            int
 	DocumentFiles             string
@@ -45,6 +46,11 @@ type DirSettings struct {
 	IPAddrForReverseShell     string
 }
 
+type Config struct {
+	Tests    []Test
+	Settings Setts
+}
+
 var testLocation = []location{location{"ArchiveFiles", "../ArchiveFiles/", "ArchiveFiles.exe", "nil"},
 	location{"Eicar", "../Eicar/", "Eic.exe", "exit status 1"},
 	location{"EncryptDecryptDirRecursive", "../EncryptDecryptDirRecursive/", "EncryptDecryptDirRecursive.exe", "nil"},
@@ -52,11 +58,10 @@ var testLocation = []location{location{"ArchiveFiles", "../ArchiveFiles/", "Arch
 	location{"GetSystemInformation", "../GetSysInfo/", "GetSysInfo.exe", "nil"},
 	location{"SecureDeleteFiles", "../SecureDeleteFiles/", "SecureDeleteFiles.exe", "nil"},
 	location{"StartupFolderNewFile", "../StartupFolderNewFile/", "Startup.exe", "exit status 1"},
-	location{"DownloadMaliciousPayload", "../MaliciousPayloadDownload/", "MaliciousPayloadDownload.exe", "exit status 1"},
 	location{"ServiceCreation", "../ServiceCreation/", "ServiceCreation.exe", "exit status 1"},
 	location{"PrivilegeEscalation", "../PrivEsc/", "AccsTok.exe", "exit status 1"},
 	location{"RansomwareNoteDeploy", "../RanNote/", "RanNote.exe", "nil"},
-	location{"ExfiltrationOfFIles", "../UploadFiles/", "Exfilt.exe", "nil"},
+	location{"ExfiltrationOfFiles", "../UploadFiles/", "Exfilt.exe", "nil"},
 	location{"ProcessHollowing32", "../ProHoll32/", "ProHoll32.exe", "exit status 1"},
 	location{"ProcessHollowing64", "../ProHoll64/", "ProHoll64.exe", "exit status 1"},
 	location{"RegistryKeysTest", "../RegKeys/", "RegKeys.exe", "exit status 1"},
@@ -66,31 +71,20 @@ var testLocation = []location{location{"ArchiveFiles", "../ArchiveFiles/", "Arch
 
 var locationForTestFolder = []string{"../ArchiveFiles", "../EncryptDecryptDirRecursive", "../EncryptDecryptDirRecursivePartially", "../SecureDeleteFiles", "../ServiceCreation", "../UploadFiles"}
 
-func getTestSettings() ([]tests, error) {
-	var testSetts []tests
+func getTestConfig() (Config, error) {
+	var config Config
 	jsonFile, err := os.Open("./tests.json")
 	if err != nil {
-		return testSetts, err
+		return config, err
 	}
 
 	value, _ := io.ReadAll(jsonFile)
-	json.Unmarshal(value, &testSetts)
-	return testSetts, nil
+	json.Unmarshal(value, &config)
+
+	return config, nil
 }
 
-func getSettings() (DirSettings, error) {
-	var Setts DirSettings
-	jsonFile, err := os.Open("./settings.json")
-	if err != nil {
-		return Setts, err
-	}
-
-	value, _ := io.ReadAll(jsonFile)
-	json.Unmarshal(value, &Setts)
-	return Setts, nil
-}
-
-func finLocationByName(name string) (location, error) {
+func findLocationByName(name string) (location, error) {
 
 	for i := 0; i < len(testLocation); i++ {
 		if name == testLocation[i].name {
@@ -102,18 +96,13 @@ func finLocationByName(name string) (location, error) {
 	return loc, &customError{Message: "Invalid name"}
 }
 
-func SettingsAndPrepareTestFiles(nameOfLogFile string) DirSettings {
-	settings, err := getSettings()
-	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-		os.Exit(2)
-	}
+func prepareTestFiles(nameOfLogFile string, settings Setts) {
 
 	DocFilesFormat := strings.Fields(settings.DocumentFiles)
 	PicFilesFormat := strings.Fields(settings.PictureFiles)
 
 	var files []*os.File
-	err = filepath.Walk("../TestFilesAll", func(path string, info fs.FileInfo, err error) error {
+	err := filepath.Walk("../TestFilesAll", func(path string, info fs.FileInfo, err error) error {
 		if !(info.IsDir()) {
 			i := 0
 			for i = 0; i < len(DocFilesFormat); i++ {
@@ -140,30 +129,30 @@ func SettingsAndPrepareTestFiles(nameOfLogFile string) DirSettings {
 		return nil
 	})
 
-	/*for i := 0; i < len(files); i++ {
-		fmt.Println(files[i].Name())
-	}*/
+	if err != nil {
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		os.Exit(1)
+	}
 
 	for i := 0; i < len(locationForTestFolder); i++ {
 		helpers.CreateMultipleTestFiles(locationForTestFolder[i], nameOfLogFile, files, settings.DirNumber, settings.DirNumberFiles)
 	}
 
-	return settings
 }
 
-func getWhichTestToExecute(nameOfLogFile string) []location {
-	tests, err := getTestSettings()
+func getWhichTestToExecuteAndSettings(nameOfLogFile string) ([]location, Setts) {
+	config, err := getTestConfig()
 	if err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 		os.Exit(1)
 	}
 
 	var whichTests []location
-	for i := 1; i < len(tests); i++ {
-		if tests[i].IsEnabled {
-			if tests[i].Name[:3] == "Win" || tests[i].Name[:3] == "Lin" {
-				if strings.ToLower(tests[i].Name[:3]) == runtime.GOOS[:3] {
-					loc, err := finLocationByName(tests[i].Name[3:])
+	for i := 1; i < len(config.Tests); i++ {
+		if config.Tests[i].IsEnabled {
+			if config.Tests[i].Name[:3] == "Win" || config.Tests[i].Name[:3] == "Lin" {
+				if strings.ToLower(config.Tests[i].Name[:3]) == runtime.GOOS[:3] {
+					loc, err := findLocationByName(config.Tests[i].Name[3:])
 					if err != nil {
 						fmt.Println(err.Error())
 						os.Exit(1)
@@ -172,7 +161,7 @@ func getWhichTestToExecute(nameOfLogFile string) []location {
 				}
 
 			} else {
-				loc, err := finLocationByName(tests[i].Name[3:])
+				loc, err := findLocationByName(config.Tests[i].Name[3:])
 				if err != nil {
 					fmt.Println(err.Error())
 					os.Exit(1)
@@ -183,7 +172,7 @@ func getWhichTestToExecute(nameOfLogFile string) []location {
 		}
 	}
 
-	return whichTests
+	return whichTests, config.Settings
 }
 
 func isTestCorrect(name string, correctTests []string) bool {
@@ -231,8 +220,8 @@ func getResults(nameOfLogFile string, whichTest []location, correctTests []strin
 func main() {
 	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "main")
 
-	whichTests := getWhichTestToExecute("tests.json")
-	settings := SettingsAndPrepareTestFiles(nameOfLogFile)
+	whichTests, settings := getWhichTestToExecuteAndSettings("tests.json")
+	prepareTestFiles(nameOfLogFile, settings)
 	//obfuscate.PrepareEveryTestObfuscated(nameOfLogFile)
 
 	var correctTests, incorrectTests []string
@@ -244,10 +233,10 @@ func main() {
 			err := cmd.Run()
 
 			if err == nil {
-				correctTests = append(correctTests, whichTests[i].nameOfFile)
+				correctTests = append(correctTests, whichTests[i].name)
 			} else {
 				helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
-				incorrectTests = append(incorrectTests, whichTests[i].nameOfFile)
+				incorrectTests = append(incorrectTests, whichTests[i].name)
 			}
 		} else if whichTests[i].name == "ServiceCreation" {
 			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, "install")
@@ -356,34 +345,10 @@ func main() {
 			}
 		}
 	}
-	for i := 0; i < len(whichTests); i++ {
-		_, err := os.OpenFile(whichTests[i].path+whichTests[i].nameOfFile, os.O_RDWR, 0666)
-		if err != nil {
-			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-			if whichTests[i].expectedResult == "exit status 1" {
-				for j := 0; j < len(incorrectTests); j++ {
-					if incorrectTests[j] == whichTests[i].name {
-						incorrectTests = append(incorrectTests[:j], incorrectTests[j+1:]...)
-						correctTests = append(correctTests, whichTests[i].name)
-						break
-					}
-				}
-			} else {
-				for j := 0; j < len(correctTests); j++ {
-					if correctTests[j] == whichTests[i].name {
-						incorrectTests = append(correctTests[:j], correctTests[j+1:]...)
-						correctTests = append(incorrectTests, whichTests[i].name)
-						break
-					}
-				}
-			}
-		}
-	}
-	getResults(nameOfLogFile, whichTests, correctTests)
-	fmt.Println("You can check the results!")
 
 	for i := 0; i < len(whichTests); i++ {
-		if _, err := os.Open(whichTests[i].path + whichTests[i].name); err != nil {
+		_, err := os.Open(whichTests[i].path + whichTests[i].nameOfFile)
+		if err != nil {
 			if whichTests[i].expectedResult == "exit status 1" {
 				for j := 0; j < len(incorrectTests); j++ {
 					if incorrectTests[j] == whichTests[i].name {
@@ -404,11 +369,14 @@ func main() {
 		}
 	}
 
-	/*for i := 0; i < len(locationForTestFolder); i++ {
+	getResults(nameOfLogFile, whichTests, correctTests)
+	fmt.Println("You can check the results!")
+
+	for i := 0; i < len(locationForTestFolder); i++ {
 		err := helpers.RemoveTestFilesIfExists(locationForTestFolder[i])
 		if err != nil {
 			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 		}
-	}*/
+	}
 
 }

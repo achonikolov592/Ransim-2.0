@@ -11,3 +11,7 @@
 [ERROR]: dial tcp 192.168.106.28:2233: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. AT 06 Feb 24 12:34 GMT
 [ERROR]: dial tcp 192.168.106.28:2233: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. AT 06 Feb 24 12:36 GMT
 [ERROR]: dial tcp 192.168.106.28:2233: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. AT 06 Feb 24 12:37 GMT
+[ERROR]: dial tcp 192.168.2.36:2233: connectex: No connection could be made because the target machine actively refused it. AT 12 Feb 24 11:32 GMT
+[ERROR]: dial tcp 192.168.2.36:2233: connectex: No connection could be made because the target machine actively refused it. AT 12 Feb 24 11:35 GMT
+[ERROR]: dial tcp 192.168.2.36:2233: connectex: No connection could be made because the target machine actively refused it. AT 12 Feb 24 11:39 GMT
+[ERROR]: dial tcp 192.168.2.36:2233: connectex: No connection could be made because the target machine actively refused it. AT 12 Feb 24 11:41 GMT

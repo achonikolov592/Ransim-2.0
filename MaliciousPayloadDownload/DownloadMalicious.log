@@ -34,3 +34,13 @@
 [ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 12 Jan 24 13:55 GMT
 [ERROR]: Starting test: DownloadingMaliciousPayload AT 25 Jan 24 18:18 GMT
 [ERROR]: open ./out1.zip: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 25 Jan 24 18:18 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Feb 24 11:30 GMT
+[ERROR]: Ending test: DownloadingMaliciousPayload AT 12 Feb 24 11:30 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Feb 24 11:34 GMT
+[ERROR]: Ending test: DownloadingMaliciousPayload AT 12 Feb 24 11:34 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Feb 24 11:37 GMT
+[ERROR]: Ending test: DownloadingMaliciousPayload AT 12 Feb 24 11:37 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Feb 24 11:38 GMT
+[ERROR]: Ending test: DownloadingMaliciousPayload AT 12 Feb 24 11:38 GMT
+[ERROR]: Starting test: DownloadingMaliciousPayload AT 12 Feb 24 11:40 GMT
+[ERROR]: Ending test: DownloadingMaliciousPayload AT 12 Feb 24 11:40 GMT

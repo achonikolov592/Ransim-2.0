@@ -47,6 +47,8 @@ func compileDLLs(nameOfLogFile string) {
 
 func main() {
 	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "DLLSideLoad")
+	helpers.WriteLog(nameOfLogFile, "Starting test: DLLSideLoading", 2)
+
 	numOfCorrectTests := 0
 
 	cmd := exec.Command("go", "build", "-o", "./paylo.dll", "-buildmode=c-shared", "../DLLs/dll.go")
@@ -135,6 +137,8 @@ func main() {
 	if numOfCorrectTests == 2 {
 		os.Exit(1)
 	}
+
+	helpers.WriteLog(nameOfLogFile, "Ending test: DLLSideLoading", 2)
 
 	os.Exit(0)
 }

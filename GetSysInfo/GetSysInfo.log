@@ -71,3 +71,7 @@
 [ERROR]: exec: "ntbstat": executable file not found in %PATH% AT 09 Feb 24 11:40 GMT
 [INFO]: Starting Test: GetSysInfo AT 09 Feb 24 11:40 GMT
 [INFO]: Ending Test: GetSysInfo AT 09 Feb 24 11:40 GMT
+[INFO]: Starting Test: GetSysInfo AT 12 Feb 24 11:31 GMT
+[INFO]: Ending Test: GetSysInfo AT 12 Feb 24 11:31 GMT
+[INFO]: Starting Test: GetSysInfo AT 12 Feb 24 11:34 GMT
+[INFO]: Ending Test: GetSysInfo AT 12 Feb 24 11:35 GMT

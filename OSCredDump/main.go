@@ -9,6 +9,7 @@ import (
 
 func main() {
 	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "OSDump")
+	helpers.WriteLog(nameOfLogFile, "Starting test: OsCredDump", 2)
 	currOS := runtime.GOOS
 	if currOS == "windows" {
 		paths := os.Getenv("SystemRoot")
@@ -16,14 +17,11 @@ func main() {
 
 		_, err := os.OpenFile(listOfPaths[0]+"\\System32\\config\\SAM", os.O_RDWR, 0666)
 		if err != nil {
-			if err.Error() == "Access is denied." {
-				os.Exit(1)
-			} else {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-				os.Exit(2)
-			}
 
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			os.Exit(1)
 		} else {
+			helpers.WriteLog(nameOfLogFile, "Ending test: OsCredDump", 2)
 			os.Exit(0)
 		}
 	}

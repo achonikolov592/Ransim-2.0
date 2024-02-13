@@ -9,3 +9,27 @@
 [ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 06 Feb 24 12:28 GMT
 [ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 06 Feb 24 12:31 GMT
 [ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 06 Feb 24 12:34 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 11:32 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 11:35 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 11:39 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 11:41 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 16:10 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 16:16 GMT
+[INFO]: Starting test: OsCredDump AT 12 Feb 24 17:43 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 17:43 GMT
+[INFO]: Starting test: OsCredDump AT 12 Feb 24 17:54 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 17:54 GMT
+[INFO]: Starting test: OsCredDump AT 12 Feb 24 17:55 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 17:55 GMT
+[INFO]: Starting test: OsCredDump AT 12 Feb 24 17:56 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 17:56 GMT
+[INFO]: Starting test: OsCredDump AT 12 Feb 24 17:57 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 17:57 GMT
+[INFO]: Starting test: OsCredDump AT 12 Feb 24 18:02 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 18:02 GMT
+[INFO]: Starting test: OsCredDump AT 12 Feb 24 18:09 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 18:09 GMT
+[INFO]: Starting test: OsCredDump AT 12 Feb 24 18:10 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 18:10 GMT
+[INFO]: Starting test: OsCredDump AT 12 Feb 24 18:12 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 18:12 GMT

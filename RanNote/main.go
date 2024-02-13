@@ -63,7 +63,7 @@ func getDesktopFolder(dir, nameOfLogFile string) string {
 
 func main() {
 	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "RanNote")
-
+	helpers.WriteLog(nameOfLogFile, "Starting test: RanNote", 2)
 	user, err := user.Current()
 	if err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
@@ -105,6 +105,8 @@ func main() {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 		os.Exit(5)
 	}
+
+	helpers.WriteLog(nameOfLogFile, "Ending test: RanNote", 2)
 
 	os.Exit(0)
 }

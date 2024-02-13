@@ -12,15 +12,6 @@ func main() {
 	name := helpers.CreateLogFileIfItDoesNotExist("./", "startup")
 	helpers.WriteLog(name, "Strating test : StartupFolderNewFile", 2)
 
-	compileFile := exec.Command("go", "build", ".")
-	compileFile.Dir = "./ShowBox"
-
-	err := compileFile.Run()
-	if err != nil {
-		helpers.WriteLog(name, err.Error(), 1)
-		os.Exit(2)
-	}
-
 	src, err := os.Open("./ShowBox/ShowBox.exe")
 	if err != nil {
 		helpers.WriteLog(name, err.Error(), 1)
@@ -43,13 +34,13 @@ func main() {
 		_, err = io.Copy(dest, src)
 		if err != nil {
 			helpers.WriteLog(name, err.Error(), 1)
-			os.Exit(5)
+			os.Exit(1)
 		}
 
 		_, err = os.Open(words[len(words)-2] + " " + words[len(words)-1] + "/" + "a.exe")
 		if err != nil {
 			helpers.WriteLog(name, err.Error(), 1)
-			os.Exit(6)
+			os.Exit(1)
 		}
 
 		err = os.Remove(words[len(words)-2] + " " + words[len(words)-1] + "/" + "a.exe")

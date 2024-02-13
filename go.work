@@ -15,6 +15,7 @@ use (
 	./EncryptDecryptDirRecursivePartially/Encrypt
 	./FileObfuscation
 	./GetSysInfo
+	./GetSysInfo/GetInfo
 	./MaliciousPayloadDownload
 	./OSCredDump
 	./PrivEsc

@@ -1,7 +1,31 @@
-[INFO]: Start creating test files AT 14 Jan 24 12:47 GMT
-[INFO]: Start creating test files AT 14 Jan 24 13:02 GMT
-[ERROR]: open c.txt: The system cannot find the file specified. AT 14 Jan 24 13:02 GMT
-[INFO]: Start creating test files AT 14 Jan 24 13:03 GMT
-[INFO]: Start creating test files AT 18 Jan 24 09:11 GMT
-[INFO]: Start creating test files AT 22 Jan 24 08:54 GMT
-[INFO]: Start creating test files AT 22 Jan 24 08:57 GMT
+
+[INFO]: Starting test: UploadTestFiles AT 12 Feb 24 17:43 GMT
+[INFO]: Ending test: UploadTestFiles AT 12 Feb 24 17:43 GMT
+[INFO]: Starting test: UploadTestFiles AT 12 Feb 24 17:54 GMT
+[INFO]: Ending test: UploadTestFiles AT 12 Feb 24 17:54 GMT
+[INFO]: Starting test: UploadTestFiles AT 12 Feb 24 17:55 GMT
+[INFO]: Ending test: UploadTestFiles AT 12 Feb 24 17:55 GMT
+[INFO]: Starting test: UploadTestFiles AT 12 Feb 24 17:56 GMT
+[INFO]: Ending test: UploadTestFiles AT 12 Feb 24 17:56 GMT
+[INFO]: Starting test: UploadTestFiles AT 12 Feb 24 17:57 GMT
+[INFO]: Ending test: UploadTestFiles AT 12 Feb 24 17:57 GMT
+[INFO]: Starting test: UploadTestFiles AT 12 Feb 24 18:02 GMT
+[INFO]: Ending test: UploadTestFiles AT 12 Feb 24 18:02 GMT
+[INFO]: Starting test: UploadTestFiles AT 12 Feb 24 18:09 GMT
+[INFO]: Ending test: UploadTestFiles AT 12 Feb 24 18:09 GMT
+[INFO]: Starting test: UploadTestFiles AT 12 Feb 24 18:10 GMT
+[INFO]: Ending test: UploadTestFiles AT 12 Feb 24 18:10 GMT
+[INFO]: Starting test: UploadTestFiles AT 12 Feb 24 18:12 GMT
+[INFO]: Ending test: UploadTestFiles AT 12 Feb 24 18:12 GMT
+[INFO]: Starting test: UploadTestFiles AT 13 Feb 24 13:52 GMT
+[ERROR]: remove testFilesParent\testfiles0\sub\0i.bmp: The process cannot access the file because it is being used by another process. AT 13 Feb 24 13:52 GMT
+[INFO]: Starting test: UploadTestFiles AT 13 Feb 24 13:53 GMT
+[ERROR]: exec: "../GetSysInfo/GetSysInfo.exe": file does not exist AT 13 Feb 24 13:53 GMT
+[INFO]: Starting test: UploadTestFiles AT 13 Feb 24 13:54 GMT
+[ERROR]: open ./testFilesParent: The system cannot find the file specified. AT 13 Feb 24 13:54 GMT
+[INFO]: Starting test: UploadTestFiles AT 13 Feb 24 13:55 GMT
+[ERROR]: exec: already started AT 13 Feb 24 13:55 GMT
+[INFO]: Starting test: UploadTestFiles AT 13 Feb 24 14:16 GMT
+[ERROR]: open ./testFilesParent: The system cannot find the file specified. AT 13 Feb 24 14:16 GMT
+[INFO]: Starting test: UploadTestFiles AT 13 Feb 24 14:17 GMT
+[INFO]: Ending test: UploadTestFiles AT 13 Feb 24 14:17 GMT

@@ -68,3 +68,51 @@
 [INFO]: Starting test: ServiceCreation AT 06 Feb 24 12:36 GMT
 [INFO]: Installing and Running service AT 06 Feb 24 12:36 GMT
 [ERROR]: Access is denied. AT 06 Feb 24 12:36 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 11:30 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 11:30 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 11:30 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 11:34 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 11:34 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 11:34 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 11:37 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 11:37 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 11:37 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 11:38 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 11:38 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 11:38 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 11:40 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 11:40 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 11:40 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 16:09 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 16:09 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 16:09 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 16:15 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 16:15 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 16:15 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 17:42 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 17:42 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 17:42 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 17:54 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 17:54 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 17:54 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 17:55 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 17:55 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 17:55 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 17:56 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 17:56 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 17:56 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 17:57 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 17:57 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 17:57 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 18:02 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 18:02 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 18:02 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 18:09 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 18:09 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 18:09 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 18:10 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 18:10 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 18:10 GMT
+[INFO]: Starting test: ServiceCreation AT 12 Feb 24 18:12 GMT
+[INFO]: Installing and Running service AT 12 Feb 24 18:12 GMT
+[ERROR]: service EncrFile already exists AT 12 Feb 24 18:12 GMT

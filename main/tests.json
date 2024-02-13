@@ -1,20 +1,32 @@
-[
-	{"Name":"GenArchiveFiles", "IsEnabled": false},
-	{"Name":"GenEncryptDecryptDirRecursive", "IsEnabled": false},
-	{"Name":"GenEncryptDecryptDirRecursivePartially", "IsEnabled": false},
-	{"Name":"GenSecureDeleteFiles", "IsEnabled": false},
-	{"Name":"GenRansomwareNoteDeploy", "IsEnabled": false},
-	{"Name":"GenEicar", "IsEnabled": false},
-	{"Name":"GenDownloadMaliciousPayload", "IsEnabled": false},
-	{"Name":"WinStartupFolderNewFile", "IsEnabled": false},
-	{"Name":"WinServiceCreation", "IsEnabled": false},
-	{"Name":"WinRegistryKeysTest", "IsEnabled":false},
-	{"Name":"WinPrivilegeEscalation", "IsEnabled": false},
-	{"Name":"WinProcessHollowing32", "IsEnabled":false},
-	{"Name":"WinProcessHollowing64", "IsEnabled":false},
-	{"Name":"WinDLLSideLoading", "IsEnabled":false},
-	{"Name":"GenGetSystemInformation", "IsEnabled": false},
-	{"Name":"GenExfiltrationOfFIles", "IsEnabled": false},
-	{"Name":"WinReverseShell", "IsEnabled":false},
-	{"Name":"WinOSCredentialDump", "IsEnabled":false}
-]
+{
+	"tests": [
+		{"Name":"GenArchiveFiles", "IsEnabled": true},
+		{"Name":"GenEncryptDecryptDirRecursive", "IsEnabled": true},
+		{"Name":"GenEncryptDecryptDirRecursivePartially", "IsEnabled": true},
+		{"Name":"GenSecureDeleteFiles", "IsEnabled": true},
+		{"Name":"GenRansomwareNoteDeploy", "IsEnabled": true},
+		{"Name":"GenEicar", "IsEnabled": true},
+		{"Name":"WinStartupFolderNewFile", "IsEnabled": true},
+		{"Name":"WinServiceCreation", "IsEnabled": true},
+		{"Name":"WinRegistryKeysTest", "IsEnabled":true},
+		{"Name":"WinPrivilegeEscalation", "IsEnabled": true},
+		{"Name":"WinProcessHollowing32", "IsEnabled":true},
+		{"Name":"WinProcessHollowing64", "IsEnabled":true},
+		{"Name":"WinDLLSideLoading", "IsEnabled":true},
+		{"Name":"GenGetSystemInformation", "IsEnabled": true},
+		{"Name":"GenExfiltrationOfFiles", "IsEnabled": true},
+		{"Name":"WinReverseShell", "IsEnabled":true},
+		{"Name":"WinOSCredentialDump", "IsEnabled":true}
+	],
+	"settings":
+	{
+        "DirNumber": 2,
+        "DirNumberFiles": 3,
+        "DocumentFiles": ".txt .doc .docx .xls .ppt .pdf",
+        "PictureFiles": ".png .jpeg .jpg .bmp",
+        "TimeToDelayOnSecureDelete":0,
+        "ToEncrypt":"true",
+        "ToDecrypt":"false",
+        "IPAddrForReverseShell":"192.168.2.36:2233"
+	}
+}

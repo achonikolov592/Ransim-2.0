@@ -110,13 +110,15 @@ func disableUAC(nameOfLogFile string) int {
 func main() {
 	numberOfStoppedRegistryModifications := 0
 	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "RegKeys")
-
+	helpers.WriteLog(nameOfLogFile, "Starting test: RegistryKeys", 2)
 	numberOfStoppedRegistryModifications += createStartKey(nameOfLogFile)
 	numberOfStoppedRegistryModifications += disableWindowsDefender(nameOfLogFile)
 	numberOfStoppedRegistryModifications += disableUAC(nameOfLogFile)
+
 	if numberOfStoppedRegistryModifications == 3 {
 		os.Exit(1)
 	} else {
+		helpers.WriteLog(nameOfLogFile, "Ending test: RegistryKeys", 2)
 		os.Exit(0)
 	}
 

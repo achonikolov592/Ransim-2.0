@@ -1,14 +1,7 @@
 package main
 
-import (
-	"syscall"
-	"unsafe"
-)
+import "golang.org/x/sys/windows"
 
 func main() {
-	syscall.NewLazyDLL("user32.dll").NewProc("MessageBoxW").Call(
-		uintptr(0),
-		uintptr(unsafe.Pointer(syscall.StringToUTF16Ptr("You have been encrypted! Be more careful next time!"))),
-		uintptr(unsafe.Pointer(syscall.StringToUTF16Ptr("You have been encrypted!"))),
-		uintptr(0))
+	windows.MessageBox(0, windows.StringToUTF16Ptr("You are Encrypted!"), windows.StringToUTF16Ptr("Suprise"), 0)
 }

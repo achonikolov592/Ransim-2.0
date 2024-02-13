@@ -78,5 +78,7 @@ func main() {
 		}
 		helpers.WriteLog(nameOfLogFile, "Uninstalled service", 2)
 	}
+
+	helpers.WriteLog(nameOfLogFile, "Ending test: ServiceCreation", 2)
 	os.Exit(0)
 }

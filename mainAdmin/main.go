@@ -379,11 +379,10 @@ func main() {
 			}
 		}
 	}
-	getResults(nameOfLogFile, whichTests, correctTests)
-	fmt.Println("You can check the results!")
-
 	for i := 0; i < len(whichTests); i++ {
-		if _, err := os.Open(whichTests[i].path + whichTests[i].name); err != nil {
+		_, err := os.Open(whichTests[i].path + whichTests[i].name)
+		errStr := err.Error()
+		if errStr[len(errStr)-107:] == "Operation did not complete successfully because the file contains a virus or potentially unwanted software." {
 			if whichTests[i].expectedResult == "exit status 1" {
 				for j := 0; j < len(incorrectTests); j++ {
 					if incorrectTests[j] == whichTests[i].name {
@@ -403,6 +402,9 @@ func main() {
 			}
 		}
 	}
+
+	getResults(nameOfLogFile, whichTests, correctTests)
+	fmt.Println("You can check the results!")
 
 	for i := 0; i < len(locationForTestFolder); i++ {
 		err := helpers.RemoveTestFilesIfExists(locationForTestFolder[i])

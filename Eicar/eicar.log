@@ -112,3 +112,37 @@
 [ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 12:35 GMT
 [INFO]: Starting test: EicarTest AT 06 Feb 24 12:36 GMT
 [ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 06 Feb 24 12:36 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 11:30 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 11:30 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 11:34 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 11:34 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 11:37 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 11:37 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 11:38 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 11:38 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 11:40 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 11:40 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 11:40 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 16:08 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 16:08 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 16:15 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 16:15 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 17:42 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 17:42 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 17:54 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 17:54 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 17:55 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 17:55 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 17:56 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 17:56 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 17:57 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 17:57 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 18:02 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 18:02 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 18:05 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 18:09 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 18:09 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 18:10 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 18:10 GMT
+[INFO]: Starting test: EicarTest AT 12 Feb 24 18:12 GMT
+[INFO]: Ending test: EicarTest AT 12 Feb 24 18:12 GMT

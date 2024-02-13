@@ -34,7 +34,7 @@ func deleteFilesInDir(dir string, nameOfLogFile string, timeToDelay int) {
 		os.Exit(3)
 	}
 
-	err = os.Remove(dir)
+	err = os.RemoveAll(dir)
 	if err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 		os.Exit(4)
@@ -55,4 +55,4 @@ func main() {
 	os.Exit(0)
 }
 
-//
+//aaaaaa

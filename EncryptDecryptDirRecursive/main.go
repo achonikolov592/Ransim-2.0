@@ -3,7 +3,6 @@ package main
 import (
 	"RRA/EncryptDecryptDirRecursive/decrypt"
 	"RRA/EncryptDecryptDirRecursive/encrypt"
-	"fmt"
 	"helpers"
 	"os"
 	"strings"
@@ -17,9 +16,12 @@ func main() {
 	helpers.WriteLog(nameOfLogFile, "Strating test: EncryptDecryptDir", 2)
 
 	if strings.ToLower(os.Args[1]) == "true" {
-		err := os.Remove("./EncryptionInfo.log")
-		if err != nil {
-			fmt.Println(err.Error())
+		_, err := os.Stat("./EncryptionInfo.log")
+		if err == nil {
+			err = os.Remove("./EncryptionInfo.log")
+			if err != nil {
+				os.Exit(1)
+			}
 		}
 		nameOfEncryptionInfoFile := helpers.CreateLogFileIfItDoesNotExist("./", "EncryptionInfo")
 

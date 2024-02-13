@@ -24,17 +24,16 @@ func main() {
 		}
 
 		nameOfInfoFile := helpers.CreateLogFileIfItDoesNotExist("./", "EncryptionInfo")
-		helpers.CreateTestFiles("./", nameOfLogFile)
 		helpers.WriteLog(nameOfLogFile, "Strating test: EncryptDirPartially", 2)
 
-		encrypt.EncryptFilesInDir("./testfiles", nameOfLogFile, nameOfInfoFile)
+		encrypt.EncryptFilesInDir("./testFilesParent", nameOfLogFile, nameOfInfoFile)
 
 		helpers.WriteLog(nameOfLogFile, "Ending test: EncryptDecryptDirRecursivePartially", 2)
 	}
 	if strings.ToLower(os.Args[2]) == "true" {
 		helpers.WriteLog(nameOfLogFile, "Strating test: DecryptDirRecursivePartially", 2)
 
-		decrypt.DecryptDir("./testfiles", nameOfLogFile, "./EncryptionInfo.log")
+		decrypt.DecryptDir("./testFilesParent", nameOfLogFile, "./EncryptionInfo.log")
 
 		helpers.WriteLog(nameOfLogFile, "Ending test: DecryptDirRecursivePartially", 2)
 	}

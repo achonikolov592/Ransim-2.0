@@ -170,3 +170,7 @@
 [ERROR]: remove ./testFilesParent: The directory is not empty. AT 06 Feb 24 14:41 GMT
 [INFO]: Starting test: SecureDeleteFiles AT 06 Feb 24 14:42 GMT
 [INFO]: Ending test: SecureDeleteFiles AT 06 Feb 24 14:42 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 12 Feb 24 16:49 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 12 Feb 24 17:37 GMT
+[INFO]: Starting test: SecureDeleteFiles AT 12 Feb 24 17:41 GMT
+[ERROR]: remove ./testFilesParent: The directory is not empty. AT 12 Feb 24 17:41 GMT

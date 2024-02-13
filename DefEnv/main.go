@@ -14,7 +14,7 @@ type AVEDRExe struct {
 	exe  string
 }
 
-var WinAVEDRExecs = []AVEDRExe{AVEDRExe{"Windows Defender", "MsMpEng.exe"}}
+var WinAVEDRExecs = []AVEDRExe{AVEDRExe{"Windows Defender", "MsMpEng.exe"}, AVEDRExe{"Avast", "AvastUI.exe"}, AVEDRExe{"Avast", "AvastSvc.exe"}}
 var LinAVEDRExecs = []AVEDRExe{AVEDRExe{"ClamAV", "clam"}}
 
 func checkIfItIsAVEDR(name string) bool {

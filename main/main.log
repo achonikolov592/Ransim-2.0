@@ -2695,3 +2695,224 @@
 [ERROR]: mkdir ../SecureDeleteFiles/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 12:36 GMT
 [ERROR]: mkdir ../UploadFiles/testFilesParent: Cannot create a file when that file already exists. AT 06 Feb 24 12:36 GMT
 [ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 06 Feb 24 15:09 GMT
+[ERROR]: exit status 1 at file ..\ProHoll64\mem AT 10 Feb 24 15:26 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 12 Feb 24 11:30 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursivePartially AT 12 Feb 24 11:30 GMT
+[ERROR]: fork/exec ../SecureDeleteFiles/SecureDeleteFiles.exe: Access is denied. from SecureDeleteFiles AT 12 Feb 24 11:30 GMT
+[ERROR]: fork/exec ../StartupFolderNewFile/Startup.exe: Access is denied. from StartupFolderNewFile AT 12 Feb 24 11:30 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 12 Feb 24 11:30 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 11:30 GMT
+[ERROR]: exit status 0xc0000022 from ProcessHollowing32 AT 12 Feb 24 11:30 GMT
+[ERROR]: exit status 2 from ReverseShell AT 12 Feb 24 11:32 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 12 Feb 24 11:32 GMT
+[ERROR]: open ../SecureDeleteFiles/SecureDeleteFiles.exe: Access is denied. AT 12 Feb 24 11:32 GMT
+[ERROR]: open ../StartupFolderNewFile/Startup.exe: Access is denied. AT 12 Feb 24 11:32 GMT
+[ERROR]: open ../RegKeys/RegKeys.exe: The system cannot find the file specified. AT 12 Feb 24 11:32 GMT
+[ERROR]: open ../ProHoll32/ProHoll32.exe: The system cannot find the file specified. AT 12 Feb 24 11:32 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 12 Feb 24 11:34 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursivePartially AT 12 Feb 24 11:34 GMT
+[ERROR]: fork/exec ../SecureDeleteFiles/SecureDeleteFiles.exe: Access is denied. from SecureDeleteFiles AT 12 Feb 24 11:34 GMT
+[ERROR]: fork/exec ../StartupFolderNewFile/Startup.exe: Access is denied. from StartupFolderNewFile AT 12 Feb 24 11:34 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 12 Feb 24 11:34 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 11:34 GMT
+[ERROR]: exit status 0xc0000022 from ProcessHollowing32 AT 12 Feb 24 11:34 GMT
+[ERROR]: exit status 2 from ReverseShell AT 12 Feb 24 11:35 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 12 Feb 24 11:35 GMT
+[ERROR]: open ../SecureDeleteFiles/SecureDeleteFiles.exe: Access is denied. AT 12 Feb 24 11:35 GMT
+[ERROR]: open ../StartupFolderNewFile/Startup.exe: Access is denied. AT 12 Feb 24 11:35 GMT
+[ERROR]: open ../RegKeys/RegKeys.exe: The system cannot find the file specified. AT 12 Feb 24 11:35 GMT
+[ERROR]: open ../ProHoll32/ProHoll32.exe: The system cannot find the file specified. AT 12 Feb 24 11:35 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 12 Feb 24 11:37 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursivePartially AT 12 Feb 24 11:37 GMT
+[ERROR]: exec: "..\\SecureDeleteFiles\\SecureDeleteFiles.exe": file does not exist from SecureDeleteFiles AT 12 Feb 24 11:37 GMT
+[ERROR]: exec: "..\\StartupFolderNewFile\\Startup.exe": file does not exist from StartupFolderNewFile AT 12 Feb 24 11:37 GMT
+[ERROR]: exec: "..\\RegKeys\\RegKeys.exe": file does not exist from RegistryKeysTest AT 12 Feb 24 11:37 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 11:37 GMT
+[ERROR]: exec: "..\\ProHoll32\\ProHoll32.exe": file does not exist from ProcessHollowing32 AT 12 Feb 24 11:37 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 12 Feb 24 11:38 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursivePartially AT 12 Feb 24 11:38 GMT
+[ERROR]: fork/exec ../SecureDeleteFiles/SecureDeleteFiles.exe: Access is denied. from SecureDeleteFiles AT 12 Feb 24 11:38 GMT
+[ERROR]: fork/exec ../StartupFolderNewFile/Startup.exe: Access is denied. from StartupFolderNewFile AT 12 Feb 24 11:38 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 12 Feb 24 11:38 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 11:38 GMT
+[ERROR]: exit status 0xc0000022 from ProcessHollowing32 AT 12 Feb 24 11:38 GMT
+[ERROR]: fork/exec ../GetSysInfo/GetSysInfo.exe: Access is denied. from GetSystemInformation AT 12 Feb 24 11:39 GMT
+[ERROR]: exit status 2 from ReverseShell AT 12 Feb 24 11:39 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 12 Feb 24 11:39 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 12 Feb 24 11:40 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursivePartially AT 12 Feb 24 11:40 GMT
+[ERROR]: fork/exec ../SecureDeleteFiles/SecureDeleteFiles.exe: Access is denied. from SecureDeleteFiles AT 12 Feb 24 11:40 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 12 Feb 24 11:40 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursivePartially AT 12 Feb 24 11:40 GMT
+[ERROR]: exec: "..\\SecureDeleteFiles\\SecureDeleteFiles.exe": file does not exist from SecureDeleteFiles AT 12 Feb 24 11:40 GMT
+[ERROR]: fork/exec ../StartupFolderNewFile/Startup.exe: Access is denied. from StartupFolderNewFile AT 12 Feb 24 11:40 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 11:40 GMT
+[ERROR]: exit status 0xc0000022 from ProcessHollowing32 AT 12 Feb 24 11:40 GMT
+[ERROR]: fork/exec ../GetSysInfo/GetSysInfo.exe: Access is denied. from GetSystemInformation AT 12 Feb 24 11:41 GMT
+[ERROR]: exit status 2 from ReverseShell AT 12 Feb 24 11:41 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 12 Feb 24 11:41 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 12 Feb 24 16:08 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursivePartially AT 12 Feb 24 16:08 GMT
+[ERROR]: fork/exec ../SecureDeleteFiles/SecureDeleteFiles.exe: Access is denied. from SecureDeleteFiles AT 12 Feb 24 16:08 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: Access is denied. from RansomwareNoteDeploy AT 12 Feb 24 16:08 GMT
+[ERROR]: fork/exec ../MaliciousPayloadDownload/MaliciousPayloadDownload.exe: Access is denied. from DownloadMaliciousPayload AT 12 Feb 24 16:08 GMT
+[ERROR]: fork/exec ../StartupFolderNewFile/Startup.exe: Access is denied. from StartupFolderNewFile AT 12 Feb 24 16:08 GMT
+[ERROR]: fork/exec ../RegKeys/RegKeys.exe: Access is denied. from RegistryKeysTest AT 12 Feb 24 16:09 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 16:09 GMT
+[ERROR]: exit status 0xc0000022 from ProcessHollowing32 AT 12 Feb 24 16:09 GMT
+[ERROR]: exit status 0xc0000022 from ProcessHollowing64 AT 12 Feb 24 16:09 GMT
+[ERROR]: exit status 0xc0000022 from DLLSideLoading AT 12 Feb 24 16:09 GMT
+[ERROR]: fork/exec ../GetSysInfo/GetSysInfo.exe: Access is denied. from GetSystemInformation AT 12 Feb 24 16:09 GMT
+[ERROR]: fork/exec ../RevSh/RevSh.exe: Access is denied. from ReverseShell AT 12 Feb 24 16:10 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 12 Feb 24 16:10 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 12 Feb 24 16:15 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursivePartially AT 12 Feb 24 16:15 GMT
+[ERROR]: fork/exec ../SecureDeleteFiles/SecureDeleteFiles.exe: Access is denied. from SecureDeleteFiles AT 12 Feb 24 16:15 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: Access is denied. from RansomwareNoteDeploy AT 12 Feb 24 16:15 GMT
+[ERROR]: fork/exec ../MaliciousPayloadDownload/MaliciousPayloadDownload.exe: Access is denied. from DownloadMaliciousPayload AT 12 Feb 24 16:15 GMT
+[ERROR]: fork/exec ../StartupFolderNewFile/Startup.exe: Access is denied. from StartupFolderNewFile AT 12 Feb 24 16:15 GMT
+[ERROR]: fork/exec ../RegKeys/RegKeys.exe: Access is denied. from RegistryKeysTest AT 12 Feb 24 16:15 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 16:15 GMT
+[ERROR]: exit status 0xc0000022 from ProcessHollowing32 AT 12 Feb 24 16:15 GMT
+[ERROR]: exit status 0xc0000022 from ProcessHollowing64 AT 12 Feb 24 16:16 GMT
+[ERROR]: exit status 0xc0000022 from DLLSideLoading AT 12 Feb 24 16:16 GMT
+[ERROR]: fork/exec ../GetSysInfo/GetSysInfo.exe: Access is denied. from GetSystemInformation AT 12 Feb 24 16:16 GMT
+[ERROR]: fork/exec ../RevSh/RevSh.exe: Access is denied. from ReverseShell AT 12 Feb 24 16:16 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 12 Feb 24 16:16 GMT
+[ERROR]: exit status 1 at file ..\GetSysInfo AT 12 Feb 24 16:47 GMT
+[ERROR]: exit status 1 at file ..\MaliciousPayloadDownload AT 12 Feb 24 16:48 GMT
+[ERROR]: exit status 1 at file ..\ProHoll32 AT 12 Feb 24 16:48 GMT
+[ERROR]: exit status 1 at file ..\ProHoll64 AT 12 Feb 24 16:48 GMT
+[ERROR]: exit status 1 at file ..\ProHoll64\mem AT 12 Feb 24 16:48 GMT
+[ERROR]: exit status 1 at file ..\RevSh AT 12 Feb 24 16:48 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 12 Feb 24 16:49 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursivePartially AT 12 Feb 24 16:49 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursive AT 12 Feb 24 17:37 GMT
+[ERROR]: exit status 2 from EncryptDecryptDirRecursivePartially AT 12 Feb 24 17:37 GMT
+[ERROR]: exit status 4 from SecureDeleteFiles AT 12 Feb 24 17:41 GMT
+[ERROR]: fork/exec ../StartupFolderNewFile/Startup.exe: Access is denied. from StartupFolderNewFile AT 12 Feb 24 17:42 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 12 Feb 24 17:42 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 17:42 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 12 Feb 24 17:42 GMT
+[ERROR]: exit status 0xc0000022 from ProcessHollowing64 AT 12 Feb 24 17:42 GMT
+[ERROR]: exit status 0xc0000022 from DLLSideLoading AT 12 Feb 24 17:43 GMT
+[ERROR]: fork/exec ../GetSysInfo/GetSysInfo.exe: Access is denied. from GetSystemInformation AT 12 Feb 24 17:43 GMT
+[ERROR]: fork/exec ../RevSh/RevSh.exe: Access is denied. from ReverseShell AT 12 Feb 24 17:43 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 12 Feb 24 17:43 GMT
+[ERROR]: fork/exec ../SecureDeleteFiles/SecureDeleteFiles.exe: Access is denied. from SecureDeleteFiles AT 12 Feb 24 17:54 GMT
+[ERROR]: exec: "..\\StartupFolderNewFile\\Startup.exe": file does not exist from StartupFolderNewFile AT 12 Feb 24 17:54 GMT
+[ERROR]: exec: "..\\RegKeys\\RegKeys.exe": file does not exist from RegistryKeysTest AT 12 Feb 24 17:54 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 17:54 GMT
+[ERROR]: exec: "..\\ProHoll32\\ProHoll32.exe": file does not exist from ProcessHollowing32 AT 12 Feb 24 17:54 GMT
+[ERROR]: exec: "..\\ProHoll64\\ProHoll64.exe": file does not exist from ProcessHollowing64 AT 12 Feb 24 17:54 GMT
+[ERROR]: exec: "..\\DLLSideLoading\\DllLoad.exe": file does not exist from DLLSideLoading AT 12 Feb 24 17:54 GMT
+[ERROR]: exec: "..\\GetSysInfo\\GetSysInfo.exe": file does not exist from GetSystemInformation AT 12 Feb 24 17:54 GMT
+[ERROR]: exec: "..\\RevSh\\RevSh.exe": file does not exist from ReverseShell AT 12 Feb 24 17:54 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../EncryptDecryptDirRecursive/EncryptDecryptDirRecursive: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../EncryptDecryptDirRecursivePartially/EncryptDecryptDirRecursivePartially: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../SecureDeleteFiles/SecureDeleteFiles: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../RanNote/RansomwareNoteDeploy: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../Eicar/Eicar: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../StartupFolderNewFile/StartupFolderNewFile: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../ServiceCreation/ServiceCreation: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../RegKeys/RegistryKeysTest: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../PrivEsc/PrivilegeEscalation: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../ProHoll32/ProcessHollowing32: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../ProHoll64/ProcessHollowing64: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../DLLSideLoading/DLLSideLoading: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../GetSysInfo/GetSystemInformation: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../UploadFiles/ExfiltrationOfFIles: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../RevSh/ReverseShell: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: open ../OSCredDump/OSCredentialDump: The system cannot find the file specified. AT 12 Feb 24 17:54 GMT
+[ERROR]: exec: "..\\SecureDeleteFiles\\SecureDeleteFiles.exe": file does not exist from SecureDeleteFiles AT 12 Feb 24 17:55 GMT
+[ERROR]: exec: "..\\StartupFolderNewFile\\Startup.exe": file does not exist from StartupFolderNewFile AT 12 Feb 24 17:55 GMT
+[ERROR]: exec: "..\\RegKeys\\RegKeys.exe": file does not exist from RegistryKeysTest AT 12 Feb 24 17:55 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 17:55 GMT
+[ERROR]: exec: "..\\ProHoll32\\ProHoll32.exe": file does not exist from ProcessHollowing32 AT 12 Feb 24 17:55 GMT
+[ERROR]: exec: "..\\ProHoll64\\ProHoll64.exe": file does not exist from ProcessHollowing64 AT 12 Feb 24 17:55 GMT
+[ERROR]: exec: "..\\DLLSideLoading\\DllLoad.exe": file does not exist from DLLSideLoading AT 12 Feb 24 17:55 GMT
+[ERROR]: exec: "..\\GetSysInfo\\GetSysInfo.exe": file does not exist from GetSystemInformation AT 12 Feb 24 17:55 GMT
+[ERROR]: exec: "..\\RevSh\\RevSh.exe": file does not exist from ReverseShell AT 12 Feb 24 17:55 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 12 Feb 24 17:55 GMT
+[ERROR]: exec: "..\\SecureDeleteFiles\\SecureDeleteFiles.exe": file does not exist from SecureDeleteFiles AT 12 Feb 24 17:56 GMT
+[ERROR]: exec: "..\\StartupFolderNewFile\\Startup.exe": file does not exist from StartupFolderNewFile AT 12 Feb 24 17:56 GMT
+[ERROR]: exec: "..\\RegKeys\\RegKeys.exe": file does not exist from RegistryKeysTest AT 12 Feb 24 17:56 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 17:56 GMT
+[ERROR]: exec: "..\\ProHoll32\\ProHoll32.exe": file does not exist from ProcessHollowing32 AT 12 Feb 24 17:56 GMT
+[ERROR]: exec: "..\\ProHoll64\\ProHoll64.exe": file does not exist from ProcessHollowing64 AT 12 Feb 24 17:56 GMT
+[ERROR]: exec: "..\\DLLSideLoading\\DllLoad.exe": file does not exist from DLLSideLoading AT 12 Feb 24 17:56 GMT
+[ERROR]: exec: "..\\GetSysInfo\\GetSysInfo.exe": file does not exist from GetSystemInformation AT 12 Feb 24 17:56 GMT
+[ERROR]: exec: "..\\RevSh\\RevSh.exe": file does not exist from ReverseShell AT 12 Feb 24 17:56 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 12 Feb 24 17:56 GMT
+[ERROR]: open ../SecureDeleteFiles/SecureDeleteFiles.exe: The system cannot find the file specified. AT 12 Feb 24 17:56 GMT
+[ERROR]: open ../StartupFolderNewFile/Startup.exe: The system cannot find the file specified. AT 12 Feb 24 17:56 GMT
+[ERROR]: open ../RegKeys/RegKeys.exe: The system cannot find the file specified. AT 12 Feb 24 17:56 GMT
+[ERROR]: open ../ProHoll32/ProHoll32.exe: The system cannot find the file specified. AT 12 Feb 24 17:56 GMT
+[ERROR]: open ../ProHoll64/ProHoll64.exe: The system cannot find the file specified. AT 12 Feb 24 17:56 GMT
+[ERROR]: open ../DLLSideLoading/DllLoad.exe: The system cannot find the file specified. AT 12 Feb 24 17:56 GMT
+[ERROR]: open ../GetSysInfo/GetSysInfo.exe: The system cannot find the file specified. AT 12 Feb 24 17:56 GMT
+[ERROR]: open ../RevSh/RevSh.exe: The system cannot find the file specified. AT 12 Feb 24 17:56 GMT
+[ERROR]: exec: "..\\SecureDeleteFiles\\SecureDeleteFiles.exe": file does not exist from SecureDeleteFiles AT 12 Feb 24 17:57 GMT
+[ERROR]: exec: "..\\StartupFolderNewFile\\Startup.exe": file does not exist from StartupFolderNewFile AT 12 Feb 24 17:57 GMT
+[ERROR]: exec: "..\\RegKeys\\RegKeys.exe": file does not exist from RegistryKeysTest AT 12 Feb 24 17:57 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 17:57 GMT
+[ERROR]: exec: "..\\ProHoll32\\ProHoll32.exe": file does not exist from ProcessHollowing32 AT 12 Feb 24 17:57 GMT
+[ERROR]: exec: "..\\ProHoll64\\ProHoll64.exe": file does not exist from ProcessHollowing64 AT 12 Feb 24 17:57 GMT
+[ERROR]: exec: "..\\DLLSideLoading\\DllLoad.exe": file does not exist from DLLSideLoading AT 12 Feb 24 17:57 GMT
+[ERROR]: exec: "..\\GetSysInfo\\GetSysInfo.exe": file does not exist from GetSystemInformation AT 12 Feb 24 17:57 GMT
+[ERROR]: exec: "..\\RevSh\\RevSh.exe": file does not exist from ReverseShell AT 12 Feb 24 17:57 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 12 Feb 24 17:57 GMT
+[ERROR]: open ../SecureDeleteFiles/SecureDeleteFiles.exe: The system cannot find the file specified. AT 12 Feb 24 17:57 GMT
+[ERROR]: open ../StartupFolderNewFile/Startup.exe: The system cannot find the file specified. AT 12 Feb 24 17:57 GMT
+[ERROR]: open ../RegKeys/RegKeys.exe: The system cannot find the file specified. AT 12 Feb 24 17:57 GMT
+[ERROR]: open ../ProHoll32/ProHoll32.exe: The system cannot find the file specified. AT 12 Feb 24 17:57 GMT
+[ERROR]: open ../ProHoll64/ProHoll64.exe: The system cannot find the file specified. AT 12 Feb 24 17:57 GMT
+[ERROR]: open ../DLLSideLoading/DllLoad.exe: The system cannot find the file specified. AT 12 Feb 24 17:57 GMT
+[ERROR]: open ../GetSysInfo/GetSysInfo.exe: The system cannot find the file specified. AT 12 Feb 24 17:57 GMT
+[ERROR]: open ../RevSh/RevSh.exe: The system cannot find the file specified. AT 12 Feb 24 17:57 GMT
+[ERROR]: exec: "..\\SecureDeleteFiles\\SecureDeleteFiles.exe": file does not exist from SecureDeleteFiles AT 12 Feb 24 18:02 GMT
+[ERROR]: exec: "..\\StartupFolderNewFile\\Startup.exe": file does not exist from StartupFolderNewFile AT 12 Feb 24 18:02 GMT
+[ERROR]: exec: "..\\RegKeys\\RegKeys.exe": file does not exist from RegistryKeysTest AT 12 Feb 24 18:02 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 18:02 GMT
+[ERROR]: exec: "..\\ProHoll32\\ProHoll32.exe": file does not exist from ProcessHollowing32 AT 12 Feb 24 18:02 GMT
+[ERROR]: exec: "..\\ProHoll64\\ProHoll64.exe": file does not exist from ProcessHollowing64 AT 12 Feb 24 18:02 GMT
+[ERROR]: exec: "..\\DLLSideLoading\\DllLoad.exe": file does not exist from DLLSideLoading AT 12 Feb 24 18:02 GMT
+[ERROR]: exec: "..\\GetSysInfo\\GetSysInfo.exe": file does not exist from GetSystemInformation AT 12 Feb 24 18:02 GMT
+[ERROR]: exec: "..\\RevSh\\RevSh.exe": file does not exist from ReverseShell AT 12 Feb 24 18:02 GMT
+[ERROR]: open ../SecureDeleteFiles/SecureDeleteFiles.exe: The system cannot find the file specified. AT 12 Feb 24 18:02 GMT
+[ERROR]: open ../StartupFolderNewFile/Startup.exe: The system cannot find the file specified. AT 12 Feb 24 18:02 GMT
+[ERROR]: open ../RegKeys/RegKeys.exe: The system cannot find the file specified. AT 12 Feb 24 18:02 GMT
+[ERROR]: open ../ProHoll32/ProHoll32.exe: The system cannot find the file specified. AT 12 Feb 24 18:02 GMT
+[ERROR]: open ../ProHoll64/ProHoll64.exe: The system cannot find the file specified. AT 12 Feb 24 18:02 GMT
+[ERROR]: open ../DLLSideLoading/DllLoad.exe: The system cannot find the file specified. AT 12 Feb 24 18:02 GMT
+[ERROR]: open ../GetSysInfo/GetSysInfo.exe: The system cannot find the file specified. AT 12 Feb 24 18:02 GMT
+[ERROR]: open ../RevSh/RevSh.exe: The system cannot find the file specified. AT 12 Feb 24 18:02 GMT
+[ERROR]: exec: "..\\SecureDeleteFiles\\SecureDeleteFiles.exe": file does not exist from SecureDeleteFiles AT 12 Feb 24 18:05 GMT
+[ERROR]: exec: "..\\SecureDeleteFiles\\SecureDeleteFiles.exe": file does not exist from SecureDeleteFiles AT 12 Feb 24 18:09 GMT
+[ERROR]: exec: "..\\StartupFolderNewFile\\Startup.exe": file does not exist from StartupFolderNewFile AT 12 Feb 24 18:09 GMT
+[ERROR]: exec: "..\\RegKeys\\RegKeys.exe": file does not exist from RegistryKeysTest AT 12 Feb 24 18:09 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 18:09 GMT
+[ERROR]: exec: "..\\ProHoll32\\ProHoll32.exe": file does not exist from ProcessHollowing32 AT 12 Feb 24 18:09 GMT
+[ERROR]: exec: "..\\ProHoll64\\ProHoll64.exe": file does not exist from ProcessHollowing64 AT 12 Feb 24 18:09 GMT
+[ERROR]: exec: "..\\DLLSideLoading\\DllLoad.exe": file does not exist from DLLSideLoading AT 12 Feb 24 18:09 GMT
+[ERROR]: exec: "..\\GetSysInfo\\GetSysInfo.exe": file does not exist from GetSystemInformation AT 12 Feb 24 18:09 GMT
+[ERROR]: exec: "..\\RevSh\\RevSh.exe": file does not exist from ReverseShell AT 12 Feb 24 18:09 GMT
+[ERROR]: exec: "..\\SecureDeleteFiles\\SecureDeleteFiles.exe": file does not exist from SecureDeleteFiles AT 12 Feb 24 18:10 GMT
+[ERROR]: exec: "..\\StartupFolderNewFile\\Startup.exe": file does not exist from StartupFolderNewFile AT 12 Feb 24 18:10 GMT
+[ERROR]: exec: "..\\RegKeys\\RegKeys.exe": file does not exist from RegistryKeysTest AT 12 Feb 24 18:10 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 18:10 GMT
+[ERROR]: exec: "..\\ProHoll32\\ProHoll32.exe": file does not exist from ProcessHollowing32 AT 12 Feb 24 18:10 GMT
+[ERROR]: exec: "..\\ProHoll64\\ProHoll64.exe": file does not exist from ProcessHollowing64 AT 12 Feb 24 18:10 GMT
+[ERROR]: exec: "..\\DLLSideLoading\\DllLoad.exe": file does not exist from DLLSideLoading AT 12 Feb 24 18:10 GMT
+[ERROR]: exec: "..\\GetSysInfo\\GetSysInfo.exe": file does not exist from GetSystemInformation AT 12 Feb 24 18:10 GMT
+[ERROR]: exec: "..\\RevSh\\RevSh.exe": file does not exist from ReverseShell AT 12 Feb 24 18:10 GMT
+[ERROR]: exec: "..\\SecureDeleteFiles\\SecureDeleteFiles.exe": file does not exist from SecureDeleteFiles AT 12 Feb 24 18:12 GMT
+[ERROR]: exec: "..\\StartupFolderNewFile\\Startup.exe": file does not exist from StartupFolderNewFile AT 12 Feb 24 18:12 GMT
+[ERROR]: exec: "..\\RegKeys\\RegKeys.exe": file does not exist from RegistryKeysTest AT 12 Feb 24 18:12 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 12 Feb 24 18:12 GMT
+[ERROR]: exec: "..\\ProHoll32\\ProHoll32.exe": file does not exist from ProcessHollowing32 AT 12 Feb 24 18:12 GMT
+[ERROR]: exec: "..\\ProHoll64\\ProHoll64.exe": file does not exist from ProcessHollowing64 AT 12 Feb 24 18:12 GMT
+[ERROR]: exec: "..\\DLLSideLoading\\DllLoad.exe": file does not exist from DLLSideLoading AT 12 Feb 24 18:12 GMT
+[ERROR]: exec: "..\\GetSysInfo\\GetSysInfo.exe": file does not exist from GetSystemInformation AT 12 Feb 24 18:12 GMT
+[ERROR]: exec: "..\\RevSh\\RevSh.exe": file does not exist from ReverseShell AT 12 Feb 24 18:12 GMT

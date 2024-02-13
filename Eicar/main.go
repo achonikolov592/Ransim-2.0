@@ -7,10 +7,8 @@ import (
 	"os"
 )
 
-var nameOfLogFile string
-
 func main() {
-	nameOfLogFile = helpers.CreateLogFileIfItDoesNotExist("./", "eicar")
+	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "eicar")
 
 	helpers.WriteLog(nameOfLogFile, "Starting test: EicarTest", 2)
 
