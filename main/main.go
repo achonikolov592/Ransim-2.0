@@ -43,6 +43,8 @@ type Setts struct {
 	TimeToDelayOnSecureDelete int
 	ToEncrypt                 string
 	ToDecrypt                 string
+	MegaEmail                 string
+	MegaPassword              string
 	IPAddrForReverseShell     string
 }
 
@@ -148,7 +150,7 @@ func getWhichTestToExecuteAndSettings(nameOfLogFile string) ([]location, Setts) 
 	}
 
 	var whichTests []location
-	for i := 1; i < len(config.Tests); i++ {
+	for i := 0; i < len(config.Tests); i++ {
 		if config.Tests[i].IsEnabled {
 			if config.Tests[i].Name[:3] == "Win" || config.Tests[i].Name[:3] == "Lin" {
 				if strings.ToLower(config.Tests[i].Name[:3]) == runtime.GOOS[:3] {
@@ -312,17 +314,25 @@ func main() {
 			cmd.Dir = whichTests[i].path
 			err := cmd.Run()
 
-			_, errOfOpeningFile := os.OpenFile(whichTests[i].path+whichTests[i].nameOfFile, os.O_RDONLY, 0666)
-			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
+			if err == nil {
 				incorrectTests = append(incorrectTests, whichTests[i].name)
 			} else {
-				if errOfOpeningFile == nil {
-					incorrectTests = append(incorrectTests, whichTests[i].name)
-				} else {
+				if err.Error() == whichTests[i].expectedResult {
 					correctTests = append(correctTests, whichTests[i].name)
+				} else {
+					incorrectTests = append(incorrectTests, whichTests[i].name)
 				}
+			}
+		} else if whichTests[i].name == "ExfiltrationOfFiles" {
+			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, settings.MegaEmail, settings.MegaPassword)
+			cmd.Dir = whichTests[i].path
+			err := cmd.Run()
 
+			if err == nil {
+				correctTests = append(correctTests, whichTests[i].name)
+			} else {
+				helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
+				incorrectTests = append(incorrectTests, whichTests[i].name)
 			}
 		} else {
 			cmd := exec.Command(whichTests[i].path + whichTests[i].nameOfFile)

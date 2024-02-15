@@ -67,3 +67,45 @@
 [INFO]: Ending test: StartupFolderNewFile AT 06 Feb 24 12:35 GMT
 [INFO]: Strating test : StartupFolderNewFile AT 06 Feb 24 12:44 GMT
 [ERROR]: remove C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: The process cannot access the file because it is being used by another process. AT 06 Feb 24 12:44 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Feb 24 15:18 GMT
+[ERROR]: remove C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: The process cannot access the file because it is being used by another process. AT 14 Feb 24 15:18 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Feb 24 15:49 GMT
+[ERROR]: remove C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: The process cannot access the file because it is being used by another process. AT 14 Feb 24 15:49 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Feb 24 15:54 GMT
+[ERROR]: remove C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: The process cannot access the file because it is being used by another process. AT 14 Feb 24 15:54 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Feb 24 16:00 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 14 Feb 24 16:00 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Feb 24 16:08 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 14 Feb 24 16:08 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Feb 24 16:12 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 14 Feb 24 16:12 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Feb 24 16:16 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 14 Feb 24 16:16 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Feb 24 16:46 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 14 Feb 24 16:46 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 14 Feb 24 16:47 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 14 Feb 24 16:47 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 08:16 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 08:16 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 08:18 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 08:18 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 08:20 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 08:20 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 08:24 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 08:24 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 10:33 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 10:33 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 10:46 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 10:46 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 11:00 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 11:00 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 11:03 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 11:03 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 11:07 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 11:07 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 11:11 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 11:11 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 13:51 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 13:51 GMT
+[INFO]: Strating test : StartupFolderNewFile AT 15 Feb 24 13:53 GMT
+[ERROR]: open C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup/a.exe: Access is denied. AT 15 Feb 24 13:53 GMT

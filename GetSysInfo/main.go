@@ -12,7 +12,7 @@ func main() {
 	os.Remove("./SystemInformation.log")
 	nameOfContentFile := helpers.CreateLogFileIfItDoesNotExist("./", "SystemInformation")
 
-	err := getinfo.GetSysInfo(nameOfContentFile, nameOfLogFile)
+	err := getinfo.GetSysInfo(nameOfContentFile)
 	if err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 		os.Exit(1)

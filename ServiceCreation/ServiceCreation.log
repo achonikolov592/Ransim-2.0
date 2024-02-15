@@ -116,3 +116,33 @@
 [INFO]: Starting test: ServiceCreation AT 12 Feb 24 18:12 GMT
 [INFO]: Installing and Running service AT 12 Feb 24 18:12 GMT
 [ERROR]: service EncrFile already exists AT 12 Feb 24 18:12 GMT
+[INFO]: Starting test: ServiceCreation AT 14 Feb 24 16:49 GMT
+[INFO]: Installing and Running service AT 14 Feb 24 16:49 GMT
+[ERROR]: service EncrFile already exists AT 14 Feb 24 16:49 GMT
+[INFO]: Starting test: ServiceCreation AT 14 Feb 24 16:58 GMT
+[INFO]: Installing and Running service AT 14 Feb 24 16:58 GMT
+[ERROR]: service EncrFile already exists AT 14 Feb 24 16:58 GMT
+[INFO]: Starting test: ServiceCreation AT 15 Feb 24 10:33 GMT
+[INFO]: Installing and Running service AT 15 Feb 24 10:33 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 10:33 GMT
+[INFO]: Starting test: ServiceCreation AT 15 Feb 24 10:46 GMT
+[INFO]: Installing and Running service AT 15 Feb 24 10:46 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 10:46 GMT
+[INFO]: Starting test: ServiceCreation AT 15 Feb 24 11:00 GMT
+[INFO]: Installing and Running service AT 15 Feb 24 11:00 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 11:00 GMT
+[INFO]: Starting test: ServiceCreation AT 15 Feb 24 11:03 GMT
+[INFO]: Installing and Running service AT 15 Feb 24 11:03 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 11:03 GMT
+[INFO]: Starting test: ServiceCreation AT 15 Feb 24 11:07 GMT
+[INFO]: Installing and Running service AT 15 Feb 24 11:07 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 11:07 GMT
+[INFO]: Starting test: ServiceCreation AT 15 Feb 24 11:11 GMT
+[INFO]: Installing and Running service AT 15 Feb 24 11:11 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 11:11 GMT
+[INFO]: Starting test: ServiceCreation AT 15 Feb 24 13:51 GMT
+[INFO]: Installing and Running service AT 15 Feb 24 13:51 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 13:51 GMT
+[INFO]: Starting test: ServiceCreation AT 15 Feb 24 13:53 GMT
+[INFO]: Installing and Running service AT 15 Feb 24 13:53 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 13:53 GMT

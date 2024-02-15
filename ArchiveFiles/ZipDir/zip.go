@@ -1,6 +1,7 @@
 package zipdir
 
 import (
+	"RRA/SecureDeleteFiles/SecureDeleteFile"
 	"archive/zip"
 	"helpers"
 	"io"
@@ -49,7 +50,7 @@ func ZipDir(dir string, nameOfLogFile string, timeToDelay int) {
 				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 				os.Exit(6)
 			}
-			//SecureDeleteFile.SecureDelete(file, nameOfLogFile, timeToDelay)
+			SecureDeleteFile.SecureDelete(file, nameOfLogFile, timeToDelay)
 		}
 
 		archivedFile.Close()

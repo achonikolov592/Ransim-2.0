@@ -2916,3 +2916,161 @@
 [ERROR]: exec: "..\\DLLSideLoading\\DllLoad.exe": file does not exist from DLLSideLoading AT 12 Feb 24 18:12 GMT
 [ERROR]: exec: "..\\GetSysInfo\\GetSysInfo.exe": file does not exist from GetSystemInformation AT 12 Feb 24 18:12 GMT
 [ERROR]: exec: "..\\RevSh\\RevSh.exe": file does not exist from ReverseShell AT 12 Feb 24 18:12 GMT
+[ERROR]: exit status 1 at file ..\ProHoll64\mem AT 14 Feb 24 16:37 GMT
+[ERROR]: fork/exec ../StartupFolderNewFile/Startup.exe: Access is denied. from StartupFolderNewFile AT 14 Feb 24 16:48 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 14 Feb 24 16:49 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 14 Feb 24 16:49 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 14 Feb 24 16:49 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: Access is denied. from ProcessHollowing64 AT 14 Feb 24 16:49 GMT
+[ERROR]: exit status 0xc0000022 from DLLSideLoading AT 14 Feb 24 16:50 GMT
+[ERROR]: fork/exec ../GetSysInfo/GetSysInfo.exe: Access is denied. from GetSystemInformation AT 14 Feb 24 16:50 GMT
+[ERROR]: exit status 2 from ExfiltrationOfFiles AT 14 Feb 24 16:50 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 14 Feb 24 16:50 GMT
+[ERROR]: exec: "..\\StartupFolderNewFile\\Startup.exe": file does not exist from StartupFolderNewFile AT 14 Feb 24 16:58 GMT
+[ERROR]: exec: "..\\RegKeys\\RegKeys.exe": file does not exist from RegistryKeysTest AT 14 Feb 24 16:58 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 14 Feb 24 16:58 GMT
+[ERROR]: exec: "..\\ProHoll32\\ProHoll32.exe": file does not exist from ProcessHollowing32 AT 14 Feb 24 16:58 GMT
+[ERROR]: exec: "..\\ProHoll64\\ProHoll64.exe": file does not exist from ProcessHollowing64 AT 14 Feb 24 16:58 GMT
+[ERROR]: exec: "..\\DLLSideLoading\\DllLoad.exe": file does not exist from DLLSideLoading AT 14 Feb 24 16:58 GMT
+[ERROR]: exec: "..\\GetSysInfo\\GetSysInfo.exe": file does not exist from GetSystemInformation AT 14 Feb 24 16:58 GMT
+[ERROR]: exit status 2 from ExfiltrationOfFiles AT 14 Feb 24 16:58 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 14 Feb 24 16:58 GMT
+[ERROR]: exit status 8 from ArchiveFiles AT 14 Feb 24 17:10 GMT
+[ERROR]: fork/exec ../SecureDeleteFiles/SecureDeleteFiles.exe: Access is denied. from SecureDeleteFiles AT 14 Feb 24 17:10 GMT
+[ERROR]: exec: "..\\StartupFolderNewFile\\Startup.exe": file does not exist from StartupFolderNewFile AT 14 Feb 24 17:10 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 14 Feb 24 17:10 GMT
+[ERROR]: exec: "..\\RegKeys\\RegKeys.exe": file does not exist from RegistryKeysTest AT 14 Feb 24 17:10 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 14 Feb 24 17:10 GMT
+[ERROR]: exec: "..\\ProHoll32\\ProHoll32.exe": file does not exist from ProcessHollowing32 AT 14 Feb 24 17:10 GMT
+[ERROR]: exec: "..\\ProHoll64\\ProHoll64.exe": file does not exist from ProcessHollowing64 AT 14 Feb 24 17:10 GMT
+[ERROR]: exec: "..\\DLLSideLoading\\DllLoad.exe": file does not exist from DLLSideLoading AT 14 Feb 24 17:10 GMT
+[ERROR]: exec: "..\\GetSysInfo\\GetSysInfo.exe": file does not exist from GetSystemInformation AT 14 Feb 24 17:10 GMT
+[ERROR]: exit status 8 from ArchiveFiles AT 14 Feb 24 15:18 GMT
+[ERROR]: fork/exec ../SecureDeleteFiles/SecureDeleteFiles.exe: Access is denied. from SecureDeleteFiles AT 14 Feb 24 15:18 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: Access is denied. from RansomwareNoteDeploy AT 14 Feb 24 15:18 GMT
+[ERROR]: exit status 7 from StartupFolderNewFile AT 14 Feb 24 15:18 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 14 Feb 24 15:18 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 14 Feb 24 15:18 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 14 Feb 24 15:18 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 14 Feb 24 15:18 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: Access is denied. from ProcessHollowing64 AT 14 Feb 24 15:18 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 14 Feb 24 15:19 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: Access is denied. from RansomwareNoteDeploy AT 14 Feb 24 15:49 GMT
+[ERROR]: exit status 7 from StartupFolderNewFile AT 14 Feb 24 15:49 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 14 Feb 24 15:49 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 14 Feb 24 15:49 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 14 Feb 24 15:49 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 14 Feb 24 15:49 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: Access is denied. from ProcessHollowing64 AT 14 Feb 24 15:49 GMT
+[ERROR]: exec: "..\\UploadFiles\\Exfilt.exe": file does not exist from ExfiltrationOfFiles AT 14 Feb 24 15:50 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 14 Feb 24 15:50 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: Access is denied. from RansomwareNoteDeploy AT 14 Feb 24 15:54 GMT
+[ERROR]: exit status 7 from StartupFolderNewFile AT 14 Feb 24 15:54 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 14 Feb 24 15:54 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 14 Feb 24 15:54 GMT
+[ERROR]: exit status 2 from PrivilegeEscalation AT 14 Feb 24 15:54 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 14 Feb 24 15:54 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: Access is denied. from ProcessHollowing64 AT 14 Feb 24 15:54 GMT
+[ERROR]: fork/exec ../UploadFiles/Exfilt.exe: The system cannot find the file specified. from ExfiltrationOfFiles AT 14 Feb 24 15:54 GMT
+[ERROR]: exit status 2 from OSCredentialDump AT 14 Feb 24 15:54 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: Access is denied. from RansomwareNoteDeploy AT 14 Feb 24 16:00 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 14 Feb 24 16:00 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 14 Feb 24 16:00 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 14 Feb 24 16:00 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: Access is denied. from ProcessHollowing64 AT 14 Feb 24 16:00 GMT
+[ERROR]: fork/exec ../UploadFiles/Exfilt.exe: The system cannot find the file specified. from ExfiltrationOfFiles AT 14 Feb 24 16:03 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: Access is denied. from RansomwareNoteDeploy AT 14 Feb 24 16:07 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 14 Feb 24 16:08 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 14 Feb 24 16:08 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 14 Feb 24 16:08 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: Access is denied. from ProcessHollowing64 AT 14 Feb 24 16:08 GMT
+[ERROR]: exit status 2 from ExfiltrationOfFiles AT 14 Feb 24 16:08 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: The system cannot find the file specified. from RansomwareNoteDeploy AT 14 Feb 24 16:12 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: The system cannot find the file specified. from ServiceCreation AT 14 Feb 24 16:12 GMT
+[ERROR]: fork/exec ../RegKeys/RegKeys.exe: The system cannot find the file specified. from RegistryKeysTest AT 14 Feb 24 16:12 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: The system cannot find the file specified. from ProcessHollowing32 AT 14 Feb 24 16:12 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: The system cannot find the file specified. from ProcessHollowing64 AT 14 Feb 24 16:12 GMT
+[ERROR]: exit status 2 from ExfiltrationOfFiles AT 14 Feb 24 16:12 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: The system cannot find the file specified. from RansomwareNoteDeploy AT 14 Feb 24 16:16 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: The system cannot find the file specified. from ServiceCreation AT 14 Feb 24 16:16 GMT
+[ERROR]: fork/exec ../RegKeys/RegKeys.exe: The system cannot find the file specified. from RegistryKeysTest AT 14 Feb 24 16:16 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: The system cannot find the file specified. from ProcessHollowing32 AT 14 Feb 24 16:16 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: The system cannot find the file specified. from ProcessHollowing64 AT 14 Feb 24 16:16 GMT
+[ERROR]: exit status 2 from ExfiltrationOfFiles AT 14 Feb 24 16:16 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: The system cannot find the file specified. from RansomwareNoteDeploy AT 14 Feb 24 16:46 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: The system cannot find the file specified. from ServiceCreation AT 14 Feb 24 16:46 GMT
+[ERROR]: fork/exec ../RegKeys/RegKeys.exe: The system cannot find the file specified. from RegistryKeysTest AT 14 Feb 24 16:46 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: The system cannot find the file specified. from ProcessHollowing32 AT 14 Feb 24 16:46 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: The system cannot find the file specified. from ProcessHollowing64 AT 14 Feb 24 16:46 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: The system cannot find the file specified. from RansomwareNoteDeploy AT 14 Feb 24 16:47 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: The system cannot find the file specified. from ServiceCreation AT 14 Feb 24 16:47 GMT
+[ERROR]: fork/exec ../RegKeys/RegKeys.exe: The system cannot find the file specified. from RegistryKeysTest AT 14 Feb 24 16:47 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: The system cannot find the file specified. from ProcessHollowing32 AT 14 Feb 24 16:47 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: The system cannot find the file specified. from ProcessHollowing64 AT 14 Feb 24 16:47 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: Access is denied. from RansomwareNoteDeploy AT 15 Feb 24 08:12 GMT
+[ERROR]: fork/exec ../Eicar/Eic.exe: Access is denied. from Eicar AT 15 Feb 24 08:12 GMT
+[ERROR]: fork/exec ../StartupFolderNewFile/Startup.exe: Access is denied. from StartupFolderNewFile AT 15 Feb 24 08:12 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 15 Feb 24 08:12 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: The file or directory is corrupted and unreadable. from RansomwareNoteDeploy AT 15 Feb 24 08:16 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 15 Feb 24 08:16 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 15 Feb 24 08:16 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 15 Feb 24 08:16 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: Access is denied. from ProcessHollowing64 AT 15 Feb 24 08:16 GMT
+[ERROR]: fork/exec ../GetSysInfo/GetSysInfo.exe: Access is denied. from GetSystemInformation AT 15 Feb 24 08:16 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: The file or directory is corrupted and unreadable. from RansomwareNoteDeploy AT 15 Feb 24 08:18 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 15 Feb 24 08:18 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 15 Feb 24 08:18 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 15 Feb 24 08:18 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: Access is denied. from ProcessHollowing64 AT 15 Feb 24 08:18 GMT
+[ERROR]: fork/exec ../RanNote/RanNote.exe: The file or directory is corrupted and unreadable. from RansomwareNoteDeploy AT 15 Feb 24 08:20 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 15 Feb 24 08:20 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 15 Feb 24 08:20 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 15 Feb 24 08:20 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: Access is denied. from ProcessHollowing64 AT 15 Feb 24 08:20 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 15 Feb 24 08:24 GMT
+[ERROR]: exit status 0xc0000022 from RegistryKeysTest AT 15 Feb 24 08:24 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 15 Feb 24 08:24 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: Access is denied. from ProcessHollowing64 AT 15 Feb 24 08:24 GMT
+[ERROR]: fork/exec ../EncryptDecryptDirRecursive/EncryptDecryptDirRecursive.exe: Access is denied. from EncryptDecryptDirRecursive AT 15 Feb 24 09:36 GMT
+[ERROR]: fork/exec ../EncryptDecryptDirRecursivePartially/EncryptDecryptDirRecursivePartially.exe: Access is denied. from EncryptDecryptDirRecursivePartially AT 15 Feb 24 09:36 GMT
+[ERROR]: fork/exec ../Eicar/Eic.exe: Access is denied. from Eicar AT 15 Feb 24 09:36 GMT
+[ERROR]: fork/exec ../StartupFolderNewFile/Startup.exe: Access is denied. from StartupFolderNewFile AT 15 Feb 24 09:36 GMT
+[ERROR]: fork/exec ../ServiceCreation/ServiceCreation.exe: Access is denied. from ServiceCreation AT 15 Feb 24 09:36 GMT
+[ERROR]: fork/exec ../RegKeys/RegKeys.exe: Access is denied. from RegistryKeysTest AT 15 Feb 24 09:36 GMT
+[ERROR]: fork/exec ../PrivEsc/AccsTok.exe: Access is denied. from PrivilegeEscalation AT 15 Feb 24 09:36 GMT
+[ERROR]: fork/exec ../ProHoll32/ProHoll32.exe: Access is denied. from ProcessHollowing32 AT 15 Feb 24 09:36 GMT
+[ERROR]: fork/exec ../ProHoll64/ProHoll64.exe: Access is denied. from ProcessHollowing64 AT 15 Feb 24 09:36 GMT
+[ERROR]: fork/exec ../DLLSideLoading/DllLoad.exe: Access is denied. from DLLSideLoading AT 15 Feb 24 09:36 GMT
+[ERROR]: fork/exec ../GetSysInfo/GetSysInfo.exe: Access is denied. from GetSystemInformation AT 15 Feb 24 09:36 GMT
+[ERROR]: fork/exec ../OSCredDump/CredDump.exe: Access is denied. from OSCredentialDump AT 15 Feb 24 09:37 GMT
+[ERROR]: fork/exec ../ArchiveFiles/ArchiveFiles.exe: Access is denied. from ArchiveFiles AT 15 Feb 24 10:32 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursive AT 15 Feb 24 10:32 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursivePartially AT 15 Feb 24 10:32 GMT
+[ERROR]: exit status 0x40000015 from SecureDeleteFiles AT 15 Feb 24 10:33 GMT
+[ERROR]: exit status 0x40000015 from ExfiltrationOfFiles AT 15 Feb 24 10:34 GMT
+[ERROR]: fork/exec ../ArchiveFiles/ArchiveFiles.exe: Access is denied. from ArchiveFiles AT 15 Feb 24 10:45 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursive AT 15 Feb 24 10:45 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursivePartially AT 15 Feb 24 10:46 GMT
+[ERROR]: exit status 0x40000015 from SecureDeleteFiles AT 15 Feb 24 10:46 GMT
+[ERROR]: exit status 0x40000015 from ExfiltrationOfFiles AT 15 Feb 24 10:47 GMT
+[ERROR]: fork/exec ../ArchiveFiles/ArchiveFiles.exe: Access is denied. from ArchiveFiles AT 15 Feb 24 10:59 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursive AT 15 Feb 24 10:59 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursivePartially AT 15 Feb 24 10:59 GMT
+[ERROR]: exit status 0x40000015 from SecureDeleteFiles AT 15 Feb 24 11:00 GMT
+[ERROR]: exit status 0x40000015 from ExfiltrationOfFiles AT 15 Feb 24 11:01 GMT
+[ERROR]: fork/exec ../ArchiveFiles/ArchiveFiles.exe: Access is denied. from ArchiveFiles AT 15 Feb 24 11:02 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursive AT 15 Feb 24 11:02 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursivePartially AT 15 Feb 24 11:02 GMT
+[ERROR]: exit status 0x40000015 from SecureDeleteFiles AT 15 Feb 24 11:03 GMT
+[ERROR]: exit status 0x40000015 from ExfiltrationOfFiles AT 15 Feb 24 11:04 GMT
+[ERROR]: fork/exec ../ArchiveFiles/ArchiveFiles.exe: Access is denied. from ArchiveFiles AT 15 Feb 24 11:06 GMT
+[ERROR]: fork/exec ../ArchiveFiles/ArchiveFiles.exe: Access is denied. from ArchiveFiles AT 15 Feb 24 11:06 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursive AT 15 Feb 24 11:06 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursivePartially AT 15 Feb 24 11:06 GMT
+[ERROR]: exit status 0x40000015 from SecureDeleteFiles AT 15 Feb 24 11:07 GMT
+[ERROR]: exit status 0x40000015 from ExfiltrationOfFiles AT 15 Feb 24 11:08 GMT
+[ERROR]: fork/exec ../ArchiveFiles/ArchiveFiles.exe: The system cannot find the file specified. from ArchiveFiles AT 15 Feb 24 11:10 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursive AT 15 Feb 24 11:10 GMT
+[ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursivePartially AT 15 Feb 24 11:11 GMT
+[ERROR]: exit status 0x40000015 from SecureDeleteFiles AT 15 Feb 24 11:11 GMT
+[ERROR]: exit status 0x40000015 from ExfiltrationOfFiles AT 15 Feb 24 11:12 GMT

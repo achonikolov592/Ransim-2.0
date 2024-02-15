@@ -17,9 +17,12 @@ func main() {
 
 		_, err := os.OpenFile(listOfPaths[0]+"\\System32\\config\\SAM", os.O_RDWR, 0666)
 		if err != nil {
-
-			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-			os.Exit(1)
+			if strings.Contains(err.Error(), "Access is denied.") {
+				os.Exit(1)
+			} else {
+				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+				os.Exit(2)
+			}
 		} else {
 			helpers.WriteLog(nameOfLogFile, "Ending test: OsCredDump", 2)
 			os.Exit(0)

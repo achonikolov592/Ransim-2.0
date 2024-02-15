@@ -33,6 +33,7 @@ use (
 	./StartupFolderNewFile
 	./StartupFolderNewFile/ShowBox
 	./UploadFiles
+	./UploadFiles/mega
 	./helpers
 	./main
 	./mainAdmin

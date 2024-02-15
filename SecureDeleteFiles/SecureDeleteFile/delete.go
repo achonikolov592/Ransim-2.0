@@ -51,7 +51,6 @@ func SecureDelete(filename string, nameOfLogFile string, timeToDelay int) {
 	time.Sleep(time.Second * time.Duration(timeToDelay))
 	if err = os.Remove(filename); err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-		os.Exit(8)
 	}
 
 }

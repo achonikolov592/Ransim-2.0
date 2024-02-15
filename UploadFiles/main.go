@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/t3rm1n4l/go-mega"
+	mega "RRA/gomega"
 )
 
 func UploadFiles(nameOfLogFile string, session *mega.Mega, parentNode *mega.Node, path string) error {
@@ -21,18 +21,31 @@ func main() {
 	helpers.WriteLog(nameOfLogFile, "Starting test: UploadTestFiles", 2)
 
 	session := mega.New()
-	err := session.Login("achonikolov2005@gmail.com", "ArkAda$h1!")
-	if err != nil {
-		os.Exit(2)
+	if len(os.Args[1]) == 1 && len(os.Args[2]) == 1 {
+		err := session.Login("achonikolov2005@gmail.com", "ArkAda$h1!")
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			os.Exit(2)
+		}
+	} else {
+		err := session.Login(os.Args[1], os.Args[2])
+		if err != nil {
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			os.Exit(2)
+		}
 	}
 
 	folders, err := session.FS.PathLookup(session.FS.GetRoot(), []string{"RRA"})
 	if err != nil {
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 		os.Exit(3)
 	}
 
-	testName := "test" + time.Now().String()
-	node, err := session.CreateDir(testName, folders[0])
+	testFilesName := "testFilesName" + time.Now().String()
+	node, err := session.CreateDir(testFilesName, folders[0])
+	if err != nil {
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+	}
 	err = UploadFiles(nameOfLogFile, session, node, "./testFilesParent")
 	if err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
@@ -40,14 +53,16 @@ func main() {
 	}
 
 	nameOfContentFile := helpers.CreateLogFileIfItDoesNotExist("./", "SysInfo")
-	err = getinfo.GetSysInfo(nameOfContentFile, nameOfLogFile)
+	err = getinfo.GetSysInfo(nameOfContentFile)
 	if err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		os.Exit(5)
 	}
 
 	_, err = session.UploadFile(nameOfContentFile, node, "SystemInformation.log", nil)
 	if err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		os.Exit(6)
 	}
 
 	helpers.WriteLog(nameOfLogFile, "Ending test: UploadTestFiles", 2)

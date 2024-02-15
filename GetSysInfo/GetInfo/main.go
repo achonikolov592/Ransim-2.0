@@ -6,7 +6,7 @@ import (
 	"os/exec"
 )
 
-func GetSysInfo(nameOfContentFile, nameOfLogFile string) error {
+func GetSysInfo(nameOfContentFile string) error {
 	getSystemInfo := exec.Command("systeminfo")
 	getPowershellSystemInfo := exec.Command("powershell.exe", "Get-ComputerInfo")
 	getTasklist := exec.Command("tasklist")

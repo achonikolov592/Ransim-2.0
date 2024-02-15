@@ -33,3 +33,28 @@
 [ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 18:10 GMT
 [INFO]: Starting test: OsCredDump AT 12 Feb 24 18:12 GMT
 [ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 12 Feb 24 18:12 GMT
+[INFO]: Starting test: OsCredDump AT 14 Feb 24 16:50 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 14 Feb 24 16:50 GMT
+[INFO]: Starting test: OsCredDump AT 14 Feb 24 16:58 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 14 Feb 24 16:58 GMT
+[INFO]: Starting test: OsCredDump AT 14 Feb 24 15:19 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 14 Feb 24 15:19 GMT
+[INFO]: Starting test: OsCredDump AT 14 Feb 24 15:50 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 14 Feb 24 15:50 GMT
+[INFO]: Starting test: OsCredDump AT 14 Feb 24 15:54 GMT
+[ERROR]: open C:\Windows\System32\config\SAM: The process cannot access the file because it is being used by another process. AT 14 Feb 24 15:54 GMT
+[INFO]: Starting test: OsCredDump AT 14 Feb 24 16:03 GMT
+[INFO]: Starting test: OsCredDump AT 14 Feb 24 16:08 GMT
+[INFO]: Starting test: OsCredDump AT 14 Feb 24 16:12 GMT
+[INFO]: Starting test: OsCredDump AT 14 Feb 24 16:16 GMT
+[INFO]: Starting test: OsCredDump AT 14 Feb 24 16:46 GMT
+[INFO]: Starting test: OsCredDump AT 14 Feb 24 16:47 GMT
+[INFO]: Starting test: OsCredDump AT 15 Feb 24 08:17 GMT
+[INFO]: Starting test: OsCredDump AT 15 Feb 24 08:19 GMT
+[INFO]: Starting test: OsCredDump AT 15 Feb 24 08:21 GMT
+[INFO]: Starting test: OsCredDump AT 15 Feb 24 08:24 GMT
+[INFO]: Starting test: OsCredDump AT 15 Feb 24 10:34 GMT
+[INFO]: Starting test: OsCredDump AT 15 Feb 24 10:47 GMT
+[INFO]: Starting test: OsCredDump AT 15 Feb 24 11:08 GMT
+[INFO]: Starting test: OsCredDump AT 15 Feb 24 11:12 GMT
+[INFO]: Starting test: OsCredDump AT 15 Feb 24 13:55 GMT

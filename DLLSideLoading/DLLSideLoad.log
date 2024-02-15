@@ -9,3 +9,160 @@
 [ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 12 Feb 24 11:37 GMT
 [ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 12 Feb 24 11:38 GMT
 [ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 12 Feb 24 11:40 GMT
+[INFO]: Starting test: DLLSideLoading AT 14 Feb 24 15:19 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:19 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 14 Feb 24 15:19 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:19 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:19 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:19 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:19 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:19 GMT
+[INFO]: Ending test: DLLSideLoading AT 14 Feb 24 15:19 GMT
+[INFO]: Starting test: DLLSideLoading AT 14 Feb 24 15:49 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:49 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 14 Feb 24 15:49 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:49 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:49 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:49 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:49 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:49 GMT
+[INFO]: Ending test: DLLSideLoading AT 14 Feb 24 15:49 GMT
+[INFO]: Starting test: DLLSideLoading AT 14 Feb 24 15:54 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:54 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 14 Feb 24 15:54 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:54 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:54 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:54 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:54 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 15:54 GMT
+[INFO]: Ending test: DLLSideLoading AT 14 Feb 24 15:54 GMT
+[INFO]: Starting test: DLLSideLoading AT 14 Feb 24 16:00 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:01 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 14 Feb 24 16:01 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:01 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:01 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:01 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:01 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:01 GMT
+[ERROR]: Access is denied. AT 14 Feb 24 16:01 GMT
+[ERROR]: The handle is invalid. AT 14 Feb 24 16:01 GMT
+[INFO]: Starting test: DLLSideLoading AT 14 Feb 24 16:08 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:08 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 14 Feb 24 16:08 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:08 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:08 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:08 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:08 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:08 GMT
+[ERROR]: Access is denied. AT 14 Feb 24 16:08 GMT
+[ERROR]: The handle is invalid. AT 14 Feb 24 16:08 GMT
+[INFO]: Starting test: DLLSideLoading AT 14 Feb 24 16:12 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:12 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 14 Feb 24 16:12 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:12 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:12 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:12 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:12 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:12 GMT
+[ERROR]: Access is denied. AT 14 Feb 24 16:12 GMT
+[ERROR]: The handle is invalid. AT 14 Feb 24 16:12 GMT
+[INFO]: Starting test: DLLSideLoading AT 14 Feb 24 16:16 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:16 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 14 Feb 24 16:16 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:16 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:16 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:16 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:16 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:16 GMT
+[ERROR]: Access is denied. AT 14 Feb 24 16:16 GMT
+[ERROR]: The handle is invalid. AT 14 Feb 24 16:16 GMT
+[INFO]: Starting test: DLLSideLoading AT 14 Feb 24 16:46 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:46 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 14 Feb 24 16:46 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:46 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:46 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:46 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:46 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:46 GMT
+[ERROR]: Access is denied. AT 14 Feb 24 16:46 GMT
+[ERROR]: The handle is invalid. AT 14 Feb 24 16:46 GMT
+[INFO]: Starting test: DLLSideLoading AT 14 Feb 24 16:47 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:47 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 14 Feb 24 16:47 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:47 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:47 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:47 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:47 GMT
+[ERROR]: exit status 1 AT 14 Feb 24 16:47 GMT
+[ERROR]: Access is denied. AT 14 Feb 24 16:47 GMT
+[ERROR]: The handle is invalid. AT 14 Feb 24 16:47 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 08:16 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:16 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 08:16 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:16 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:16 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:16 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:16 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:16 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 08:16 GMT
+[ERROR]: The handle is invalid. AT 15 Feb 24 08:16 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 08:18 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:19 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 08:19 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:19 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:19 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:19 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:19 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:19 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 08:19 GMT
+[ERROR]: The handle is invalid. AT 15 Feb 24 08:19 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 08:20 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:20 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 08:20 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:20 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:20 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:20 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:20 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:20 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 08:20 GMT
+[ERROR]: The handle is invalid. AT 15 Feb 24 08:20 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 08:24 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:24 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 08:24 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:24 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:24 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:24 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:24 GMT
+[ERROR]: exit status 1 AT 15 Feb 24 08:24 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 08:24 GMT
+[ERROR]: The handle is invalid. AT 15 Feb 24 08:24 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 10:33 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 10:33 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 10:34 GMT
+[ERROR]: The handle is invalid. AT 15 Feb 24 10:34 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 10:46 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 10:46 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 10:47 GMT
+[ERROR]: The handle is invalid. AT 15 Feb 24 10:47 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 11:00 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 11:00 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 11:01 GMT
+[ERROR]: The handle is invalid. AT 15 Feb 24 11:01 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 11:03 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 11:03 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 11:03 GMT
+[ERROR]: The handle is invalid. AT 15 Feb 24 11:03 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 11:07 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 11:07 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 11:08 GMT
+[ERROR]: The handle is invalid. AT 15 Feb 24 11:08 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 11:11 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 11:11 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 11:12 GMT
+[ERROR]: The handle is invalid. AT 15 Feb 24 11:12 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 13:51 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 13:51 GMT
+[INFO]: Starting test: DLLSideLoading AT 15 Feb 24 13:53 GMT
+[ERROR]: open C:\Windows\System32\devobj.dll: Access is denied. AT 15 Feb 24 13:53 GMT
+[ERROR]: Access is denied. AT 15 Feb 24 13:54 GMT
+[ERROR]: The handle is invalid. AT 15 Feb 24 13:54 GMT

@@ -14,8 +14,8 @@
 		{"Name":"WinProcessHollowing64", "IsEnabled":true},
 		{"Name":"WinDLLSideLoading", "IsEnabled":true},
 		{"Name":"GenGetSystemInformation", "IsEnabled": true},
-		{"Name":"GenExfiltrationOfFiles", "IsEnabled": true},
 		{"Name":"WinReverseShell", "IsEnabled":true},
+		{"Name":"GenExfiltrationOfFiles", "IsEnabled": true},
 		{"Name":"WinOSCredentialDump", "IsEnabled":true}
 	],
 	"settings":
@@ -24,9 +24,11 @@
         "DirNumberFiles": 3,
         "DocumentFiles": ".txt .doc .docx .xls .ppt .pdf",
         "PictureFiles": ".png .jpeg .jpg .bmp",
-        "TimeToDelayOnSecureDelete":0,
+        "TimeToDelayOnSecureDelete": 0,
         "ToEncrypt":"true",
         "ToDecrypt":"false",
-        "IPAddrForReverseShell":"192.168.2.36:2233"
+		"MegaEmail":"achonikolov2005@gmail.com",
+		"MegaPassword":"ArkAda$h1!", 
+        "IPAddrForReverseShell":"192.168.48.28:2233"
 	}
 }

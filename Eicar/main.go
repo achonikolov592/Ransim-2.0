@@ -1,10 +1,12 @@
 package main
 
 import (
+	"fmt"
 	"helpers"
 	"io"
 	"net/http"
 	"os"
+	"time"
 )
 
 func main() {
@@ -32,7 +34,10 @@ func main() {
 		os.Exit(4)
 	}
 
+	time.Sleep(10 * time.Second)
+
 	_, err = os.Open("./out.txt")
+	fmt.Println(err)
 	if err != nil {
 		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
 		os.Exit(1)
