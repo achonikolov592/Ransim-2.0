@@ -8,6 +8,7 @@
 		{"Name":"GenEicar", "IsEnabled": true},
 		{"Name":"WinStartupFolderNewFile", "IsEnabled": true},
 		{"Name":"WinServiceCreation", "IsEnabled": true},
+		{"Name":"LinCronJob", "IsEnabled":true},
 		{"Name":"WinRegistryKeysTest", "IsEnabled":true},
 		{"Name":"WinPrivilegeEscalation", "IsEnabled": true},
 		{"Name":"WinProcessHollowing32", "IsEnabled":true},

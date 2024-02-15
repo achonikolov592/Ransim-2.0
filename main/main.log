@@ -3074,3 +3074,15 @@
 [ERROR]: exit status 0x40000015 from EncryptDecryptDirRecursivePartially AT 15 Feb 24 11:11 GMT
 [ERROR]: exit status 0x40000015 from SecureDeleteFiles AT 15 Feb 24 11:11 GMT
 [ERROR]: exit status 0x40000015 from ExfiltrationOfFiles AT 15 Feb 24 11:12 GMT
+[ERROR]: exit status 1 at file ../DLLSideLoading AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 1 at file ../PrivEsc AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 1 at file ../ProHoll64 AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 1 at file ../ProHoll64/mem AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 1 at file ../RegKeys AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 1 at file ../RegKeys/showMessage AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 1 at file ../RevSh AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 1 at file ../ServiceCreation AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 1 at file ../StartupFolderNewFile/ShowBox AT 15 Feb 24 16:36 EET
+[ERROR]: fork/exec ../CronJobCron: no such file or directory from CronJob AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 1 from GetSystemInformation AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 5 from ExfiltrationOfFiles AT 15 Feb 24 16:36 EET

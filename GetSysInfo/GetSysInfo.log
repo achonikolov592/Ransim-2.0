@@ -113,3 +113,5 @@
 [INFO]: Ending Test: GetSysInfo AT 15 Feb 24 11:12 GMT
 [INFO]: Starting Test: GetSysInfo AT 15 Feb 24 13:54 GMT
 [INFO]: Ending Test: GetSysInfo AT 15 Feb 24 13:54 GMT
+[INFO]: Starting Test: GetSysInfo AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 1 AT 15 Feb 24 16:36 EET

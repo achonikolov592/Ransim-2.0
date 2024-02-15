@@ -154,7 +154,7 @@ func RemoveTestFilesIfExists(dir string) error {
 }
 
 func WriteLog(logfile string, line string, opt int) {
-	f, err := os.OpenFile(logfile, os.O_APPEND, 0666)
+	f, err := os.OpenFile(logfile, os.O_WRONLY|os.O_APPEND, 0666)
 	if err != nil {
 		fmt.Println(f)
 		os.Exit(100)

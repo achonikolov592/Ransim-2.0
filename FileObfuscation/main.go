@@ -15,8 +15,8 @@ func PrepareEveryTestObfuscated(nameOfLogFile string) {
 			_, err := os.Stat(path)
 			if info.IsDir() && !strings.Contains(path, "processToHollow") && !strings.Contains(path, "TestFiles") && !strings.Contains(path, "DLLs") && !strings.Contains(path, "mainAdmin") && !strings.Contains(path, "main") && !strings.Contains(path, ".git") && !strings.Contains(path, "testfiles") && !strings.Contains(path, "testFilesParent") {
 				fmt.Println("Building: " + path)
-				cmd := exec.Command("garble", "-literals", "build", ".")
-				//cmd := exec.Command("go", "build", ".")
+				//cmd := exec.Command("garble", "-literals", "build", ".")
+				cmd := exec.Command("go", "build", ".")
 				cmd.Dir = path
 				err = cmd.Run()
 				if err != nil {

@@ -1272,3 +1272,5 @@
 [ERROR]: remove testFilesParent\testfiles1\sub\2h.png: The process cannot access the file because it is being used by another process. AT 15 Feb 24 13:55 GMT
 [ERROR]: remove testFilesParent\testfiles1\sub\2i.bmp: The process cannot access the file because it is being used by another process. AT 15 Feb 24 13:55 GMT
 [INFO]: Ending test: UploadTestFiles AT 15 Feb 24 13:55 GMT
+[INFO]: Starting test: UploadTestFiles AT 15 Feb 24 16:36 EET
+[ERROR]: exit status 1 AT 15 Feb 24 16:36 EET
