@@ -115,3 +115,13 @@
 [INFO]: Ending Test: GetSysInfo AT 15 Feb 24 13:54 GMT
 [INFO]: Starting Test: GetSysInfo AT 15 Feb 24 16:36 EET
 [ERROR]: exit status 1 AT 15 Feb 24 16:36 EET
+[INFO]: Starting Test: GetSysInfo AT 15 Feb 24 17:15 EET
+[ERROR]: exec: Stdout already set AT 15 Feb 24 17:15 EET
+[INFO]: Starting Test: GetSysInfo AT 15 Feb 24 17:16 EET
+[ERROR]: exit status 1 AT 15 Feb 24 17:16 EET
+[INFO]: Starting Test: GetSysInfo AT 15 Feb 24 17:17 EET
+[ERROR]: exit status 1 AT 15 Feb 24 17:17 EET
+[INFO]: Starting Test: GetSysInfo AT 15 Feb 24 17:19 EET
+[INFO]: Ending Test: GetSysInfo AT 15 Feb 24 17:19 EET
+[INFO]: Starting Test: GetSysInfo AT 15 Feb 24 17:20 EET
+[INFO]: Ending Test: GetSysInfo AT 15 Feb 24 17:20 EET

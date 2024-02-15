@@ -81,45 +81,44 @@ func GetSysInfo(nameOfContentFile string) error {
 		getPortocolStatistics := exec.Command("bash", "-c", "netstat -s")
 		getIfconfig := exec.Command("bash", "-c", "ifconfig -a")
 
-		f, err := os.OpenFile(nameOfContentFile, os.O_APPEND, 0666)
+		/*f, err := os.OpenFile(nameOfContentFile, os.O_APPEND, 0666)
 		if err != nil {
 			return err
-		}
-
-		getuname.Stdout = f
-		getGroups.Stdout = f
-		getProcesses.Stdout = f
-		getNetstat.Stdout = f
-		getPortocolStatistics.Stdout = f
-		getIfconfig.Stdout = f
+		}*/
 
 		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------UNAME------------------------------------------------\n", 0)
-		err = getuname.Run()
+		out, err := getuname.Output()
+		helpers.WriteLog(nameOfContentFile, string(out), 0)
 		if err != nil {
 			return err
 		}
 		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------GROPUS------------------------------------------------\n", 0)
-		err = getGroups.Run()
+		out, err = getGroups.Output()
+		helpers.WriteLog(nameOfContentFile, string(out), 0)
 		if err != nil {
 			return err
 		}
 		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------PROCESSES------------------------------------------------\n", 0)
-		err = getProcesses.Run()
+		out, err = getProcesses.Output()
+		helpers.WriteLog(nameOfContentFile, string(out), 0)
 		if err != nil {
 			return err
 		}
 		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------NETSTAT------------------------------------------------\n", 0)
-		err = getNetstat.Run()
+		out, err = getNetstat.Output()
+		helpers.WriteLog(nameOfContentFile, string(out), 0)
 		if err != nil {
 			return err
 		}
 		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------PROTOCOLSSTATISTICS------------------------------------------------\n", 0)
-		err = getPortocolStatistics.Run()
+		out, err = getPortocolStatistics.Output()
+		helpers.WriteLog(nameOfContentFile, string(out), 0)
 		if err != nil {
 			return err
 		}
 		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------IFCONFIG------------------------------------------------\n", 0)
-		err = getIfconfig.Run()
+		out, err = getIfconfig.Output()
+		helpers.WriteLog(nameOfContentFile, string(out), 0)
 		if err != nil {
 			return err
 		}
