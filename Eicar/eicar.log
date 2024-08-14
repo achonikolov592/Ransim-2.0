@@ -202,3 +202,73 @@
 [ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 15 Feb 24 13:53 GMT
 [INFO]: Starting test: EicarTest AT 15 Feb 24 16:36 EET
 [INFO]: Ending test: EicarTest AT 15 Feb 24 16:36 EET
+[INFO]: Starting test: EicarTest AT 16 Feb 24 11:22 GMT
+[INFO]: Starting test: EicarTest AT 19 Feb 24 14:10 GMT
+[INFO]: Ending test: EicarTest AT 19 Feb 24 14:10 GMT
+[INFO]: Starting test: EicarTest AT 19 Feb 24 14:19 GMT
+[INFO]: Ending test: EicarTest AT 19 Feb 24 14:20 GMT
+[INFO]: Starting test: EicarTest AT 31 Mar 24 18:35 BST
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 31 Mar 24 18:35 BST
+[INFO]: Starting test: EicarTest AT 01 Apr 24 18:37 BST
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 01 Apr 24 18:38 BST
+[INFO]: Starting test: EicarTest AT 11 Apr 24 11:16 BST
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 11 Apr 24 11:16 BST
+[INFO]: Starting test: EicarTest AT 12 Apr 24 09:53 BST
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 12 Apr 24 09:53 BST
+[INFO]: Starting test: EicarTest AT 18 Apr 24 16:09 BST
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 18 Apr 24 16:09 BST
+[INFO]: Starting test: EicarTest AT 19 Apr 24 13:31 BST
+[ERROR]: open ./out.txt: Access is denied. AT 19 Apr 24 13:31 BST
+[INFO]: Starting test: EicarTest AT 20 Apr 24 16:35 BST
+[INFO]: Starting test: EicarTest AT 20 Apr 24 16:50 BST
+[INFO]: Starting test: EicarTest AT 20 Apr 24 16:54 BST
+[INFO]: Starting test: EicarTest AT 20 Apr 24 17:01 BST
+[INFO]: Starting test: EicarTest AT 20 Apr 24 17:04 BST
+[INFO]: Starting test: EicarTest AT 20 Apr 24 17:07 BST
+[INFO]: Starting test: EicarTest AT 20 Apr 24 17:18 BST
+[INFO]: Starting test: EicarTest AT 20 Apr 24 17:39 BST
+[INFO]: Starting test: EicarTest AT 20 Apr 24 17:42 BST
+[INFO]: Starting test: EicarTest AT 20 Apr 24 17:57 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 10:42 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 10:48 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 10:56 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 11:09 BST
+[ERROR]: open ./out.txt: Operation did not complete successfully because the file contains a virus or potentially unwanted software. AT 21 Apr 24 11:09 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 11:19 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 11:26 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 11:33 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 11:42 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 11:48 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 12:00 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 12:04 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 12:12 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 12:21 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 12:28 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 12:40 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 12:54 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 13:01 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 13:03 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 13:27 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 13:32 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 13:42 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 13:47 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 13:50 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 13:54 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 13:58 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:04 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:07 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:13 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:19 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:21 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:25 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:30 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:31 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:34 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:38 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:43 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:51 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:53 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 14:57 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 15:00 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 15:06 BST
+[INFO]: Starting test: EicarTest AT 21 Apr 24 15:11 BST

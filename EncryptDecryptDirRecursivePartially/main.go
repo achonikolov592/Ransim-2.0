@@ -11,7 +11,12 @@ import (
 var nameOfLogFile string
 
 func main() {
-	nameOfLogFile = helpers.CreateLogFileIfItDoesNotExist("./", "EncryptDecryptDirRecursivePartially")
+
+	if len(os.Args) == 4 {
+		nameOfLogFile = os.Args[3]
+	} else {
+		nameOfLogFile = helpers.CreateLogFileIfItDoesNotExist("./", "EncryptDecryptDirRecursivePartially", "EncryptDecryptDirRecursivePartially")
+	}
 
 	if strings.ToLower(os.Args[1]) == "true" {
 
@@ -23,22 +28,22 @@ func main() {
 			}
 		}
 
-		nameOfInfoFile := helpers.CreateLogFileIfItDoesNotExist("./", "EncryptionInfo")
-		helpers.WriteLog(nameOfLogFile, "Strating test: EncryptDirPartially", 2)
+		nameOfInfoFile := helpers.CreateNormalLogFileIfItDoesNotExist("./", "EncryptionInfo")
+		helpers.WriteLog(nameOfLogFile, "Strating test: EncryptDirPartially", 2, "EncryptDecryptDirRecursivePartially")
 
-		encrypt.EncryptFilesInDir("./testFilesParent", nameOfLogFile, nameOfInfoFile)
+		encrypt.EncryptFilesInDir("./testFilesParent", nameOfLogFile, nameOfInfoFile, "EncryptDecryptDirRecursivePartially")
 
-		helpers.WriteLog(nameOfLogFile, "Ending test: EncryptDecryptDirRecursivePartially", 2)
+		helpers.WriteLog(nameOfLogFile, "Ending test: EncryptDecryptDirRecursivePartially", 2, "EncryptDecryptDirRecursivePartially")
 	}
 	if strings.ToLower(os.Args[2]) == "true" {
-		helpers.WriteLog(nameOfLogFile, "Strating test: DecryptDirRecursivePartially", 2)
+		helpers.WriteLog(nameOfLogFile, "Strating test: DecryptDirRecursivePartially", 2, "EncryptDecryptDirRecursivePartially")
 
-		decrypt.DecryptDir("./testFilesParent", nameOfLogFile, "./EncryptionInfo.log")
+		decrypt.DecryptDir("./testFilesParent", nameOfLogFile, "./EncryptionInfo.log", "EncryptDecryptDirRecursivePartially")
 
-		helpers.WriteLog(nameOfLogFile, "Ending test: DecryptDirRecursivePartially", 2)
+		helpers.WriteLog(nameOfLogFile, "Ending test: DecryptDirRecursivePartially", 2, "EncryptDecryptDirRecursivePartially")
 	}
 
-	helpers.WriteLog(nameOfLogFile, "Endinging test: EncryptDecryptDirPartially", 2)
+	helpers.WriteLog(nameOfLogFile, "Endinging test: EncryptDecryptDirPartially", 2, "EncryptDecryptDirRecursivePartially")
 	os.Exit(0)
 }
 

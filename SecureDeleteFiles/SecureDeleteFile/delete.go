@@ -6,18 +6,18 @@ import (
 	"time"
 )
 
-func SecureDelete(filename string, nameOfLogFile string, timeToDelay int) {
+func SecureDelete(filename string, nameOfLogFile string, timeToDelay int, nameOfTest string) {
 	file, err := os.OpenFile(filename, os.O_WRONLY, 0666)
 
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "SecureDeleteFile from "+nameOfTest)
 		os.Exit(5)
 	}
 
 	stats, err := file.Stat()
 
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "SecureDeleteFile from "+nameOfTest)
 		os.Exit(6)
 	}
 
@@ -39,7 +39,7 @@ func SecureDelete(filename string, nameOfLogFile string, timeToDelay int) {
 
 		_, err = file.WriteAt(zeros, position)
 		if err != nil {
-			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1, "SecureDeleteFile from "+nameOfTest)
 			os.Exit(7)
 		}
 
@@ -50,7 +50,7 @@ func SecureDelete(filename string, nameOfLogFile string, timeToDelay int) {
 
 	time.Sleep(time.Second * time.Duration(timeToDelay))
 	if err = os.Remove(filename); err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "SecureDeleteFile from "+nameOfTest)
 	}
 
 }

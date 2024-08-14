@@ -30,43 +30,43 @@ func GetSysInfo(nameOfContentFile string) error {
 		getIpconfig.Stdout = f
 		getNetBIOS.Stdout = f
 
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------SYSTEMINFO------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------SYSTEMINFO------------------------------------------------\n")
 		err = getSystemInfo.Run()
 		if err != nil {
 			return err
 		}
 
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------SYSTEMINFOFROMPOWERSHELL------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------SYSTEMINFOFROMPOWERSHELL------------------------------------------------\n")
 		err = getPowershellSystemInfo.Run()
 		if err != nil {
 			return err
 		}
 
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------TASKLIST------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------TASKLIST------------------------------------------------\n")
 		err = getTasklist.Run()
 		if err != nil {
 			return err
 		}
 
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------NETSTAT------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------NETSTAT------------------------------------------------\n")
 		err = getNetstat.Run()
 		if err != nil {
 			return err
 		}
 
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------PORTOCOLSTATISTICS------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------PORTOCOLSTATISTICS------------------------------------------------\n")
 		err = getPortocolStatistics.Run()
 		if err != nil {
 			return err
 		}
 
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------IPCONFIG------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------IPCONFIG------------------------------------------------\n")
 		err = getIpconfig.Run()
 		if err != nil {
 			return err
 		}
 
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------NetBIOS------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------NetBIOS------------------------------------------------\n")
 		err = getNetBIOS.Run()
 		if err != nil {
 			return err
@@ -86,39 +86,39 @@ func GetSysInfo(nameOfContentFile string) error {
 			return err
 		}*/
 
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------UNAME------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------UNAME------------------------------------------------\n")
 		out, err := getuname.Output()
-		helpers.WriteLog(nameOfContentFile, string(out), 0)
+		helpers.WriteNormalLog(nameOfContentFile, string(out))
 		if err != nil {
 			return err
 		}
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------GROPUS------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------GROPUS------------------------------------------------\n")
 		out, err = getGroups.Output()
-		helpers.WriteLog(nameOfContentFile, string(out), 0)
+		helpers.WriteNormalLog(nameOfContentFile, string(out))
 		if err != nil {
 			return err
 		}
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------PROCESSES------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------PROCESSES------------------------------------------------\n")
 		out, err = getProcesses.Output()
-		helpers.WriteLog(nameOfContentFile, string(out), 0)
+		helpers.WriteNormalLog(nameOfContentFile, string(out))
 		if err != nil {
 			return err
 		}
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------NETSTAT------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------NETSTAT------------------------------------------------\n")
 		out, err = getNetstat.Output()
-		helpers.WriteLog(nameOfContentFile, string(out), 0)
+		helpers.WriteNormalLog(nameOfContentFile, string(out))
 		if err != nil {
 			return err
 		}
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------PROTOCOLSSTATISTICS------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------PROTOCOLSSTATISTICS------------------------------------------------\n")
 		out, err = getPortocolStatistics.Output()
-		helpers.WriteLog(nameOfContentFile, string(out), 0)
+		helpers.WriteNormalLog(nameOfContentFile, string(out))
 		if err != nil {
 			return err
 		}
-		helpers.WriteLog(nameOfContentFile, "----------------------------------------------------IFCONFIG------------------------------------------------\n", 0)
+		helpers.WriteNormalLog(nameOfContentFile, "----------------------------------------------------IFCONFIG------------------------------------------------\n")
 		out, err = getIfconfig.Output()
-		helpers.WriteLog(nameOfContentFile, string(out), 0)
+		helpers.WriteNormalLog(nameOfContentFile, string(out))
 		if err != nil {
 			return err
 		}

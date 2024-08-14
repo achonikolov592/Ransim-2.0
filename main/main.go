@@ -1,7 +1,7 @@
 package main
 
 import (
-	obfuscate "RRA/Obfuscation"
+	//obfuscate "RRA/Obfuscation"
 	"encoding/json"
 	"fmt"
 	"helpers"
@@ -13,6 +13,7 @@ import (
 	"runtime"
 	"strconv"
 	"strings"
+	"time"
 )
 
 type customError struct {
@@ -53,6 +54,14 @@ type Config struct {
 	Settings Setts
 }
 
+type Result struct {
+	Name         string
+	Timestamp    string
+	ExitStatus   string
+	ErrorMessage string
+	IsTrue       bool
+}
+
 var testLocationWin = []location{
 	location{"ArchiveFiles", "../ArchiveFiles/", "ArchiveFiles.exe", "nil"},
 	location{"Eicar", "../Eicar/", "Eic.exe", "exit status 1"},
@@ -70,7 +79,8 @@ var testLocationWin = []location{
 	location{"RegistryKeysTest", "../RegKeys/", "RegKeys.exe", "exit status 1"},
 	location{"DLLSideLoading", "../DLLSideLoading/", "DllLoad.exe", "exit status 1"},
 	location{"ReverseShell", "../RevSh/", "RevSh.exe", "exit status 1"},
-	location{"OSCredentialDump", "../OSCredDump/", "CredDump.exe", "exit status 1"}}
+	location{"OSCredentialDump", "../OSCredDump/", "CredDump.exe", "exit status 1"},
+	location{"DefenseEnvasion", "../DefEnv/", "DefEnv.exe", "exit status 1"}}
 
 var testLocationLin = []location{
 	location{"ArchiveFiles", "../ArchiveFiles/", "ArchiveFiles", "nil"},
@@ -152,12 +162,12 @@ func prepareTestFiles(nameOfLogFile string, settings Setts) {
 	})
 
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "main")
 		os.Exit(1)
 	}
 
 	for i := 0; i < len(locationForTestFolder); i++ {
-		helpers.CreateMultipleTestFiles(locationForTestFolder[i], nameOfLogFile, files, settings.DirNumber, settings.DirNumberFiles)
+		helpers.CreateMultipleTestFiles(locationForTestFolder[i], nameOfLogFile, files, settings.DirNumber, settings.DirNumberFiles, "main")
 	}
 
 }
@@ -165,7 +175,7 @@ func prepareTestFiles(nameOfLogFile string, settings Setts) {
 func getWhichTestToExecuteAndSettings(nameOfLogFile string) ([]location, Setts) {
 	config, err := getTestConfig()
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "main")
 		os.Exit(1)
 	}
 
@@ -197,21 +207,11 @@ func getWhichTestToExecuteAndSettings(nameOfLogFile string) ([]location, Setts) 
 	return whichTests, config.Settings
 }
 
-func isTestCorrect(name string, correctTests []string) bool {
-	for i := 0; i < len(correctTests); i++ {
-		if name == correctTests[i] {
-			return true
-		}
-	}
-
-	return false
-}
-
-func getResults(nameOfLogFile string, whichTest []location, correctTests []string) {
+func getResults(nameOfLogFile string, testResults []Result) {
 	os.Remove("./results.html")
 	f, err := os.Create("./results.html")
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "main")
 	}
 
 	var content = "<html lang='en'>" +
@@ -226,12 +226,27 @@ func getResults(nameOfLogFile string, whichTest []location, correctTests []strin
 		"<body>" +
 		"<h1> Table of results <h1>" +
 		"<table>" +
-		"<tr>" + "<th>Name Of Test</th>" + "<th>Is correct</th>" + "</tr>"
-	for i := 0; i < len(whichTest); i++ {
-		if isTestCorrect(whichTest[i].name, correctTests) {
-			content += "<tr>" + "<td style='background-color: lightgreen'>" + whichTest[i].name + "</td>" + "<td style='background-color: lightgreen' >Yes</td>" + "<tr>"
+		"<tr>" + "<th>Name Of Test</th>" + "<th>Did it recieve expected exit status</th>" + "<th>Time</th>" + "<th>Recieved exit status</th>" + "<th>Recieved Error</th>" + "</tr>"
+	for i := 0; i < len(testResults); i++ {
+		fmt.Println("Test:")
+		fmt.Println(testResults[i].Name)
+		fmt.Println("Did it recieve expected exit status:")
+		isTrueString := "no"
+		if testResults[i].IsTrue {
+			isTrueString = "yes"
+		}
+		fmt.Println(isTrueString)
+		fmt.Println("Timestamp:")
+		fmt.Println(testResults[i].Timestamp)
+		fmt.Println("Exit status:")
+		fmt.Println(testResults[i].ExitStatus)
+		fmt.Println("Error message:")
+		fmt.Println(testResults[i].ErrorMessage)
+		fmt.Println("")
+		if testResults[i].IsTrue {
+			content += "<tr>" + "<td style='background-color: lightgreen'>" + testResults[i].Name + "</td>" + "<td style='background-color: lightgreen' >Yes</td>" + "<td style='background-color: lightgreen' >" + testResults[i].Timestamp + "</td>" + "<td style='background-color: lightgreen' >" + testResults[i].ExitStatus + "</td>" + "<td style='background-color: lightgreen' >" + testResults[i].ErrorMessage + "</td>" + "<tr>"
 		} else {
-			content += "<tr>" + "<td style='background-color: LightCoral'>" + whichTest[i].name + "</td>" + "<td style='background-color: LightCoral' >No</td>" + "<tr>"
+			content += "<tr>" + "<td style='background-color: LightCoral'>" + testResults[i].Name + "</td>" + "<td style='background-color: LightCoral' >No</td>" + "<td style='background-color: LightCoral' >" + testResults[i].Timestamp + "</td>" + "<td style='background-color: LightCoral' >" + testResults[i].ExitStatus + "</td>" + "<td style='background-color: LightCoral' >" + testResults[i].ErrorMessage + "</td>" + "<tr>"
 		}
 	}
 
@@ -239,173 +254,242 @@ func getResults(nameOfLogFile string, whichTest []location, correctTests []strin
 	f.WriteString(content)
 }
 
+func getLastError(name string, logfile string) string {
+	f, err := os.OpenFile(logfile, os.O_WRONLY|os.O_APPEND, 0666)
+	if err != nil {
+		fmt.Println("file openning")
+		os.Exit(100)
+	}
+
+	data, err := os.ReadFile(f.Name())
+	if err != nil {
+		fmt.Println("file reading")
+		os.Exit(101)
+	}
+
+	var jsonValues []helpers.Log
+
+	err = json.Unmarshal(data, &jsonValues)
+	if err != nil {
+		fmt.Println("Unmarshall")
+		os.Exit(102)
+	}
+
+	for i := len(jsonValues) - 1; i >= 0; i-- {
+		if jsonValues[i].TypeOfLog == "ERROR" && jsonValues[i].Test == name {
+			return jsonValues[i].Line
+		}
+	}
+
+	return ""
+}
+
 func main() {
-	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "main")
+	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "main", "main")
 
 	whichTests, settings := getWhichTestToExecuteAndSettings("tests.json")
 	prepareTestFiles(nameOfLogFile, settings)
-	obfuscate.PrepareEveryTestObfuscated(nameOfLogFile)
+	//obfuscate.PrepareEveryTestObfuscated(nameOfLogFile)
 
-	var correctTests, incorrectTests []string
+	var testResults []Result
 	for i := 0; i < len(whichTests); i++ {
 		fmt.Println("Starting test: " + whichTests[i].name)
 		if whichTests[i].name == "EncryptDecryptDirRecursive" || whichTests[i].name == "EncryptDecryptDirRecursivePartially" {
-			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, settings.ToEncrypt, settings.ToDecrypt)
+			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, settings.ToEncrypt, settings.ToDecrypt, nameOfLogFile)
 			cmd.Dir = whichTests[i].path
 			err := cmd.Run()
 
+			result := Result{whichTests[i].name, time.Now().Format(time.RFC822), "", getLastError(whichTests[i].name, nameOfLogFile), false}
 			if err == nil {
-				correctTests = append(correctTests, whichTests[i].name)
+				result.IsTrue = true
+				result.ExitStatus = "exit status 0"
 			} else {
-				helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
-				incorrectTests = append(incorrectTests, whichTests[i].name)
+				result.IsTrue = false
+				result.ExitStatus = err.Error()
 			}
+
+			testResults = append(testResults, result)
 		} else if whichTests[i].name == "ServiceCreation" {
-			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, "install")
+			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, "install", nameOfLogFile)
 			cmd.Dir = whichTests[i].path
 			err := cmd.Run()
+
+			result := Result{whichTests[i].name, time.Now().Format(time.RFC822), "", getLastError(whichTests[i].name, nameOfLogFile), false}
 
 			if err == nil {
 				if whichTests[i].expectedResult == "nil" {
-					correctTests = append(correctTests, whichTests[i].name)
+					result.IsTrue = true
 				} else {
-					incorrectTests = append(incorrectTests, whichTests[i].name)
+					result.IsTrue = false
 				}
-				cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, "uninstall")
+
+				result.ExitStatus = "exit status 0"
+
+				cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, "uninstall", nameOfLogFile)
 				cmd.Dir = whichTests[i].path
 				cmd.Run()
 			} else {
 				if err.Error() == whichTests[i].expectedResult {
-					correctTests = append(correctTests, whichTests[i].name)
+					result.IsTrue = true
 				} else {
-					helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
-					incorrectTests = append(incorrectTests, whichTests[i].name)
+					result.IsTrue = false
 				}
+
+				result.ExitStatus = err.Error()
 			}
+
+			testResults = append(testResults, result)
 		} else if whichTests[i].name == "SecureDeleteFiles" || whichTests[i].name == "ArchiveFiles" {
-			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, strconv.Itoa(settings.TimeToDelayOnSecureDelete))
+			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, strconv.Itoa(settings.TimeToDelayOnSecureDelete), nameOfLogFile)
 			cmd.Dir = whichTests[i].path
 			err := cmd.Run()
 
+			result := Result{whichTests[i].name, time.Now().Format(time.RFC822), "", getLastError(whichTests[i].name, nameOfLogFile), false}
+
 			if err == nil {
 				if whichTests[i].expectedResult == "nil" {
-					correctTests = append(correctTests, whichTests[i].name)
+					result.IsTrue = true
 				} else {
-					incorrectTests = append(incorrectTests, whichTests[i].name)
+					result.IsTrue = false
 				}
+
+				result.ExitStatus = "exit status 0"
 			} else {
 				if err.Error() == whichTests[i].expectedResult {
-					correctTests = append(correctTests, whichTests[i].name)
+					result.IsTrue = true
 				} else {
-					helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
-					incorrectTests = append(incorrectTests, whichTests[i].name)
+					result.IsTrue = false
 				}
+				result.ExitStatus = err.Error()
 			}
+
+			testResults = append(testResults, result)
 		} else if whichTests[i].name == "ProcessHollowing32" {
 			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, "C:\\windows\\syswow64\\notepad.exe")
 			cmd.Dir = whichTests[i].path
 			err := cmd.Run()
+
+			result := Result{whichTests[i].name, time.Now().Format(time.RFC822), "", getLastError(whichTests[i].name, nameOfLogFile), false}
+
 			if err == nil {
-				incorrectTests = append(incorrectTests, whichTests[i].name)
+				result.IsTrue = false
+				result.ExitStatus = "exit status 0"
 			} else {
 				if err.Error() == whichTests[i].expectedResult {
-					correctTests = append(correctTests, whichTests[i].name)
+					result.IsTrue = true
 				} else {
-					helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
-					incorrectTests = append(incorrectTests, whichTests[i].name)
+					result.IsTrue = false
 				}
+				result.ExitStatus = err.Error()
 			}
+
+			testResults = append(testResults, result)
 		} else if whichTests[i].name == "ProcessHollowing64" {
 			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, "C:\\windows\\System32\\notepad.exe")
 			cmd.Dir = whichTests[i].path
 			err := cmd.Run()
+
+			result := Result{whichTests[i].name, time.Now().Format(time.RFC822), "", getLastError(whichTests[i].name, nameOfLogFile), false}
+
 			if err == nil {
-				incorrectTests = append(incorrectTests, whichTests[i].name)
+				result.IsTrue = false
+				result.ExitStatus = "exit status 0"
 			} else {
 				if err.Error() == whichTests[i].expectedResult {
-					correctTests = append(correctTests, whichTests[i].name)
+					result.IsTrue = true
 				} else {
-					helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
-					incorrectTests = append(incorrectTests, whichTests[i].name)
+					result.IsTrue = false
 				}
+				result.ExitStatus = err.Error()
 			}
+
+			testResults = append(testResults, result)
 		} else if whichTests[i].name == "ReverseShell" {
-			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, settings.IPAddrForReverseShell)
+			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, settings.IPAddrForReverseShell, nameOfLogFile)
 			cmd.Dir = whichTests[i].path
 			err := cmd.Run()
 
+			result := Result{whichTests[i].name, time.Now().Format(time.RFC822), "", getLastError(whichTests[i].name, nameOfLogFile), false}
+
 			if err == nil {
-				incorrectTests = append(incorrectTests, whichTests[i].name)
+				result.IsTrue = false
+				result.ExitStatus = "exit status 0"
 			} else {
 				if err.Error() == whichTests[i].expectedResult {
-					correctTests = append(correctTests, whichTests[i].name)
+					result.IsTrue = true
 				} else {
-					incorrectTests = append(incorrectTests, whichTests[i].name)
+					result.IsTrue = false
 				}
+				result.ExitStatus = err.Error()
 			}
+
+			testResults = append(testResults, result)
 		} else if whichTests[i].name == "ExfiltrationOfFiles" {
-			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, settings.MegaEmail, settings.MegaPassword)
+			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, settings.MegaEmail, settings.MegaPassword, "UploadFiles")
 			cmd.Dir = whichTests[i].path
 			err := cmd.Run()
 
+			result := Result{whichTests[i].name, time.Now().Format(time.RFC822), "", getLastError(whichTests[i].name, nameOfLogFile), false}
+
 			if err == nil {
-				correctTests = append(correctTests, whichTests[i].name)
+				result.IsTrue = true
+				result.ExitStatus = "exit status 0"
 			} else {
-				helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
-				incorrectTests = append(incorrectTests, whichTests[i].name)
+				result.IsTrue = false
+				result.ExitStatus = err.Error()
 			}
+
+			testResults = append(testResults, result)
 		} else {
-			cmd := exec.Command(whichTests[i].path + whichTests[i].nameOfFile)
+			cmd := exec.Command(whichTests[i].path+whichTests[i].nameOfFile, nameOfLogFile)
 			cmd.Dir = whichTests[i].path
 			err := cmd.Run()
+
+			result := Result{whichTests[i].name, time.Now().Format(time.RFC822), "", getLastError(whichTests[i].name, nameOfLogFile), false}
 
 			if err == nil {
 				if whichTests[i].expectedResult == "nil" {
-					correctTests = append(correctTests, whichTests[i].name)
+					result.IsTrue = true
 				} else {
-					incorrectTests = append(incorrectTests, whichTests[i].name)
+					result.IsTrue = false
 				}
+				result.ExitStatus = "exit status 0"
 			} else {
 				if err.Error() == whichTests[i].expectedResult {
-					correctTests = append(correctTests, whichTests[i].name)
+					result.IsTrue = true
 				} else {
-					helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
-					incorrectTests = append(incorrectTests, whichTests[i].name)
+					result.IsTrue = false
 				}
+				result.ExitStatus = err.Error()
 			}
+
+			testResults = append(testResults, result)
 		}
+		fmt.Println("Endinging test: " + whichTests[i].name)
 	}
 
 	for i := 0; i < len(whichTests); i++ {
 		_, err := os.Open(whichTests[i].path + whichTests[i].nameOfFile)
 		if err != nil {
-			if whichTests[i].expectedResult == "exit status 1" {
-				for j := 0; j < len(incorrectTests); j++ {
-					if incorrectTests[j] == whichTests[i].name {
-						incorrectTests = append(incorrectTests[:j], incorrectTests[j+1:]...)
-						correctTests = append(correctTests, whichTests[i].name)
-						break
-					}
-				}
-			} else {
-				for j := 0; j < len(correctTests); j++ {
-					if correctTests[j] == whichTests[i].name {
-						correctTests = append(correctTests[:j], correctTests[j+1:]...)
-						incorrectTests = append(incorrectTests, whichTests[i].name)
-						break
+			for j := 0; j < len(testResults); j++ {
+				if testResults[j].Name == whichTests[i].name {
+					if whichTests[i].expectedResult == "exit status 1" {
+						testResults[j].IsTrue = true
+					} else {
+						testResults[j].IsTrue = false
 					}
 				}
 			}
 		}
 	}
 
-	getResults(nameOfLogFile, whichTests, correctTests)
+	getResults(nameOfLogFile, testResults)
 	fmt.Println("You can check the results!")
 
 	for i := 0; i < len(locationForTestFolder); i++ {
 		err := helpers.RemoveTestFilesIfExists(locationForTestFolder[i])
 		if err != nil {
-			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1, "main")
 		}
 	}
 

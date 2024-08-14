@@ -17,16 +17,12 @@ type WhereIsEncrypted struct {
 	howMuchIsEncrypted int64
 }
 
-func decrypt(dirToDecrypt string, c cipher.AEAD, wherePartsAreEncryptedInLexicalOrder []WhereIsEncrypted, nameOfLogFile string) {
-
-}
-
-func DecryptDir(dirToDecrypt string, nameOfLogFile string, nameOfEncryptionInfoFile string) {
+func DecryptDir(dirToDecrypt string, nameOfLogFile string, nameOfEncryptionInfoFile string, nameOfTest string) {
 	var key []byte
 	var wherePartsAreEncryptedInLexicalOrder []WhereIsEncrypted
 	EncryptionInfo, err := os.ReadFile(nameOfEncryptionInfoFile)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 	}
 
 	fileSet := token.NewFileSet()
@@ -57,13 +53,13 @@ func DecryptDir(dirToDecrypt string, nameOfLogFile string, nameOfEncryptionInfoF
 
 	block, _ := aes.NewCipher(key)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 		os.Exit(2)
 	}
 
 	c, err := cipher.NewGCM(block)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 		os.Exit(3)
 	}
 
@@ -75,7 +71,7 @@ func DecryptDir(dirToDecrypt string, nameOfLogFile string, nameOfEncryptionInfoF
 		return nil
 	})
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 		os.Exit(4)
 	}
 
@@ -83,25 +79,25 @@ func DecryptDir(dirToDecrypt string, nameOfLogFile string, nameOfEncryptionInfoF
 	for _, file := range filesInDir {
 		info, err := os.Stat(file)
 		if err != nil {
-			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 			os.Exit(5)
 		}
 
 		if !(info.IsDir()) {
 			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+				helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 				os.Exit(6)
 			}
 			encryptedText, err := os.ReadFile(file)
 			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+				helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 				os.Exit(7)
 			}
 			non, text := encryptedText[wherePartsAreEncryptedInLexicalOrder[whichIteration].whereToStart:wherePartsAreEncryptedInLexicalOrder[whichIteration].whereToStart+int64(c.NonceSize())], encryptedText[wherePartsAreEncryptedInLexicalOrder[whichIteration].whereToStart+int64(c.NonceSize()):wherePartsAreEncryptedInLexicalOrder[whichIteration].whereToStart+wherePartsAreEncryptedInLexicalOrder[whichIteration].howMuchIsEncrypted]
 
 			decb, err := c.Open(nil, non, text, nil)
 			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+				helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 				os.Exit(8)
 			}
 
@@ -112,10 +108,10 @@ func DecryptDir(dirToDecrypt string, nameOfLogFile string, nameOfEncryptionInfoF
 
 			err = os.WriteFile(file, finaltext, 0666)
 			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+				helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 				os.Exit(9)
 			}
-			helpers.WriteLog(nameOfLogFile, "Decrypted: "+file, 2)
+			helpers.WriteLog(nameOfLogFile, "Decrypted: "+file, 2, nameOfTest)
 			whichIteration++
 		}
 	}

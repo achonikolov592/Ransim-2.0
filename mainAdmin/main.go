@@ -1,7 +1,7 @@
 package main
 
 import (
-	//obfuscate "RRA/Obfuscation"
+	obfuscate "RRA/Obfuscation"
 	"encoding/json"
 	"fmt"
 	"helpers"
@@ -53,7 +53,8 @@ type Config struct {
 	Settings Setts
 }
 
-var testLocation = []location{location{"ArchiveFiles", "../ArchiveFiles/", "ArchiveFiles.exe", "nil"},
+var testLocationWin = []location{
+	location{"ArchiveFiles", "../ArchiveFiles/", "ArchiveFiles.exe", "nil"},
 	location{"Eicar", "../Eicar/", "Eic.exe", "exit status 1"},
 	location{"EncryptDecryptDirRecursive", "../EncryptDecryptDirRecursive/", "EncryptDecryptDirRecursive.exe", "nil"},
 	location{"EncryptDecryptDirRecursivePartially", "../EncryptDecryptDirRecursivePartially/", "EncryptDecryptDirRecursivePartially.exe", "nil"},
@@ -70,6 +71,17 @@ var testLocation = []location{location{"ArchiveFiles", "../ArchiveFiles/", "Arch
 	location{"DLLSideLoading", "../DLLSideLoading/", "DllLoad.exe", "exit status 1"},
 	location{"ReverseShell", "../RevSh/", "RevSh.exe", "exit status 1"},
 	location{"OSCredentialDump", "../OSCredDump/", "CredDump.exe", "exit status 1"}}
+
+var testLocationLin = []location{
+	location{"ArchiveFiles", "../ArchiveFiles/", "ArchiveFiles", "nil"},
+	location{"Eicar", "../Eicar/", "Eic", "exit status 1"},
+	location{"EncryptDecryptDirRecursive", "../EncryptDecryptDirRecursive/", "EncryptDecryptDirRecursive", "nil"},
+	location{"EncryptDecryptDirRecursivePartially", "../EncryptDecryptDirRecursivePartially/", "EncryptDecryptDirRecursivePartially", "nil"},
+	location{"GetSystemInformation", "../GetSysInfo/", "GetSysInfo", "nil"},
+	location{"SecureDeleteFiles", "../SecureDeleteFiles/", "SecureDeleteFiles", "nil"},
+	location{"CronJob", "../CronJob/", "Cron", "nil"},
+	location{"RansomwareNoteDeploy", "../RanNote/", "RanNote", "nil"},
+	location{"ExfiltrationOfFiles", "../UploadFiles/", "Exfilt", "nil"}}
 
 var locationForTestFolder = []string{"../ArchiveFiles", "../EncryptDecryptDirRecursive", "../EncryptDecryptDirRecursivePartially", "../SecureDeleteFiles", "../ServiceCreation", "../UploadFiles"}
 
@@ -88,9 +100,17 @@ func getTestConfig() (Config, error) {
 
 func findLocationByName(name string) (location, error) {
 
-	for i := 0; i < len(testLocation); i++ {
-		if name == testLocation[i].name {
-			return testLocation[i], nil
+	if runtime.GOOS == "windows" {
+		for i := 0; i < len(testLocationWin); i++ {
+			if name == testLocationWin[i].name {
+				return testLocationWin[i], nil
+			}
+		}
+	} else {
+		for i := 0; i < len(testLocationLin); i++ {
+			if name == testLocationLin[i].name {
+				return testLocationLin[i], nil
+			}
 		}
 	}
 
@@ -224,7 +244,7 @@ func main() {
 
 	whichTests, settings := getWhichTestToExecuteAndSettings("tests.json")
 	prepareTestFiles(nameOfLogFile, settings)
-	//obfuscate.PrepareEveryTestObfuscated(nameOfLogFile)
+	obfuscate.PrepareEveryTestObfuscated(nameOfLogFile)
 
 	var correctTests, incorrectTests []string
 	for i := 0; i < len(whichTests); i++ {
@@ -315,7 +335,6 @@ func main() {
 			err := cmd.Run()
 
 			if err == nil {
-				helpers.WriteLog(nameOfLogFile, err.Error()+" from "+whichTests[i].name, 1)
 				incorrectTests = append(incorrectTests, whichTests[i].name)
 			} else {
 				if err.Error() == whichTests[i].expectedResult {

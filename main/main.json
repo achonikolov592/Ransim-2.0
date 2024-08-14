@@ -1,0 +1,188 @@
+[
+	{
+		"type": "INFO",
+		"line": "Strating test: EncryptDecryptDir",
+		"test": "EncryptDecryptDirRecursive",
+		"time": "28 May 24 06:53 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Starting encryption",
+		"test": "EncryptDecryptDirRecursive",
+		"time": "28 May 24 06:53 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "open testFilesParent\\testfiles0\\0a.txt: Access is denied.",
+		"test": "EncryptDecryptDirRecursive",
+		"time": "28 May 24 06:53 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Strating test: EncryptDirPartially",
+		"test": "EncryptDecryptDirRecursivePartially",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "open testFilesParent\\testfiles0\\0a.txt: Access is denied.",
+		"test": "EncryptDecryptDirRecursivePartially",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Starting test: SecureDeleteFiles",
+		"test": "SecureDeleteFiles",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "open testFilesParent\\testfiles0\\0a.txt: Access is denied.",
+		"test": "SecureDeleteFile from SecureDeleteFiles",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Starting test: RanNote",
+		"test": "RansomwareNoteDeploy",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "open C:\\Users\\achon/Desktop/RansomwareNote.txt: Access is denied.",
+		"test": "RansomwareNoteDeploy",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Starting test: EicarTest",
+		"test": "Eicar",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "open ./out.txt: Access is denied.",
+		"test": "Eicar",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Strating test : StartupFolderNewFile",
+		"test": "StartupFolderNewFile",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "open C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup/a.exe: Access is denied.",
+		"test": "StartupFolderNewFile",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Starting test: ServiceCreation",
+		"test": "ServiceCreation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Installing and Running service",
+		"test": "ServiceCreation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "Access is denied.",
+		"test": "ServiceCreation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Starting Test: ManipulateAccessToken",
+		"test": "PrivilegeEscalation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "A required privilege is not held by the client. from pid 6380 ",
+		"test": "PrivilegeEscalation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "A required privilege is not held by the client. from pid 6756 ",
+		"test": "PrivilegeEscalation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "A required privilege is not held by the client. from pid 7292 ",
+		"test": "PrivilegeEscalation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "A required privilege is not held by the client. from pid 7344 ",
+		"test": "PrivilegeEscalation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "A required privilege is not held by the client. from pid 2592 ",
+		"test": "PrivilegeEscalation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "A required privilege is not held by the client. from pid 3036 ",
+		"test": "PrivilegeEscalation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "A required privilege is not held by the client. from pid 2064 ",
+		"test": "PrivilegeEscalation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Ending Test: ManipulateAccessToken",
+		"test": "PrivilegeEscalation",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Starting test: DefenseEnvasion",
+		"test": "DefenseEnvasion",
+		"time": "28 May 24 06:54 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Ending test: DefenseEnvasion",
+		"test": "DefenseEnvasion",
+		"time": "28 May 24 06:55 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Starting Test: GetSysInfo",
+		"test": "GetSystemInformation",
+		"time": "28 May 24 06:55 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Ending Test: GetSysInfo",
+		"test": "GetSystemInformation",
+		"time": "28 May 24 06:55 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Starting test: OsCredDump",
+		"test": "OSCredentialDump",
+		"time": "28 May 24 06:55 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "open C:\\Windows\\System32\\config\\SAM: Access is denied.",
+		"test": "OSCredentialDump",
+		"time": "28 May 24 06:55 BST"
+	}
+]

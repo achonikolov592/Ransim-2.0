@@ -1,0 +1,14 @@
+[
+	{
+		"type": "INFO",
+		"line": "Starting test: SecureDeleteFiles",
+		"test": "SecureDeleteFiles",
+		"time": "27 May 24 16:14 BST"
+	},
+	{
+		"type": "ERROR",
+		"line": "open testFilesParent\\testfiles0\\0a.txt: Access is denied.",
+		"test": "SecureDeleteFile from SecureDeleteFiles",
+		"time": "27 May 24 16:14 BST"
+	}
+]

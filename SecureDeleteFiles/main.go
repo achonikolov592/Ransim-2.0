@@ -8,7 +8,7 @@ import (
 	"strconv"
 )
 
-func deleteFilesInDir(dir string, nameOfLogFile string, timeToDelay int) {
+func deleteFilesInDir(dir string, nameOfLogFile string, timeToDelay int, nameOfTest string) {
 	var filesInDir []string
 	err := filepath.Walk(dir, func(path string, info os.FileInfo, err error) error {
 		if path != dir {
@@ -20,37 +20,41 @@ func deleteFilesInDir(dir string, nameOfLogFile string, timeToDelay int) {
 	for i := 0; i < len(filesInDir); i++ {
 		info, err := os.Stat(filesInDir[i])
 		if err != nil {
-			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+			helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 			os.Exit(2)
 		}
 
 		if !(info.IsDir()) {
-			SecureDeleteFile.SecureDelete(filesInDir[i], nameOfLogFile, timeToDelay)
+			SecureDeleteFile.SecureDelete(filesInDir[i], nameOfLogFile, timeToDelay, nameOfTest)
 		}
 	}
 
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 		os.Exit(3)
 	}
 
 	err = os.RemoveAll(dir)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 		os.Exit(4)
 	}
 }
 
 func main() {
-	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "SecureDeleteFiles")
-	//helpers.CreateMultipleTestFiles("./", nameOfLogFile)
+	var nameOfLogFile string
+	if len(os.Args) == 3 {
+		nameOfLogFile = os.Args[2]
+	} else {
+		nameOfLogFile = helpers.CreateLogFileIfItDoesNotExist("./", "SecureDeleteFiles", "SecureDeleteFiles")
+	}
 
-	helpers.WriteLog(nameOfLogFile, "Starting test: SecureDeleteFiles", 2)
+	helpers.WriteLog(nameOfLogFile, "Starting test: SecureDeleteFiles", 2, "SecureDeleteFiles")
 
 	timeToDelay, _ := strconv.Atoi(os.Args[1])
-	deleteFilesInDir("./testFilesParent", nameOfLogFile, timeToDelay)
+	deleteFilesInDir("./testFilesParent", nameOfLogFile, timeToDelay, "SecureDeleteFiles")
 
-	helpers.WriteLog(nameOfLogFile, "Ending test: SecureDeleteFiles", 2)
+	helpers.WriteLog(nameOfLogFile, "Ending test: SecureDeleteFiles", 2, "SecureDeleteFiles")
 
 	os.Exit(0)
 }

@@ -1,0 +1,14 @@
+[
+	{
+		"type": "INFO",
+		"line": "Starting test: RegistryKeys",
+		"test": "RegKeys",
+		"time": "27 May 24 16:01 BST"
+	},
+	{
+		"type": "INFO",
+		"line": "Ending test: RegistryKeys",
+		"test": "RegKeys",
+		"time": "27 May 24 16:01 BST"
+	}
+]

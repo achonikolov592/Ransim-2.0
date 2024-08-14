@@ -1,6 +1,6 @@
 {
 	"tests": [
-		{"Name":"GenArchiveFiles", "IsEnabled": true},
+		{"Name":"GenArchiveFiles", "IsEnabled": false},
 		{"Name":"GenEncryptDecryptDirRecursive", "IsEnabled": true},
 		{"Name":"GenEncryptDecryptDirRecursivePartially", "IsEnabled": true},
 		{"Name":"GenSecureDeleteFiles", "IsEnabled": true},
@@ -13,11 +13,13 @@
 		{"Name":"WinPrivilegeEscalation", "IsEnabled": true},
 		{"Name":"WinProcessHollowing32", "IsEnabled":true},
 		{"Name":"WinProcessHollowing64", "IsEnabled":true},
-		{"Name":"WinDLLSideLoading", "IsEnabled":true},
+		{"Name":"WinDLLSideLoading", "IsEnabled":false},
+		{"Name":"WinDefenseEnvasion", "IsEnabled":true},
 		{"Name":"GenGetSystemInformation", "IsEnabled": true},
+		{"Name":"WinOSCredentialDump", "IsEnabled":true},
 		{"Name":"WinReverseShell", "IsEnabled":true},
-		{"Name":"GenExfiltrationOfFiles", "IsEnabled": true},
-		{"Name":"WinOSCredentialDump", "IsEnabled":true}
+		{"Name":"GenExfiltrationOfFiles", "IsEnabled": false}
+		
 	],
 	"settings":
 	{
@@ -30,6 +32,6 @@
         "ToDecrypt":"false",
 		"MegaEmail":"achonikolov2005@gmail.com",
 		"MegaPassword":"ArkAda$h1!", 
-        "IPAddrForReverseShell":"192.168.48.28:2233"
+        "IPAddrForReverseShell":"192.168.99.28:2233"
 	}
 }

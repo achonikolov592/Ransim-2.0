@@ -24,10 +24,10 @@ var textForHtml = "<html lang='en'>" +
 	"</body>" +
 	"</html>"
 
-func getDesktopFolder(dir, nameOfLogFile string) string {
+func getDesktopFolder(dir, nameOfLogFile string, nameOfTest string) string {
 	currentDir, err := os.ReadDir(dir)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 		os.Exit(6)
 	}
 
@@ -44,7 +44,7 @@ func getDesktopFolder(dir, nameOfLogFile string) string {
 			currentSubDirName := dir + "/" + entry.Name()
 			currentSubDir, err := os.ReadDir(currentSubDirName)
 			if err != nil {
-				helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+				helpers.WriteLog(nameOfLogFile, err.Error(), 1, nameOfTest)
 				os.Exit(7)
 			}
 
@@ -62,15 +62,21 @@ func getDesktopFolder(dir, nameOfLogFile string) string {
 }
 
 func main() {
-	nameOfLogFile := helpers.CreateLogFileIfItDoesNotExist("./", "RanNote")
-	helpers.WriteLog(nameOfLogFile, "Starting test: RanNote", 2)
+	var nameOfLogFile string
+	if len(os.Args) == 2 {
+		nameOfLogFile = os.Args[1]
+	} else {
+		nameOfLogFile = helpers.CreateLogFileIfItDoesNotExist("./", "RansomwareNoteDeploy", "RansomwareNoteDeploy")
+	}
+
+	helpers.WriteLog(nameOfLogFile, "Starting test: RanNote", 2, "RansomwareNoteDeploy")
 	user, err := user.Current()
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "RansomwareNoteDeploy")
 		os.Exit(1)
 	}
 
-	desktopDir := getDesktopFolder(user.HomeDir, nameOfLogFile)
+	desktopDir := getDesktopFolder(user.HomeDir, nameOfLogFile, "RansomwareNoteDeploy")
 
 	_, err = os.Open(desktopDir + "/RansomwareNote.txt")
 	if err == nil {
@@ -84,29 +90,29 @@ func main() {
 
 	noteTxt, err := os.Create(desktopDir + "/RansomwareNote.txt")
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "RansomwareNoteDeploy")
 		os.Exit(2)
 	}
 
 	_, err = noteTxt.WriteString(textForTxt)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "RansomwareNoteDeploy")
 		os.Exit(3)
 	}
 
 	noteHtml, err := os.Create(desktopDir + "/RansomwareNote.html")
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "RansomwareNoteDeploy")
 		os.Exit(4)
 	}
 
 	_, err = noteHtml.WriteString(textForHtml)
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "RansomwareNoteDeploy")
 		os.Exit(5)
 	}
 
-	helpers.WriteLog(nameOfLogFile, "Ending test: RanNote", 2)
+	helpers.WriteLog(nameOfLogFile, "Ending test: RanNote", 2, "RansomwareNoteDeploy")
 
 	os.Exit(0)
 }

@@ -20,14 +20,15 @@ func PrepareEveryTestObfuscated(nameOfLogFile string) {
 				cmd.Dir = path
 				err = cmd.Run()
 				if err != nil {
-					helpers.WriteLog(nameOfLogFile, err.Error()+" at file "+path, 1)
+					helpers.WriteLog(nameOfLogFile, err.Error()+" at file "+path, 1, "ObfusctaionOfFiles")
 				}
+				fmt.Println("Builded: " + path)
 			}
 		}
 		return nil
 	})
 
 	if err != nil {
-		helpers.WriteLog(nameOfLogFile, err.Error(), 1)
+		helpers.WriteLog(nameOfLogFile, err.Error(), 1, "ObfuscationOfFiles")
 	}
 }
